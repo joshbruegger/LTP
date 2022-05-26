@@ -1,0 +1,6126 @@
+[
+  {
+    "studentnumber": "s3563944",
+    "string": "The largest mammal on earth is...?",
+    "answer": [
+      {
+        "string": "Balaenoptera musculus intermedia, Antarctic Blue Whale",
+        "uri": "https://www.wikidata.org/wiki/Q20908690"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "What is the life expectancy of a cat?",
+    "answer": [
+      {
+        "string": "15 years",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "How long is the gestation period of the European rabbit?",
+    "answer": [
+      {
+        "string": "29 days",
+        "uri": "https://www.wikidata.org/wiki/Q25851"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "Who was the polar bear born in captivity at the Berlin Zoological Garden in 2006?",
+    "answer": [
+      {
+        "string": "Knut",
+        "uri": "https://www.wikidata.org/wiki/Q159697"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "How many Chinese common names are there for a great white shark?",
+    "answer": [
+      {
+        "integer": 4,
+        "uri": "https://www.wikidata.org/wiki/Q129026"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "What is the heartrate of a giraffe in bpm?",
+    "answer": [
+      {
+        "integer": 150,
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "What is fern used for?",
+    "answer": [
+      {
+        "string": "Food, namely fiddlehead fern",
+        "uri": "https://www.wikidata.org/wiki/Q80005"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "What does a plant consist of?",
+    "answer": [
+      {
+        "string": "germ layer",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "plant stem",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "root",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "true leaf",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "Are fungi plants?",
+    "answer": [
+      {
+        "string": "No, they are different from plants",
+        "uri": "https://www.wikidata.org/wiki/Q764"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3563944",
+    "string": "What is a climber?",
+    "answer": [
+      {
+        "string": "plant with a growth habit of trailing or scandent (that is, climbing) stems or runners",
+        "uri": "https://www.wikidata.org/wiki/Q917284"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What is the highest observed life span of a tiger?",
+    "answer": [
+      {
+        "string": "26.3 year",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What was the height of a mammoth?",
+    "answer": [
+      {
+        "string": "3.4 metre",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What is the parent taxon of Teuthida (squids)?",
+    "answer": [
+      {
+        "string": "Decapodiformes",
+        "uri": "https://www.wikidata.org/wiki/Q81900"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What is the height of an elephant?",
+    "answer": [
+      {
+        "string": "4 metre",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What is the gestation period of a LLama?",
+    "answer": [
+      {
+        "string": "358\u00b110 day",
+        "uri": "https://www.wikidata.org/wiki/Q42569"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What is the flower color of Helianthus annuus?",
+    "answer": [
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What parts does a Tulip plant have?",
+    "answer": [
+      {
+        "string": "flower",
+        "uri": "https://www.wikidata.org/wiki/Q93201"
+      },
+      {
+        "string": "bulb",
+        "uri": "https://www.wikidata.org/wiki/Q93201"
+      },
+      {
+        "string": "stolon",
+        "uri": "https://www.wikidata.org/wiki/Q93201"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What is the taxon name of the black mamba?",
+    "answer": [
+      {
+        "string": "Dendroaspis polylepis",
+        "uri": "https://www.wikidata.org/wiki/Q188690"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "Where is the Varanus komodoensis (komodo dragon) endemic to?",
+    "answer": [
+      {
+        "string": "Indonesia",
+        "uri": "https://www.wikidata.org/wiki/Q4504"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3812596",
+    "string": "What is the means of locomotion of Stomatopoda (mantis shrimp)?",
+    "answer": [
+      {
+        "string": "rolling",
+        "uri": "https://www.wikidata.org/wiki/Q334855"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "What is the French word for penguin?",
+    "answer": [
+      {
+        "string": "Manchot",
+        "uri": "https://www.wikidata.org/wiki/Q9147"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "Are roses edible?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "When did cacti come to exist?",
+    "answer": [
+      {
+        "string": "35 million years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q14560"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "What fruit grows from oak trees?",
+    "answer": [
+      {
+        "string": "Acorn",
+        "uri": "https://www.wikidata.org/wiki/Q12004"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "What is the maximum wingspan of a bat?",
+    "answer": [
+      {
+        "string": "6 foot",
+        "uri": "https://www.wikidata.org/wiki/Q28425"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "What are three side effects of cannabis?",
+    "answer": [
+      {
+        "string": "paranoia",
+        "uri": "https://www.wikidata.org/wiki/Q2845"
+      },
+      {
+        "string": "amotivational syndrome",
+        "uri": "https://www.wikidata.org/wiki/Q2845"
+      },
+      {
+        "string": "Cannabinoid hyperemesis syndrome",
+        "uri": "https://www.wikidata.org/wiki/Q2845"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "Is a tomato a fruit or a vegetable?",
+    "answer": [
+      {
+        "string": "A fruit, specifically a berry",
+        "uri": "https://www.wikidata.org/wiki/Q23501"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "Where are bonsai trees originally from?",
+    "answer": [
+      {
+        "string": "China",
+        "uri": "https://www.wikidata.org/wiki/Q64365"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "What is the opposite of a perennial plant?",
+    "answer": [
+      {
+        "string": "An annual plant",
+        "uri": "https://www.wikidata.org/wiki/Q157957"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3055280",
+    "string": "What is the typical heart rate of a chicken?",
+    "answer": [
+      {
+        "string": "275 plus or minus 25 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q780"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "Which animals are in the big 5?",
+    "answer": [
+      {
+        "string": "lion",
+        "uri": "https://www.wikidata.org/wiki/Q196164"
+      },
+      {
+        "string": "leopard",
+        "uri": "https://www.wikidata.org/wiki/Q196164"
+      },
+      {
+        "string": "black rhinoceros",
+        "uri": "https://www.wikidata.org/wiki/Q196164"
+      },
+      {
+        "string": "African bush elephant",
+        "uri": "https://www.wikidata.org/wiki/Q196164"
+      },
+      {
+        "string": "African buffalo",
+        "uri": "https://www.wikidata.org/wiki/Q196164"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "Is a lion a feline?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q858632"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "How many dog breeds are there?",
+    "answer": [
+      {
+        "string": "450",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "What do birds eat?",
+    "answer": [
+      {
+        "string": "varieties of seeds, nuts, and/or dried fruits",
+        "uri": "https://www.wikidata.org/wiki/Q471236"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "How old does a dog get?",
+    "answer": [
+      {
+        "string": "7-16 years",
+        "uri": "https://www.wikidata.org/wiki/Q38123"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "Which animals do not have a spine?",
+    "answer": [
+      {
+        "string": "Invertebrates",
+        "uri": "https://www.wikidata.org/wiki/Q43806"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "Which animals do not have a spine?",
+    "answer": [
+      {
+        "string": "Invertebrates",
+        "uri": "https://www.wikidata.org/wiki/Q43806"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "What is the smartes invertebrate?",
+    "answer": [
+      {
+        "string": "octopus",
+        "uri": "https://www.wikidata.org/wiki/Q15752567"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "What is the deadliest animal to humans?",
+    "answer": [
+      {
+        "string": "Mosquitoes",
+        "uri": "https://www.wikidata.org/wiki/Q65074185"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3169200",
+    "string": "What is the most popular dog breed?",
+    "answer": [
+      {
+        "string": "Labrador Retriever",
+        "uri": "https://www.wikidata.org/wiki/Q6629083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "What color do elephants have?",
+    "answer": [
+      {
+        "string": "Grey",
+        "uri": "https://www.wikidata.org/wiki/Q133006"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "What is the unicode character for unicorn?",
+    "answer": [
+      {
+        "string": "\ud83e\udd84",
+        "uri": "https://www.wikidata.org/wiki/Q7246"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "how many horns does a unicorn have?",
+    "answer": [
+      {
+        "string": "1",
+        "uri": "https://www.wikidata.org/wiki/Q7246"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "do tigers eat fruit?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "is a Lion a species of big cat?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "Do lions bark?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "What is the GBIF taxon id for dandelions?",
+    "answer": [
+      {
+        "string": "5394163",
+        "uri": "https://www.wikidata.org/wiki/Q131219"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "Do crocodiles stil live in the wild?",
+    "answer": [
+      {
+        "string": "yes",
+        "uri": "https://www.wikidata.org/wiki/Q2535664"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "are elephants mamals?",
+    "answer": [
+      {
+        "string": "yes",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4119576",
+    "string": "how are weevers called in dutch?",
+    "answer": [
+      {
+        "string": "Pietermannen",
+        "uri": "https://www.wikidata.org/wiki/Q649808"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "What is the life expectancy of a house cat?",
+    "answer": [
+      {
+        "string": "15 year",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "What is the average heart rate of a giraffe?",
+    "answer": [
+      {
+        "string": "150 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "How high is the highest observed lifespan of a lion?",
+    "answer": [
+      {
+        "string": "27 year",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "What is the average litter size of a jaguar?",
+    "answer": [
+      {
+        "string": "2",
+        "uri": "https://www.wikidata.org/wiki/Q35694"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "Which color is an elephant?",
+    "answer": [
+      {
+        "string": "grey",
+        "uri": "https://www.wikidata.org/wiki/Q133006"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "Which continent is the wombat endemic to?",
+    "answer": [
+      {
+        "string": "Australia",
+        "uri": "https://www.wikidata.org/wiki/Q752436"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "What is the diel cycle of a polar bear?",
+    "answer": [
+      {
+        "string": "diurnal",
+        "uri": "https://www.wikidata.org/wiki/Q33609"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "How long is the gestation period of a wolf?",
+    "answer": [
+      {
+        "string": "62\u00b11 day",
+        "uri": "https://www.wikidata.org/wiki/Q18498"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "In which habitat do tulips grow best?",
+    "answer": [
+      {
+        "string": "dry soil",
+        "uri": "https://www.wikidata.org/wiki/Q93201"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3289966",
+    "string": "What shape does a carrot have?",
+    "answer": [
+      {
+        "string": "cone",
+        "uri": "https://www.wikidata.org/wiki/Q81"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "What is the mass of an adult male lion?",
+    "answer": [
+      {
+        "string": "188 kg",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "What is the life expectancy of a polar bear?",
+    "answer": [
+      {
+        "string": "50 year",
+        "uri": "https://www.wikidata.org/wiki/Q33609"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "What is the main food source of an eagle?",
+    "answer": [
+      {
+        "string": "Lamb",
+        "uri": "https://www.wikidata.org/wiki/Q2092297"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "What is the gestation period of a grey seal?",
+    "answer": [
+      {
+        "string": "11.5 months",
+        "uri": "https://www.wikidata.org/wiki/Q27370"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "What is sourced from agave?",
+    "answer": [
+      {
+        "string": "istle",
+        "uri": "https://www.wikidata.org/wiki/Q155874"
+      },
+      {
+        "string": "maguey",
+        "uri": "https://www.wikidata.org/wiki/Q155874"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "Where was Dodo discovered?",
+    "answer": [
+      {
+        "string": "Mauritius Island",
+        "uri": "https://www.wikidata.org/wiki/Q43502"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "How old was the oldest observed platypus?",
+    "answer": [
+      {
+        "string": "22.6 year",
+        "uri": "https://www.wikidata.org/wiki/Q15343"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "When did Steller's sea cow become an extinct animal?",
+    "answer": [
+      {
+        "string": "1768",
+        "uri": "https://www.wikidata.org/wiki/Q187484"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "What is the bite force quotient of a dingo?",
+    "answer": [
+      {
+        "string": "125",
+        "uri": "https://www.wikidata.org/wiki/Q38584"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3969436",
+    "string": "Who was the plant rafflesia arnoldii named after?",
+    "answer": [
+      {
+        "string": "Joseph Arnold",
+        "uri": "https://www.wikidata.org/wiki/Q161888"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "How do you call cats that have two colours?",
+    "answer": [
+      {
+        "string": "Bicolour cats",
+        "uri": "https://www.wikidata.org/wiki/Q2901647"
+      },
+      {
+        "string": "Tortoiseshell cats",
+        "uri": "https://www.wikidata.org/wiki/Q15259690"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "Are crocodiles reptiles or amphibians?",
+    "answer": [
+      {
+        "string": "Reptiles",
+        "uri": "https://www.wikidata.org/wiki/Q2535664"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "Is the fly agaric safe to eat?",
+    "answer": [
+      {
+        "string": "No",
+        "uri": "https://www.wikidata.org/wiki/Q131227"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "What sound do bees produce?",
+    "answer": [
+      {
+        "string": "Humming",
+        "uri": "https://www.wikidata.org/wiki/Q7391"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "How many puppies do rottweilers have?",
+    "answer": [
+      {
+        "string": "8",
+        "uri": "https://www.wikidata.org/wiki/Q39093"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "Can you tell me the colour of narcissi?",
+    "answer": [
+      {
+        "string": "Yellow",
+        "uri": "https://www.wikidata.org/wiki/Q29465"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "When was Hachiko born?",
+    "answer": [
+      {
+        "string": "10 November 1923",
+        "uri": "https://www.wikidata.org/wiki/Q186486"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "What are the components of a tree?",
+    "answer": [
+      {
+        "string": "Trunk",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Branch",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Leaf",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Crown",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Root",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Bark",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "What does 'apex predator' mean?",
+    "answer": [
+      {
+        "string": "Predator residing at the top of a food chain, with no predators of its own",
+        "uri": "https://www.wikidata.org/wiki/Q19067"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4138716",
+    "string": "Which awards did rosemary receive?",
+    "answer": [
+      {
+        "string": "Medicinal plant of the year 2000",
+        "uri": "https://www.wikidata.org/wiki/Q122679"
+      },
+      {
+        "string": "Medicinal plant of the year 2011",
+        "uri": "https://www.wikidata.org/wiki/Q122679"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "What is the largest land animal?",
+    "answer": [
+      {
+        "string": "African bush elephant",
+        "uri": "https://www.wikidata.org/wiki/Q36557"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "How many colours can banana tree's fruits be?",
+    "answer": [
+      {
+        "string": "5",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "Which colours can foxes be?",
+    "answer": [
+      {
+        "string": "black",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "orange",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "brown",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "Which tree produces papayas?",
+    "answer": [
+      {
+        "string": "Carica papaya",
+        "uri": "https://www.wikidata.org/wiki/Q12330939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "What is a snowy owl's japanese name?",
+    "answer": [
+      {
+        "string": "\u30b7\u30ed\u30d5\u30af\u30ed\u30a6",
+        "uri": "https://www.wikidata.org/wiki/Q170177"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "How long do cats live?",
+    "answer": [
+      {
+        "string": "15 years",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "What is the range of a dog's hearing?",
+    "answer": [
+      {
+        "string": "44933 Hertz",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "What is the orca also known as?",
+    "answer": [
+      {
+        "string": "Orcinus orca",
+        "uri": "https://www.wikidata.org/wiki/Q26843"
+      },
+      {
+        "string": "Orca gladiator",
+        "uri": "https://www.wikidata.org/wiki/Q26843"
+      },
+      {
+        "string": "orca whale",
+        "uri": "https://www.wikidata.org/wiki/Q26843"
+      },
+      {
+        "string": "killer whale",
+        "uri": "https://www.wikidata.org/wiki/Q26843"
+      },
+      {
+        "string": "Dwarf killer whale",
+        "uri": "https://www.wikidata.org/wiki/Q26843"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "How long is an orca pregnant for?",
+    "answer": [
+      {
+        "string": "16.5\u00b10.5 months",
+        "uri": "https://www.wikidata.org/wiki/Q26843"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3954943",
+    "string": "What is produced by \ud83d\udc26?",
+    "answer": [
+      {
+        "string": "egg",
+        "uri": "https://www.wikidata.org/wiki/Q5113"
+      },
+      {
+        "string": "feather",
+        "uri": "https://www.wikidata.org/wiki/Q5113"
+      },
+      {
+        "string": "meat",
+        "uri": "https://www.wikidata.org/wiki/Q5113"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "How old do cats get?",
+    "answer": [
+      {
+        "string": "20 year",
+        "uri": "https://www.wikidata.org/wiki/Q20980826"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "How much does a giant panda weigh at birth?",
+    "answer": [
+      {
+        "string": "104 gram",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "What is a mouse called in german?",
+    "answer": [
+      {
+        "string": "Maus",
+        "uri": "https://www.wikidata.org/wiki/Q83310"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "Where do platypuses live?",
+    "answer": [
+      {
+        "string": "Austalia",
+        "uri": "https://www.wikidata.org/wiki/Q15343"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "What uses does a dog have?",
+    "answer": [
+      {
+        "string": "pet",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "hunting",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "guard",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "service animal",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "How do you call a baby duck?",
+    "answer": [
+      {
+        "string": "duckling",
+        "uri": "https://www.wikidata.org/wiki/Q3736439"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "What is a tree made of?",
+    "answer": [
+      {
+        "string": "trunk",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "branch",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "leaf",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "crown",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "root",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "bark",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "Are roses edible?",
+    "answer": [
+      {
+        "string": "edible plant",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "Can you eat ferns?",
+    "answer": [
+      {
+        "string": "food",
+        "uri": "https://www.wikidata.org/wiki/Q80005"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3515281",
+    "string": "How many horses are on earth?",
+    "answer": [
+      {
+        "string": "58,315,816",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "When did dodo's go extinct?",
+    "answer": [
+      {
+        "string": "1690",
+        "uri": "https://www.wikidata.org/wiki/Q43502"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "What pollinates a snowdrop?",
+    "answer": [
+      {
+        "string": "Anthophila",
+        "uri": "https://www.wikidata.org/wiki/Q109995"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "How old can a cat get?",
+    "answer": [
+      {
+        "string": "15 year",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "What does a tit eat?",
+    "answer": [
+      {
+        "string": "seed",
+        "uri": "https://www.wikidata.org/wiki/Q168473"
+      },
+      {
+        "string": "insect",
+        "uri": "https://www.wikidata.org/wiki/Q168473"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "What color is a daffodil?",
+    "answer": [
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q29465"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "What colors does a Eurasian Blue Tit have?",
+    "answer": [
+      {
+        "string": "blue",
+        "uri": "https://www.wikidata.org/wiki/Q25404"
+      },
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q25404"
+      },
+      {
+        "string": "black",
+        "uri": "https://www.wikidata.org/wiki/Q25404"
+      },
+      {
+        "string": "white",
+        "uri": "https://www.wikidata.org/wiki/Q25404"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "What award did thyme receive?",
+    "answer": [
+      {
+        "string": "Medicinal plant of the year",
+        "uri": "https://www.wikidata.org/wiki/Q148668"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "What is the incubation period of an egg of a European Turtle Dove?",
+    "answer": [
+      {
+        "string": "15 day",
+        "uri": "https://www.wikidata.org/wiki/Q168514"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "What type of fruit does a tomato plant have?",
+    "answer": [
+      {
+        "string": "berry",
+        "uri": "https://www.wikidata.org/wiki/Q23501"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131827",
+    "string": "Where did the corgi originate from?",
+    "answer": [
+      {
+        "string": "United Kingdom",
+        "uri": "https://www.wikidata.org/wiki/Q858459"
+      },
+      {
+        "string": "Wales",
+        "uri": "https://www.wikidata.org/wiki/Q858459"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "What is the color of a banana?",
+    "answer": [
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      },
+      {
+        "string": "green",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      },
+      {
+        "string": "brown",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      },
+      {
+        "string": "red",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      },
+      {
+        "string": "purple",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "What is the color of a lychee?",
+    "answer": [
+      {
+        "string": "red",
+        "uri": "https://www.wikidata.org/wiki/Q13182"
+      },
+      {
+        "string": "white",
+        "uri": "https://www.wikidata.org/wiki/Q13182"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "How old was the longest living cow?",
+    "answer": [
+      {
+        "string": "48 year",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "What kinds of food does a goat provide?",
+    "answer": [
+      {
+        "string": "goat milk",
+        "uri": "https://www.wikidata.org/wiki/Q2934"
+      },
+      {
+        "string": "goat meat",
+        "uri": "https://www.wikidata.org/wiki/Q2934"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "What is the existance of the goat species?",
+    "answer": [
+      {
+        "string": "15\u00b11.5 year",
+        "uri": "https://www.wikidata.org/wiki/Q2934"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "What is the Dutch word for sunflower?",
+    "answer": [
+      {
+        "string": "Zonnebloem (Dutch)",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "What are the names of the sound a dog makes?",
+    "answer": [
+      {
+        "string": "bark",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "growling",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "panting",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "What is the heart rate of a horse?",
+    "answer": [
+      {
+        "string": "34\u00b16 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      },
+      {
+        "string": "38\u00b16 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      },
+      {
+        "string": "46.5\u00b123.5 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "How much energy does is stored in an apple?",
+    "answer": [
+      {
+        "string": "300 kilojoule",
+        "uri": "https://www.wikidata.org/wiki/Q89"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3487253",
+    "string": "What is the life expectancy of a cat?",
+    "answer": [
+      {
+        "string": "15 year",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "What is the name for fear for spiders?",
+    "answer": [
+      {
+        "string": "arachnophobia ",
+        "uri": "https://www.wikidata.org/wiki/Q220783"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "What part of a fish allows it to breathe underwater?",
+    "answer": [
+      {
+        "string": "gill",
+        "uri": "https://www.wikidata.org/wiki/Q132390"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "What kind of animal is a Komodo dragon?",
+    "answer": [
+      {
+        "string": "species of reptile",
+        "uri": "https://www.wikidata.org/wiki/Q4504"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "What is the study of horses called?",
+    "answer": [
+      {
+        "string": "hippology",
+        "uri": "https://www.wikidata.org/wiki/Q1157006"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "Taxus is the Latin name for which tree?",
+    "answer": [
+      {
+        "string": "yew",
+        "uri": "https://www.wikidata.org/wiki/Q27355"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "Where does the Mesh run?",
+    "answer": [
+      {
+        "string": "western Europe",
+        "uri": "https://www.wikidata.org/wiki/Q41986"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "Is Aloe Vera a plant, tree or herb?",
+    "answer": [
+      {
+        "string": "herb",
+        "uri": "https://www.wikidata.org/wiki/Q80079"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "What are male parts of a flower called?",
+    "answer": [
+      {
+        "string": "stamen",
+        "uri": "https://www.wikidata.org/wiki/Q103129"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "What fruit type does Sensitive Plant have?",
+    "answer": [
+      {
+        "string": "silique",
+        "uri": "https://www.wikidata.org/wiki/Q148532"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4073363",
+    "string": "What is the country of origin of a Shetland pony?",
+    "answer": [
+      {
+        "string": "Scotland",
+        "uri": "https://www.wikidata.org/wiki/Q214720"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "What type of ground do tulips need to grow?",
+    "answer": [
+      {
+        "string": "dry soil",
+        "uri": "https://www.wikidata.org/wiki/Q93201"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "How long do cats live?",
+    "answer": [
+      {
+        "string": "15 years",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "When was the death of the last mammoth?",
+    "answer": [
+      {
+        "string": "18th century BCE",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "How do I say lily in Dutch?",
+    "answer": [
+      {
+        "string": "lelie",
+        "uri": "https://www.wikidata.org/wiki/Q5194627"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "How heavy is an adult lion?",
+    "answer": [
+      {
+        "string": "Male lions weigh 188 kilogram (on average)",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      },
+      {
+        "string": "Lionesses weigh 126 kilogram (on average)",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "How high of a sound can cows hear?",
+    "answer": [
+      {
+        "string": "35,000 hertz",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "What was the medicinal plant of the year five years ago?",
+    "answer": [
+      {
+        "string": "Daisys",
+        "uri": "https://www.wikidata.org/wiki/Q26158"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "When is it believed that the first Koala existed?",
+    "answer": [
+      {
+        "string": "700000 years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q36101"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "How long does a cheetah's preganancy last?",
+    "answer": [
+      {
+        "string": "92 days",
+        "uri": "https://www.wikidata.org/wiki/Q23907"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3620646",
+    "string": "Which tree was the winner of Austria's 2005 tree of the year award?",
+    "answer": [
+      {
+        "string": "The maple tree",
+        "uri": "https://www.wikidata.org/wiki/Q59772474"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "How long is the highest observed lifespan of a tiger?",
+    "answer": [
+      {
+        "string": "26.3 year",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "What are dogs used for?",
+    "answer": [
+      {
+        "string": "pet",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "hunting",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "guard",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "service animal",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "What color does a sunflower have?",
+    "answer": [
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "Where do chihuahua's come from?",
+    "answer": [
+      {
+        "string": "Mexico",
+        "uri": "https://www.wikidata.org/wiki/Q653"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "Which fruit type does a daisy (bellis perennis) have?",
+    "answer": [
+      {
+        "string": "achene",
+        "uri": "https://www.wikidata.org/wiki/Q26158"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "What is the gestation period of an Asian elephant?",
+    "answer": [
+      {
+        "string": "22 months",
+        "uri": "https://www.wikidata.org/wiki/Q133006"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "Where were Mammoths discovered?",
+    "answer": [
+      {
+        "string": "Alaska",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      },
+      {
+        "string": "Siberia",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      },
+      {
+        "string": "Canada",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      },
+      {
+        "string": "Europe",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "What is the use of cilantro (coriandrum sativum)?",
+    "answer": [
+      {
+        "string": "spice",
+        "uri": "https://www.wikidata.org/wiki/Q41611"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "What is the life expectancy of a cat?",
+    "answer": [
+      {
+        "string": "15 year",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4075927",
+    "string": "What is the mass of a giraffe?",
+    "answer": [
+      {
+        "string": "54.5 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "What is the life expectancy of a cat?",
+    "answer": [
+      {
+        "string": "20 year",
+        "uri": "https://www.wikidata.org/wiki/Q20980826"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "How do you describe an apex predator?",
+    "answer": [
+      {
+        "string": "predator residing at the top of a food chain, with no predators of its own",
+        "uri": "https://www.wikidata.org/wiki/Q19067"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "Where is the Arctic wolf native to?",
+    "answer": [
+      {
+        "string": "Canada",
+        "uri": "https://www.wikidata.org/wiki/Q216441"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "Who gave the Canis lupus familiaris its name?",
+    "answer": [
+      {
+        "string": "Carl Linnaeus",
+        "uri": "https://www.wikidata.org/wiki/Q26972265"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "Which plant was the medicinal plant of the year in 2013?",
+    "answer": [
+      {
+        "string": "Rosa \u00d7 damascena",
+        "uri": "https://www.wikidata.org/wiki/Q578904"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "What is the scientific name of a daisy?",
+    "answer": [
+      {
+        "string": "Bellis perennis",
+        "uri": "https://www.wikidata.org/wiki/Q26158"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "What are other names for the grey wolf in English?",
+    "answer": [
+      {
+        "string": "timber wolf",
+        "uri": "https://www.wikidata.org/wiki/Q18498"
+      },
+      {
+        "string": "tundra wolf",
+        "uri": "https://www.wikidata.org/wiki/Q18498"
+      },
+      {
+        "string": "Canis Lupus",
+        "uri": "https://www.wikidata.org/wiki/Q18498"
+      },
+      {
+        "string": "gray wolf",
+        "uri": "https://www.wikidata.org/wiki/Q18498"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "Which plant was the tree of the year in 2008?",
+    "answer": [
+      {
+        "string": "Juglans regia",
+        "uri": "https://www.wikidata.org/wiki/Q46871"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "Which cow lived the longest?",
+    "answer": [
+      {
+        "string": "Big Bertha",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4246853",
+    "string": "When did horses start being used for chariots?",
+    "answer": [
+      {
+        "string": "20. century BCE",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "What is the study of trees called?",
+    "answer": [
+      {
+        "string": "forestry science",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "dendrology",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "Which colours can the fruit of the apple tree have?",
+    "answer": [
+      {
+        "string": "red",
+        "uri": "https://www.wikidata.org/wiki/Q89"
+      },
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q89"
+      },
+      {
+        "string": "green",
+        "uri": "https://www.wikidata.org/wiki/Q89"
+      },
+      {
+        "string": "pink",
+        "uri": "https://www.wikidata.org/wiki/Q89"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "What is the highest observed lifespan of a tiger?",
+    "answer": [
+      {
+        "string": "26.3 years",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "How much does an adult giant panda weight?",
+    "answer": [
+      {
+        "string": "117.5\u00b142.5 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "Are trees organized into forests?",
+    "answer": [
+      {
+        "string": "yes",
+        "uri": "https://www.wikidata.org/wiki/Q4421"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "Which are the components of a flower?",
+    "answer": [
+      {
+        "string": "gynoecium",
+        "uri": "https://www.wikidata.org/wiki/Q506"
+      },
+      {
+        "string": "androecium",
+        "uri": "https://www.wikidata.org/wiki/Q506"
+      },
+      {
+        "string": "perianth",
+        "uri": "https://www.wikidata.org/wiki/Q506"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "Do dolphins have a sense of self-awareness?",
+    "answer": [
+      {
+        "string": "yes",
+        "uri": "https://www.wikidata.org/wiki/Q7369"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "What is the life expectancy of a sloth?",
+    "answer": [
+      {
+        "string": "30 years",
+        "uri": "https://www.wikidata.org/wiki/Q2274076"
+      },
+      {
+        "string": "50 years",
+        "uri": "https://www.wikidata.org/wiki/Q2274076"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "How tall is a giraffe?",
+    "answer": [
+      {
+        "string": "5.5\u00b10.5 metre",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3932222",
+    "string": "When was the first crow sighting reported?",
+    "answer": [
+      {
+        "string": "17 million years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q43365"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What is the panda Unicode character?",
+    "answer": [
+      {
+        "string": "U+1F43C",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What sound does a bee produce?",
+    "answer": [
+      {
+        "string": "Humming",
+        "uri": "https://www.wikidata.org/wiki/Q7391"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What is the wingspan of a Canadian goose?",
+    "answer": [
+      {
+        "string": "1.69 metre",
+        "uri": "https://www.wikidata.org/wiki/Q26733"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What is the color of a banana?",
+    "answer": [
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      },
+      {
+        "string": "green",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      },
+      {
+        "string": "purple",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      },
+      {
+        "string": "red",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      },
+      {
+        "string": "brown",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What is the oldest observed lifespan of a common baobab?",
+    "answer": [
+      {
+        "string": "1,275\u00b150 years",
+        "uri": "https://www.wikidata.org/wiki/Q158742"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What do koalas mainly eat?",
+    "answer": [
+      {
+        "string": "Leaf of Eucalypt tree",
+        "uri": "https://www.wikidata.org/wiki/Q36101"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What is the average heart rate of a dog at rest?",
+    "answer": [
+      {
+        "string": "95\u00b125 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "115\u00b115 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "80 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What is the weight of an adult giraffe heart?",
+    "answer": [
+      {
+        "string": "11 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q862089"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What the parent taxon of a lion?",
+    "answer": [
+      {
+        "string": "Panthera",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004981",
+    "string": "What is the average lifespan of a North American Beaver?",
+    "answer": [
+      {
+        "string": "15\u00b11 year",
+        "uri": "https://www.wikidata.org/wiki/Q81056"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "What is the gestation period of the giant panda?",
+    "answer": [
+      {
+        "string": " 130\u00b133 days",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "What is a dromedary used for?",
+    "answer": [
+      {
+        "string": "transport",
+        "uri": "https://www.wikidata.org/wiki/Q71516"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "Which parts constitute a flower?",
+    "answer": [
+      {
+        "string": "gynoecium",
+        "uri": "https://www.wikidata.org/wiki/Q506"
+      },
+      {
+        "string": "androecium",
+        "uri": "https://www.wikidata.org/wiki/Q506"
+      },
+      {
+        "string": "perianth",
+        "uri": "https://www.wikidata.org/wiki/Q506"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "When did Mammoths go extinct?",
+    "answer": [
+      {
+        "string": "18. century BCE",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "What significant event happened with Emu's?",
+    "answer": [
+      {
+        "string": "Emu War",
+        "uri": "https://www.wikidata.org/wiki/Q93208"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "In which habitats do giraffes live?",
+    "answer": [
+      {
+        "string": "Savanna",
+        "uri": "https://www.wikidata.org/wiki/Q862089"
+      },
+      {
+        "string": "woodland",
+        "uri": "https://www.wikidata.org/wiki/Q862089"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "What is the study of fish called?",
+    "answer": [
+      {
+        "string": "ichthyology",
+        "uri": "https://www.wikidata.org/wiki/Q152"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "How tall are elephants?",
+    "answer": [
+      {
+        "string": "4 metre",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "What fruit type does the rose have?",
+    "answer": [
+      {
+        "string": "nucule",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3626911",
+    "string": "What sound does the lion produce?",
+    "answer": [
+      {
+        "string": "roar",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "How old do cats typically get?",
+    "answer": [
+      {
+        "string": "15 year",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "To which genus does a rose belong?",
+    "answer": [
+      {
+        "string": "Rosa cinnamomea",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "What is the Dutch name for ladybug?",
+    "answer": [
+      {
+        "string": "Lieveheersbeestjes",
+        "uri": "https://www.wikidata.org/wiki/Q25327"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "Are African bush elephants an endangered species?",
+    "answer": [
+      {
+        "string": "Endangered",
+        "uri": "https://www.wikidata.org/wiki/Q36557"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "How long are orcas pregnant for?",
+    "answer": [
+      {
+        "string": "16.5\u00b10.5 month",
+        "uri": "https://www.wikidata.org/wiki/Q26843"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "What does a koala eat?",
+    "answer": [
+      {
+        "string": "leaf of eucalypt tree",
+        "uri": "https://www.wikidata.org/wiki/Q36101"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "When was the first blue whale born?",
+    "answer": [
+      {
+        "string": "1500000 years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q42196"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "What age was the oldest Hippo ever observed?",
+    "answer": [
+      {
+        "string": "61.2 year",
+        "uri": "https://www.wikidata.org/wiki/Q34505"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "What species of peacock are there?",
+    "answer": [
+      {
+        "string": "Indian Peafowl",
+        "uri": "https://www.wikidata.org/wiki/Q201251"
+      },
+      {
+        "string": "Green Peafowl",
+        "uri": "https://www.wikidata.org/wiki/Q201251"
+      },
+      {
+        "string": "Congo Peafowl",
+        "uri": "https://www.wikidata.org/wiki/Q201251"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3746135",
+    "string": "What parts does a plant consist of?",
+    "answer": [
+      {
+        "string": "root",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "True leaf",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "plant stem",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "germ layer",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "Since when do Platypuses exist?",
+    "answer": [
+      {
+        "string": "9 million years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q15343"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "How long is a tiger pregnant?",
+    "answer": [
+      {
+        "string": "107\u00b15 day",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "Which color is a fox?",
+    "answer": [
+      {
+        "string": "black",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "orange",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "brown",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "What is the original name of the sunflower?",
+    "answer": [
+      {
+        "string": "Helianthus annuus",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "What do tigers eat?",
+    "answer": [
+      {
+        "string": "ungulate",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      },
+      {
+        "string": "monkey",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      },
+      {
+        "string": "Phasianidae",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      },
+      {
+        "string": "Leporidae",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      },
+      {
+        "string": "fish",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      },
+      {
+        "string": "dog",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      },
+      {
+        "string": "nut",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      },
+      {
+        "string": "herbaceous plant",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      },
+      {
+        "string": "fruit",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "How old can giraffes become?",
+    "answer": [
+      {
+        "string": "39.5 year",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "How much does a Gibbon way?",
+    "answer": [
+      {
+        "string": "8.5\u00b14.5 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q185939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "Which color are sunflowers?",
+    "answer": [
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "What is a Red-throat Diver?",
+    "answer": [
+      {
+        "string": "A migratory aquatic bird found in the northern hemisphere",
+        "uri": "https://www.wikidata.org/wiki/Q26691"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4148010",
+    "string": "How long are the wings of a Red-throat Diver?",
+    "answer": [
+      {
+        "string": "1.04 metre",
+        "uri": "https://www.wikidata.org/wiki/Q26691"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What is the taxon rank of panda?",
+    "answer": [
+      {
+        "string": "species",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "How heavy is a jaguar when born?",
+    "answer": [
+      {
+        "string": "800 plus or minus 100 gram",
+        "uri": "https://www.wikidata.org/wiki/Q35694"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What award has the lily of the valley won?",
+    "answer": [
+      {
+        "string": "poisonous plant of the year",
+        "uri": "https://www.wikidata.org/wiki/Q101711"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What is the IUCN conservation status of a jaguar?",
+    "answer": [
+      {
+        "string": "near threatened",
+        "uri": "https://www.wikidata.org/wiki/Q101711"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What is the study of dogs called?",
+    "answer": [
+      {
+        "string": "cynology",
+        "uri": "https://www.wikidata.org/wiki/Q465924"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What usages do dogs have?",
+    "answer": [
+      {
+        "string": "pet",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "hunting",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "guard",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "service animal",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What sounds do dogs make?",
+    "answer": [
+      {
+        "string": "bark",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "growling",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "panting",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What is the bite force quotient of a cat?",
+    "answer": [
+      {
+        "string": "58",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What fruit type do oaks have?",
+    "answer": [
+      {
+        "string": "glans",
+        "uri": "https://www.wikidata.org/wiki/Q12004"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4023110",
+    "string": "What is the taxon rank of birch?",
+    "answer": [
+      {
+        "string": "genus",
+        "uri": "https://www.wikidata.org/wiki/Q25243"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "What is the carbon footprint of the avocado fruit?",
+    "answer": [
+      {
+        "string": "0.6 kilogram of carbon dioxide per kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q961769                "
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "What is the plant \u201cSansevieria trifasciata\u201d also known as?",
+    "answer": [
+      {
+        "string": "Mother-in-law's tongue",
+        "uri": "https://www.wikidata.org/wiki/Q5859273"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "When were cats first domesticated?",
+    "answer": [
+      {
+        "string": "518 BCE",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "How old was the oldest alpaca?",
+    "answer": [
+      {
+        "string": "25.8 year",
+        "uri": "https://www.wikidata.org/wiki/Q81564"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "What is the name of Talkeetnas honorary mayor who was also a cat?",
+    "answer": [
+      {
+        "string": "Stubbs",
+        "uri": "https://www.wikidata.org/wiki/Q7627362"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "Which plant is saffron made of?",
+    "answer": [
+      {
+        "string": "Crocus sativus",
+        "uri": "https://www.wikidata.org/wiki/Q25434"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "Which species of dolphins is self-aware?",
+    "answer": [
+      {
+        "string": "Bottlenose dolphin",
+        "uri": "https://www.wikidata.org/wiki/Q7369"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "How much does a red panda weigh as an adult?",
+    "answer": [
+      {
+        "string": "4.95 kg",
+        "uri": "https://www.wikidata.org/wiki/Q41960"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "What is the life expectancy of a polar bear?",
+    "answer": [
+      {
+        "string": "50 years",
+        "uri": "https://www.wikidata.org/wiki/Q33609"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4236599",
+    "string": "After which country is the fruit 'orange' named in Turkish language?",
+    "answer": [
+      {
+        "string": "Portugal",
+        "uri": "https://www.wikidata.org/wiki/Q13191"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "In which country is the Old Tjikko tree located?",
+    "answer": [
+      {
+        "string": "Sweden",
+        "uri": "https://www.wikidata.org/wiki/Q1301863"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "How long does the gestation period of a cat last?",
+    "answer": [
+      {
+        "string": "64 days",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "What are the parts of a tree?",
+    "answer": [
+      {
+        "string": "trunk",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "branch",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "leaf",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "crown",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "root",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "bark",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "Which species of mammal is considered the largest land animal?",
+    "answer": [
+      {
+        "string": "African bush elephant",
+        "uri": "https://www.wikidata.org/wiki/Q36557"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "How tall is the Hyperion tree, known as the tallest living tree in the world?",
+    "answer": [
+      {
+        "string": "115.85 metres",
+        "uri": "https://www.wikidata.org/wiki/Q425608"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "Since approximately when has the process of horse domestication started?",
+    "answer": [
+      {
+        "string": "25th century BCE",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "Who discovered the type of apples that are green, sour, and originally from Australia?",
+    "answer": [
+      {
+        "string": "Maria Ann Smith",
+        "uri": "https://www.wikidata.org/wiki/Q506040"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "What colours can a German Shepherd dog's fur have?",
+    "answer": [
+      {
+        "string": "black",
+        "uri": "https://www.wikidata.org/wiki/Q38280"
+      },
+      {
+        "string": "bordeaux",
+        "uri": "https://www.wikidata.org/wiki/Q38280"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "How many species exist in the genus Rosa?",
+    "answer": [
+      {
+        "string": "circa 200",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4272129",
+    "string": "Where does the Aure et Saint-Girons cattle breed originate from?",
+    "answer": [
+      {
+        "string": "France",
+        "uri": "https://www.wikidata.org/wiki/Q785647"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "What kinds of elephant are there?",
+    "answer": [
+      {
+        "string": "Elephantidae",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      },
+      {
+        "string": "African bush elephant",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      },
+      {
+        "string": "Indian elephant",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "What are other names for rose oil?",
+    "answer": [
+      {
+        "string": "rose essential oil",
+        "uri": "https://www.wikidata.org/wiki/Q83054"
+      },
+      {
+        "string": "otto of roses",
+        "uri": "https://www.wikidata.org/wiki/Q83054"
+      },
+      {
+        "string": "attar of roses",
+        "uri": "https://www.wikidata.org/wiki/Q83054"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "How long are gorillas pregnant?",
+    "answer": [
+      {
+        "string": "270 days",
+        "uri": "https://www.wikidata.org/wiki/Q36611"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "Whats the dutch name for ant?",
+    "answer": [
+      {
+        "string": "Mier",
+        "uri": "https://www.wikidata.org/wiki/Q7386"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "Who are the members of the same genus as oak trees?",
+    "answer": [
+      {
+        "string": "Quercus robor",
+        "uri": "https://www.wikidata.org/wiki/Q165145"
+      },
+      {
+        "string": "Quercus Ilex",
+        "uri": "https://www.wikidata.org/wiki/Q218155"
+      },
+      {
+        "string": "Quercus rubra",
+        "uri": "https://www.wikidata.org/wiki/Q147525"
+      },
+      {
+        "string": "Quercus coccifera",
+        "uri": "https://www.wikidata.org/wiki/Q158178"
+      },
+      {
+        "string": "Quercus petraea",
+        "uri": "https://www.wikidata.org/wiki/Q158608"
+      },
+      {
+        "string": "Quercus suber",
+        "uri": "https://www.wikidata.org/wiki/Q156137"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "What is grass?",
+    "answer": [
+      {
+        "string": "type of herbaceous plant",
+        "uri": "https://www.wikidata.org/wiki/Q643352"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "How old can a hippo get?",
+    "answer": [
+      {
+        "string": "61.2 year",
+        "uri": "https://www.wikidata.org/wiki/Q34505"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "What is photosynthesis?",
+    "answer": [
+      {
+        "string": "metabolic process in plants, algae, cyanobacteria, some protists, converting light energy into chemical energy that is used by a cell to produce food",
+        "uri": "https://www.wikidata.org/wiki/Q11982"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "What is the parent taxon of the macaque family?",
+    "answer": [
+      {
+        "string": "Cercopithecinae",
+        "uri": "https://www.wikidata.org/wiki/Q177601"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3905845",
+    "string": "Is the plural of octopus octupuses or octopi?",
+    "answer": [
+      {
+        "string": "octopuses",
+        "uri": "https://www.wikidata.org/wiki/Q749814"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "What term describes plant and animal life of a region?",
+    "answer": [
+      {
+        "string": "Biota",
+        "uri": "https://www.wikidata.org/wiki/Q845214"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "What plants do cows eat?",
+    "answer": [
+      {
+        "string": "Poaceae",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "Do birds fly?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q5113"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "How is dog written in German?",
+    "answer": [
+      {
+        "string": "Hund",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "What do we get from cows?",
+    "answer": [
+      {
+        "string": "beef",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      },
+      {
+        "string": "cow's milk",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      },
+      {
+        "string": "cowhide",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      },
+      {
+        "string": "knuckle",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      },
+      {
+        "string": "beef byproducts",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "What do humans feed birds?",
+    "answer": [
+      {
+        "string": "artificial food (often varieties of seeds, nuts, or dried fruits) fed to birds",
+        "uri": "https://www.wikidata.org/wiki/Q471236"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "What do plants need for photosynthesis?",
+    "answer": [
+      {
+        "string": "Sunlight",
+        "uri": "https://www.wikidata.org/wiki/Q11982"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "Under what category does seaweed fall?",
+    "answer": [
+      {
+        "string": "Algea",
+        "uri": "https://www.wikidata.org/wiki/Q237169"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "Where do lions live?",
+    "answer": [
+      {
+        "string": "Africa",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3835146",
+    "string": "When did the dodo go extinct?",
+    "answer": [
+      {
+        "string": "1690",
+        "uri": "https://www.wikidata.org/wiki/Q43502"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "Which country is platypus endemic to?",
+    "answer": [
+      {
+        "string": "Australia",
+        "uri": "https://www.wikidata.org/wiki/Q15343"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "What is the type of locomotion of penguins?",
+    "answer": [
+      {
+        "string": "bipedalism",
+        "uri": "https://www.wikidata.org/wiki/Q9147"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "What is the hearing freqeuncy range of a dog?",
+    "answer": [
+      {
+        "string": "67 - 45,000 hertz",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "How many horses were there in 2013?",
+    "answer": [
+      {
+        "string": "58,315,816",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "When was the human with highest recorded livespan born?",
+    "answer": [
+      {
+        "string": "21 February 1875",
+        "uri": "https://www.wikidata.org/wiki/Q182260"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "What plant produces vegetable that is used to make pickles?",
+    "answer": [
+      {
+        "string": "Cucumis sativus",
+        "uri": "https://www.wikidata.org/wiki/Q23425"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "What is the name of food panda eats in slovak?",
+    "answer": [
+      {
+        "string": "Bambus",
+        "uri": "https://www.wikidata.org/wiki/Q35922"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "What do we get from chickens?",
+    "answer": [
+      {
+        "string": "chicken breast",
+        "uri": "https://www.wikidata.org/wiki/Q780"
+      },
+      {
+        "string": "chicken meat",
+        "uri": "https://www.wikidata.org/wiki/Q780"
+      },
+      {
+        "string": "chicken egg",
+        "uri": "https://www.wikidata.org/wiki/Q780"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "What sound does a cat make?",
+    "answer": [
+      {
+        "string": "meow",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      },
+      {
+        "string": "purr",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4360184",
+    "string": "What color can fox fur have?",
+    "answer": [
+      {
+        "string": "black",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "orange",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      },
+      {
+        "string": "brown",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What is the parent taxon of the Rosa Genus?",
+    "answer": [
+      {
+        "string": "Rosoideae",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What type of mammal is a house cat?",
+    "answer": [
+      {
+        "string": "Domesicated mammal",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What country does the Bonsai tree originate from?",
+    "answer": [
+      {
+        "string": "China",
+        "uri": "https://www.wikidata.org/wiki/Q64365"
+      },
+      {
+        "string": "Japan",
+        "uri": "https://www.wikidata.org/wiki/Q64365"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What is the taxon name of the Great White Shark?",
+    "answer": [
+      {
+        "string": "Carcharodon carcharias",
+        "uri": "https://www.wikidata.org/wiki/Q129026"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What is the taxon name of the Red Panda?",
+    "answer": [
+      {
+        "string": "Ailurus fulgens",
+        "uri": "https://www.wikidata.org/wiki/Q41960"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What is another name for the Syringa vulgaris?",
+    "answer": [
+      {
+        "string": "Common Lilac",
+        "uri": "https://www.wikidata.org/wiki/Q6565319"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What fruit type does the olive tree have?",
+    "answer": [
+      {
+        "string": "Drupe",
+        "uri": "https://www.wikidata.org/wiki/Q37083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What is the highest observed lifespan of the Giant Panda?",
+    "answer": [
+      {
+        "string": "36.8 years",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "What cuisine is the Oregano part of?",
+    "answer": [
+      {
+        "string": "Turkish cuisine",
+        "uri": "https://www.wikidata.org/wiki/Q134283"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4245350",
+    "string": "How many pups does a French Bulldog usually have in a litter?",
+    "answer": [
+      {
+        "string": "4.7",
+        "uri": "https://www.wikidata.org/wiki/Q29149"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "What do koala's eat?",
+    "answer": [
+      {
+        "string": "leaf",
+        "uri": "https://www.wikidata.org/wiki/Q36101"
+      },
+      {
+        "string": "eucalypt tree",
+        "uri": "https://www.wikidata.org/wiki/Q36101"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "What is the litter size of a Newfoundland dog?",
+    "answer": [
+      {
+        "string": "6.5",
+        "uri": "https://www.wikidata.org/wiki/Q38706"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "What is the life expectancy of a Guinea Pig?",
+    "answer": [
+      {
+        "string": "5 year",
+        "uri": "https://www.wikidata.org/wiki/Q79803"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "What is the gestation period of an African Bush elephant?",
+    "answer": [
+      {
+        "string": "22 month",
+        "uri": "https://www.wikidata.org/wiki/Q36557"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "How much does a giraffe weigh at birth?",
+    "answer": [
+      {
+        "string": "54.4 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "What is the oppisite of a perennial plant?",
+    "answer": [
+      {
+        "string": "annual plant",
+        "uri": "https://www.wikidata.org/wiki/Q157957"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "What is the taxon name of a dandelion?",
+    "answer": [
+      {
+        "string": "Taraxacum officinale",
+        "uri": "https://www.wikidata.org/wiki/Q131219"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "When did the cucumber receive the award for vegetable of the year?",
+    "answer": [
+      {
+        "string": "2019",
+        "uri": "https://www.wikidata.org/wiki/Q23425"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "What is the conservation status of a leopard?",
+    "answer": [
+      {
+        "string": "Vulnerable",
+        "uri": "https://www.wikidata.org/wiki/Q34706"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4004353",
+    "string": "How does a Cocos nucifera desperse its seeds?",
+    "answer": [
+      {
+        "string": "nautochory",
+        "uri": "https://www.wikidata.org/wiki/Q13187"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "What is the name of the field that studies plants?",
+    "answer": [
+      {
+        "string": "Botany",
+        "uri": "https://www.wikidata.org/wiki/Q441"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "How long have cockroaches remained unchanged for?",
+    "answer": [
+      {
+        "string": "It is thought they have been unchanged for more than 300 million years",
+        "uri": "https://www.wikidata.org/wiki/Q18123008"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "What are the minimum and maximum frequencies of sounds that cats can hear?",
+    "answer": [
+      {
+        "string": "45 hertz",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      },
+      {
+        "string": "64,000 hertz",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "What is the formal name of the red panda taxon?",
+    "answer": [
+      {
+        "string": "Ailurus fulgens",
+        "uri": "https://www.wikidata.org/wiki/Q41960"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "Who is the author of the Myosotis taxon name?",
+    "answer": [
+      {
+        "string": "Carl Linnaeus",
+        "uri": "https://www.wikidata.org/wiki/Q147149"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "When did velociraptors go extinct?",
+    "answer": [
+      {
+        "string": "71 million years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q14403"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "How many beats per minutes does a chicken have at rest?",
+    "answer": [
+      {
+        "string": "275\u00b125 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q780"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "What parts is a tree made up of?",
+    "answer": [
+      {
+        "string": "Trunk",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Branch",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Leaf",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Crown",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Root",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "Bark",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "How large is the wing span of a Great Black-backed Gull?",
+    "answer": [
+      {
+        "string": "1.67 metre",
+        "uri": "https://www.wikidata.org/wiki/Q26629"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3415732",
+    "string": "When was nettle awarded medicinal plant of the year?",
+    "answer": [
+      {
+        "string": "1996",
+        "uri": "https://www.wikidata.org/wiki/Q155909"
+      },
+      {
+        "string": "2022",
+        "uri": "https://www.wikidata.org/wiki/Q155909"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "What is the highest observed lifespan of alpacas?",
+    "answer": [
+      {
+        "string": "28.5",
+        "uri": "https://www.wikidata.org/wiki/Q81564"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "What is hedgehogs IUCN conservation status?",
+    "answer": [
+      {
+        "string": "Least Concern",
+        "uri": "https://www.wikidata.org/wiki/Q6145"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "What is tigers taxon name?",
+    "answer": [
+      {
+        "string": "Panthera tigris",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "What is the produced sound by donkeys?",
+    "answer": [
+      {
+        "string": "Bray",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "Are jaguars mammals?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q35694"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "What is the taxon common name of the flower ranunculus?",
+    "answer": [
+      {
+        "string": "buttercup",
+        "uri": "https://www.wikidata.org/wiki/Q146130"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "Are paeonias different from pions?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q147105"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "What is the synonym of camellia?",
+    "answer": [
+      {
+        "string": "Thea",
+        "uri": "https://www.wikidata.org/wiki/Q212815"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "Is cannabis different from marihuana?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q2845"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4010418",
+    "string": "Are bamboos edible plants?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "For how long is a giraffe pregnant?",
+    "answer": [
+      {
+        "string": "457 days",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "How fast does the average heart of a chicken beat?",
+    "answer": [
+      {
+        "string": "275 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q780"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "What is the name of a shark in taxonomy?",
+    "answer": [
+      {
+        "string": "Selachimorpha",
+        "uri": "https://www.wikidata.org/wiki/Q7372"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "What products do we get from sharks?",
+    "answer": [
+      {
+        "string": "shark liver oil",
+        "uri": "https://www.wikidata.org/wiki/Q7372"
+      },
+      {
+        "string": "shark skin",
+        "uri": "https://www.wikidata.org/wiki/Q7372"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "How old can brown bears get?",
+    "answer": [
+      {
+        "string": "40 years old",
+        "uri": "https://www.wikidata.org/wiki/Q36341"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "From what is the rose a subclass off?",
+    "answer": [
+      {
+        "string": "spreading climber",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "What fruit type does a tulip have?",
+    "answer": [
+      {
+        "string": "capsule",
+        "uri": "https://www.wikidata.org/wiki/Q93201"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "What do they call a sunflower in german?",
+    "answer": [
+      {
+        "string": "Sonnenblumen",
+        "uri": "https://www.wikidata.org/wiki/Q26949"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "How much does a tiger weigh at birth?",
+    "answer": [
+      {
+        "string": "1.19 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3585131",
+    "string": "What is the maximum frequency of sound a cat can hear?",
+    "answer": [
+      {
+        "string": "64,000 hertz",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "What is the full name of a cactus?",
+    "answer": [
+      {
+        "string": "Cactaceae",
+        "uri": "https://www.wikidata.org/wiki/Q14560"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "How old can a house mouse become?",
+    "answer": [
+      {
+        "string": "4 year",
+        "uri": "https://www.wikidata.org/wiki/Q83310"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "Can foxes have black fur?",
+    "answer": [
+      {
+        "string": "yes",
+        "uri": "https://www.wikidata.org/wiki/Q8331"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "Which bird has the largests wingspan?",
+    "answer": [
+      {
+        "string": "Albatross",
+        "uri": "https://www.wikidata.org/wiki/Q208682"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "How does a hedgehog move?",
+    "answer": [
+      {
+        "string": "rolling & quadrupedalism",
+        "uri": "https://www.wikidata.org/wiki/Q6120"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "What pets do the Obama's own?",
+    "answer": [
+      {
+        "string": "Bo & Sunny",
+        "uri": "https://www.wikidata.org/wiki/Q643049"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "What do ladybugs eat?",
+    "answer": [
+      {
+        "string": "aphid",
+        "uri": "https://www.wikidata.org/wiki/Q25327"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "What is the size of an elephant?",
+    "answer": [
+      {
+        "string": "4 metre",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "What is the name of the study that studies horses?",
+    "answer": [
+      {
+        "string": "hippology",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4127579",
+    "string": "How long is a babygoat brestfed?",
+    "answer": [
+      {
+        "string": "305 days",
+        "uri": "https://www.wikidata.org/wiki/Q2934"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "What is the average life expectancy of a cat?",
+    "answer": [
+      {
+        "string": "15 years",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "What is the maximum frequency of audible sound a cat can hear?",
+    "answer": [
+      {
+        "string": "64000 hertz",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "What is the total horse population?",
+    "answer": [
+      {
+        "string": "58315816",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "What's the name of the field that studies horses?",
+    "answer": [
+      {
+        "string": "hippology",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "How do you call the sound a horse makes",
+    "answer": [
+      {
+        "string": "a neigh",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "What is the German name for hippopotamus?",
+    "answer": [
+      {
+        "string": "Flusspferd",
+        "uri": "https://www.wikidata.org/wiki/Q34505"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "How long is a hippopotamus' gestation period?",
+    "answer": [
+      {
+        "string": "8 month",
+        "uri": "https://www.wikidata.org/wiki/Q34505"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "What is the highest observed lifespan of a hippopotamus?",
+    "answer": [
+      {
+        "string": "61.2 year",
+        "uri": "https://www.wikidata.org/wiki/Q34505"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "What is the status of ostriches when it comes to IUCM conservation status?",
+    "answer": [
+      {
+        "string": "Least Concern",
+        "uri": "https://www.wikidata.org/wiki/Q17592"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1928058",
+    "string": "What is the mass of an female adult ostrich?",
+    "answer": [
+      {
+        "string": "100 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q17592"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What is the common category of fruit?",
+    "answer": [
+      {
+        "string": "Fruits",
+        "uri": "https://www.wikidata.org/wiki/Q1364"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "In which country the International Plant Names Index is based?",
+    "answer": [
+      {
+        "string": "United Kingdom",
+        "uri": "https://www.wikidata.org/wiki/Q922063"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What is the taxonomic type of Berberis?",
+    "answer": [
+      {
+        "string": "Berberis vulgaris",
+        "uri": "https://www.wikidata.org/wiki/Q158503"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What type of fruits belongs to the Berberis genus?",
+    "answer": [
+      {
+        "string": "Berry",
+        "uri": "https://www.wikidata.org/wiki/Q158503"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What is the produced type of sound by lions?",
+    "answer": [
+      {
+        "string": "roar",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What would be the height of a mammoth?",
+    "answer": [
+      {
+        "string": "3.4 metre",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What sort of habitat is required for a Tulip?",
+    "answer": [
+      {
+        "string": "dry soil",
+        "uri": "https://www.wikidata.org/wiki/Q93201"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What was the main use of dromedary by humans?",
+    "answer": [
+      {
+        "string": "transport",
+        "uri": "https://www.wikidata.org/wiki/Q71516"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What is the life expectancy of cats?",
+    "answer": [
+      {
+        "string": "20 year",
+        "uri": "https://www.wikidata.org/wiki/Q20980826"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3167240",
+    "string": "What is the highest observed lifespan in alpaca?",
+    "answer": [
+      {
+        "string": "25.8 year",
+        "uri": "https://www.wikidata.org/wiki/Q81564"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "What is the heartrate of a cat?",
+    "answer": [
+      {
+        "string": "125\u00b115 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      },
+      {
+        "string": "130\u00b110 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "Are a hare and a rabbit the same thing?",
+    "answer": [
+      {
+        "string": "rabbit",
+        "uri": "https://www.wikidata.org/wiki/Q63941258"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "Is the hippo an endangered species?",
+    "answer": [
+      {
+        "string": "Vulnerable",
+        "uri": "https://www.wikidata.org/wiki/Q34505"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "Where does the koala live?",
+    "answer": [
+      {
+        "string": "Australia",
+        "uri": "https://www.wikidata.org/wiki/Q36101"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "What is the French name for a deer?",
+    "answer": [
+      {
+        "string": "cerf",
+        "uri": "https://www.wikidata.org/wiki/Q23390"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "Do sunflowers produce seeds?",
+    "answer": [
+      {
+        "string": "sunflower seed",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "Can you eat blueberries?",
+    "answer": [
+      {
+        "string": "Blueberries as food",
+        "uri": "https://www.wikidata.org/wiki/Q5812410"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "Do birch trees produce food?",
+    "answer": [
+      {
+        "string": "nucule",
+        "uri": "https://www.wikidata.org/wiki/Q25243"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "What is the carbon footprint of broccoli?",
+    "answer": [
+      {
+        "string": "0.6 kilogram of carbon dioxide equivalent per kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q57544960"
+      },
+      {
+        "string": "0.3 kilogram of carbon dioxide equivalent per kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q57544960"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3786617",
+    "string": "What colors can a narcissus be?",
+    "answer": [
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q29465"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "What is the Dutch name for the great white shark?",
+    "answer": [
+      {
+        "string": "witte haai",
+        "uri": "https://www.wikidata.org/wiki/Q129026"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "What is the taxon name of the tiger?",
+    "answer": [
+      {
+        "string": "Panthera tigris",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "What is the life expectancy of a cat?",
+    "answer": [
+      {
+        "string": "15 year",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "What sounds does a cat make?",
+    "answer": [
+      {
+        "string": "meow",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      },
+      {
+        "string": "purr",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "What is a male cat called?",
+    "answer": [
+      {
+        "string": "tomcat",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "What kind of fruit does an oak tree bear?",
+    "answer": [
+      {
+        "string": "glans",
+        "uri": "https://www.wikidata.org/wiki/Q12004"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "What field studies trees?",
+    "answer": [
+      {
+        "string": "forestry science",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "dendrology",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "What is frequency range of audible sound made by bats?",
+    "answer": [
+      {
+        "string": "Between 2,000 and 110,000 hertz",
+        "uri": "https://www.wikidata.org/wiki/Q28425"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "How long do polar bears live?",
+    "answer": [
+      {
+        "string": "No",
+        "uri": "https://www.wikidata.org/wiki/Q33609"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3737101",
+    "string": "Have triceratops been found in the Netherlands?",
+    "answer": [
+      {
+        "string": "No",
+        "uri": "https://www.wikidata.org/wiki/Q14384"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "How is the study of dogs called?",
+    "answer": [
+      {
+        "string": "cynology",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "What are dogs used for?",
+    "answer": [
+      {
+        "string": "pet",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "hunting",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "guard",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      },
+      {
+        "string": "service animal",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "What is the life expectancy of a goat?",
+    "answer": [
+      {
+        "string": "15\u00b11.5 year",
+        "uri": "https://www.wikidata.org/wiki/Q2934"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "What do goats produce?",
+    "answer": [
+      {
+        "string": "goat milk",
+        "uri": "https://www.wikidata.org/wiki/Q2934"
+      },
+      {
+        "string": "goat meat",
+        "uri": "https://www.wikidata.org/wiki/Q2934"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "How long are cats pregnant?",
+    "answer": [
+      {
+        "string": "64 day",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "What is the Dutch name of a Dandelion?",
+    "answer": [
+      {
+        "string": "Gewone Paardenbloem",
+        "uri": "https://www.wikidata.org/wiki/Q131219"
+      },
+      {
+        "string": "paardebloem",
+        "uri": "https://www.wikidata.org/wiki/Q131219"
+      },
+      {
+        "string": "paardenbloem",
+        "uri": "https://www.wikidata.org/wiki/Q131219"
+      },
+      {
+        "string": "pisbloem",
+        "uri": "https://www.wikidata.org/wiki/Q131219"
+      },
+      {
+        "string": "Pissebloem",
+        "uri": "https://www.wikidata.org/wiki/Q131219"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "How is the fruit of a Dandelion called?",
+    "answer": [
+      {
+        "string": "achene",
+        "uri": "https://www.wikidata.org/wiki/Q131219"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "What subclass does a rose belong too?",
+    "answer": [
+      {
+        "string": "spreading climber",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "What parts does a tree have?",
+    "answer": [
+      {
+        "string": "trunk",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "branch",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "leaf",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "crown",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "root",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      },
+      {
+        "string": "bark",
+        "uri": "https://www.wikidata.org/wiki/Q10884"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3768538",
+    "string": "How many eggs do pidgeons lay?",
+    "answer": [
+      {
+        "string": "2 bird egg",
+        "uri": "https://www.wikidata.org/wiki/Q10856"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "What sound makes a dog?",
+    "answer": [
+      {
+        "string": "bark",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "How long is a walrus pregnant?",
+    "answer": [
+      {
+        "string": "12 month",
+        "uri": "https://www.wikidata.org/wiki/Q40994"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "How old can a panda get?",
+    "answer": [
+      {
+        "string": "36.8 year",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "What color has a penguin?",
+    "answer": [
+      {
+        "string": "black",
+        "uri": "https://www.wikidata.org/wiki/Q9147"
+      },
+      {
+        "string": "white",
+        "uri": "https://www.wikidata.org/wiki/Q9147"
+      },
+      {
+        "string": "orange",
+        "uri": "https://www.wikidata.org/wiki/Q9147"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "When was there the first animal on earth?",
+    "answer": [
+      {
+        "string": "665 million years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q729"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "What do plants live on?",
+    "answer": [
+      {
+        "string": "soil",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "photosynthesis",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "carbon dioxide in Earth's atmosphere",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      },
+      {
+        "string": "fertilizer",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "How big is an elephant?",
+    "answer": [
+      {
+        "string": "4 metre",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "Where does the bonsai tree come from?",
+    "answer": [
+      {
+        "string": "China",
+        "uri": "https://www.wikidata.org/wiki/Q64365"
+      },
+      {
+        "string": "Japan",
+        "uri": "https://www.wikidata.org/wiki/Q64365"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "What is the heart rate of a giraffe?",
+    "answer": [
+      {
+        "string": "150 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4061209",
+    "string": "Are lions an endangered species?",
+    "answer": [
+      {
+        "string": "Vulnerable",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "What is the dutch name for a bull?",
+    "answer": [
+      {
+        "string": "stier",
+        "uri": "https://www.wikidata.org/wiki/Q693690"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "What do cows eat?",
+    "answer": [
+      {
+        "string": "Poaceae",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "What is the average heartrate of a chicken?",
+    "answer": [
+      {
+        "string": "275\u00b125 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q780"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "How old can pandas become?",
+    "answer": [
+      {
+        "string": "36.8 year",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "How tall is the tallest Sherman tree?",
+    "answer": [
+      {
+        "string": "83.8 metre",
+        "uri": "https://www.wikidata.org/wiki/Q152482"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "What tree has the greatest lifespan?",
+    "answer": [
+      {
+        "string": "Pinus longaeva",
+        "uri": "https://www.wikidata.org/wiki/Q1116374"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "What is the more common english name of the Pinus longaeva?",
+    "answer": [
+      {
+        "string": "Great Basin Bristlecone Pine",
+        "uri": "https://www.wikidata.org/wiki/Q1116374"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "How old can the Great Basin Bristlecone Pine get?",
+    "answer": [
+      {
+        "string": "4,854 year",
+        "uri": "https://www.wikidata.org/wiki/Q1116374"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "Is bamboo used inmaking clothing?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1250523",
+    "string": "What products a made from a sheep?",
+    "answer": [
+      {
+        "string": "sheep wool",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "sheepskin",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "sheep milk",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What is the definition of a plant?",
+    "answer": [
+      {
+        "string": "multicellular eukaryote of the kingdom Plantae",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What is the definition of an animal?",
+    "answer": [
+      {
+        "string": "kingdom of multicellular eukaryotic organisms",
+        "uri": "https://www.wikidata.org/wiki/Q729"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What is the taxon name of the species tiger?",
+    "answer": [
+      {
+        "string": "Panthera tigris",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What is the gestation period of a tiger?",
+    "answer": [
+      {
+        "string": "107\u00b15 day",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What sound does a tiger make?",
+    "answer": [
+      {
+        "string": "roar",
+        "uri": "https://www.wikidata.org/wiki/Q19939"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What study studies fish?",
+    "answer": [
+      {
+        "string": "ichthyology",
+        "uri": "https://www.wikidata.org/wiki/Q152"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What is the taxon name of a sunflower?",
+    "answer": [
+      {
+        "string": "Helianthus annuus",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "To which subclass does the elephant belong?",
+    "answer": [
+      {
+        "string": "mammal",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What is the gestation period of a polar bear?",
+    "answer": [
+      {
+        "string": "5 month",
+        "uri": "https://www.wikidata.org/wiki/Q33609"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3830470",
+    "string": "What is the average life span of a polar bear?",
+    "answer": [
+      {
+        "string": "50 year",
+        "uri": "https://www.wikidata.org/wiki/Q33609"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "What bird has the largest wingspan?",
+    "answer": [
+      {
+        "string": "Wandering Albatross",
+        "uri": "https://www.wikidata.org/wiki/Q208682"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "How tall is the talles tree?",
+    "answer": [
+      {
+        "string": "115.85m",
+        "uri": "https://www.wikidata.org/wiki/Q425608"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "When did dodos go extinct?",
+    "answer": [
+      {
+        "string": "1690",
+        "uri": "https://www.wikidata.org/wiki/Q43502"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "What are the types of plankton?",
+    "answer": [
+      {
+        "string": "phytoplankton",
+        "uri": "https://www.wikidata.org/wiki/Q184755"
+      },
+      {
+        "string": "zooplankton",
+        "uri": "https://www.wikidata.org/wiki/Q842627"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "What plant can be used to make woad?",
+    "answer": [
+      {
+        "string": "Isatis tinctoria",
+        "uri": "https://www.wikidata.org/wiki/Q212547"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "What are five animals native to Australia?",
+    "answer": [
+      {
+        "string": "kangaroo",
+        "uri": "https://www.wikidata.org/wiki/Q5070208"
+      },
+      {
+        "string": "koala",
+        "uri": "https://www.wikidata.org/wiki/Q36101"
+      },
+      {
+        "string": "platypus",
+        "uri": "https://www.wikidata.org/wiki/Q15343"
+      },
+      {
+        "string": "echidna",
+        "uri": "https://www.wikidata.org/wiki/Q193182"
+      },
+      {
+        "string": "wombat",
+        "uri": "https://www.wikidata.org/wiki/Q752436"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "What plant is used to make green tea?",
+    "answer": [
+      {
+        "string": "Camellia sinensis",
+        "uri": "https://www.wikidata.org/wiki/Q101815"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "How fast can a cheetah run?",
+    "answer": [
+      {
+        "string": "120 kilometre per hour",
+        "uri": "https://www.wikidata.org/wiki/Q23907"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "To which family did mammoths belong?",
+    "answer": [
+      {
+        "string": "Elephantidae",
+        "uri": "https://www.wikidata.org/wiki/Q36715"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3946231",
+    "string": "What products can you derive from sheep?",
+    "answer": [
+      {
+        "string": "sheep wool",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "sheepskin",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "sheep milk",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "What is the scientific name for cat?",
+    "answer": [
+      {
+        "string": "Felis silvestris catus",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      },
+      {
+        "string": "Felis catus",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "What is the oldest cat?",
+    "answer": [
+      {
+        "string": "Cream Puff",
+        "uri": "https://www.wikidata.org/wiki/Q2597104"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "When did Unsinkable Sam die?",
+    "answer": [
+      {
+        "string": "1955",
+        "uri": "https://www.wikidata.org/wiki/Q893453"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "How many dog breeds are there?",
+    "answer": [
+      {
+        "string": "813",
+        "uri": "https://www.wikidata.org/wiki/Q39367"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "Are bananas berries?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "What is the hottest chili pepper?",
+    "answer": [
+      {
+        "string": "Carolina Reaper",
+        "uri": "https://www.wikidata.org/wiki/Q15427475"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "How heigh is an elephant?",
+    "answer": [
+      {
+        "string": "4 metres",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "Are sheeps herbivores?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "What is the sound of an eagle called?",
+    "answer": [
+      {
+        "string": "Eagle cry",
+        "uri": "https://www.wikidata.org/wiki/Q2092297"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "When did we start cultivating cucumbers?",
+    "answer": [
+      {
+        "string": "Circa 3000 BCE",
+        "uri": "https://www.wikidata.org/wiki/Q2735883"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "How is the highest observed lifespan of a raccoon?",
+    "answer": [
+      {
+        "string": "21 years",
+        "uri": "https://www.wikidata.org/wiki/Q121439"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "Are parrots domesticated animals?",
+    "answer": [
+      {
+        "string": "Subclass of domesticated animal",
+        "uri": "https://www.wikidata.org/wiki/Q15548309"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "From where do bonsai trees originate?",
+    "answer": [
+      {
+        "string": "China",
+        "uri": "https://www.wikidata.org/wiki/Q64365"
+      },
+      {
+        "string": "Japan",
+        "uri": "https://www.wikidata.org/wiki/Q64365"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "How many species of roses exist?",
+    "answer": [
+      {
+        "string": "200",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "Are axolotls endagered animals?",
+    "answer": [
+      {
+        "string": "Conservation status is critically endagered",
+        "uri": "https://www.wikidata.org/wiki/Q22718"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "What is the dutch word for anteaters?",
+    "answer": [
+      {
+        "string": "miereneters",
+        "uri": "https://www.wikidata.org/wiki/Q972452"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "What products do sheep produce?",
+    "answer": [
+      {
+        "string": "sheep wool",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "sheepskin",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "sheep milk",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "What sounds do leopards produce?",
+    "answer": [
+      {
+        "string": "roar",
+        "uri": "https://www.wikidata.org/wiki/Q34706"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "What uses has bamboo?",
+    "answer": [
+      {
+        "string": "Building material",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      },
+      {
+        "string": "Industrial crop",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      },
+      {
+        "string": "Horticulture",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      },
+      {
+        "string": "Clothing",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      },
+      {
+        "string": "Bamboo charcoal",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3743047",
+    "string": "What fruit type has an oak tree?",
+    "answer": [
+      {
+        "string": "Glans",
+        "uri": "https://www.wikidata.org/wiki/Q12004"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "How many plant species are there?",
+    "answer": [
+      {
+        "string": "320000",
+        "uri": "https://www.wikidata.org/wiki/Q756"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "How are animals also called?",
+    "answer": [
+      {
+        "string": "Metazoa",
+        "uri": "https://www.wikidata.org/wiki/Q729"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "What are the top 3 fastest animals?",
+    "answer": [
+      {
+        "string": "Peregrine falcon",
+        "uri": "https://www.wikidata.org/wiki/Q3422302"
+      },
+      {
+        "string": "Golden eagle",
+        "uri": "https://www.wikidata.org/wiki/Q3422302"
+      },
+      {
+        "string": "White-throated needletail swift",
+        "uri": "https://www.wikidata.org/wiki/Q3422302"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "What is the height in meters of the tallest tree in the world?",
+    "answer": [
+      {
+        "string": "115.92",
+        "uri": "https://www.wikidata.org/wiki/Q85780910"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "How many dog breeds are there?",
+    "answer": [
+      {
+        "string": "450",
+        "uri": "https://www.wikidata.org/wiki/Q39367"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "What is another word for tree-ring dating?",
+    "answer": [
+      {
+        "string": "Dendrochronology",
+        "uri": "https://www.wikidata.org/wiki/Q80205"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "How do we call the process of plants absorbing sunlight?",
+    "answer": [
+      {
+        "string": "Photosynthesis",
+        "uri": "https://www.wikidata.org/wiki/Q11982"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "What elephant species are still alive?",
+    "answer": [
+      {
+        "string": "African bush elephant",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      },
+      {
+        "string": "African forest elephant",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      },
+      {
+        "string": "Asian elephant",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "How many nicknames does the gyrocarpus americanus have?",
+    "answer": [
+      {
+        "string": "5",
+        "uri": "https://www.wikidata.org/wiki/Q5625456"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4110994",
+    "string": "What is the species name of the kodiak bear?",
+    "answer": [
+      {
+        "string": "Ursus arctos middendorffi",
+        "uri": "https://www.wikidata.org/wiki/Q237260"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "What is the study of dogs called?",
+    "answer": [
+      {
+        "string": "cynology",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "How do hedgehogs travel?",
+    "answer": [
+      {
+        "string": "rolling",
+        "uri": "https://www.wikidata.org/wiki/Q6120"
+      },
+      {
+        "string": "quadrupedalism",
+        "uri": "https://www.wikidata.org/wiki/Q6120"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "What can be harvested from sunflowers?",
+    "answer": [
+      {
+        "string": "sunflower seed",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      },
+      {
+        "string": "sunflower lecithin",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      },
+      {
+        "string": "sunflower oil",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "How old can raccoons get?",
+    "answer": [
+      {
+        "string": "21 year",
+        "uri": "https://www.wikidata.org/wiki/Q121439"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "What is the minimum weight of a Siamese cat?",
+    "answer": [
+      {
+        "string": "4 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q42604"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "What breed is Scooby-Doo?",
+    "answer": [
+      {
+        "string": "Great Dane",
+        "uri": "https://www.wikidata.org/wiki/Q901323"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "What is the wingspan of a Macaroni Penguin?",
+    "answer": [
+      {
+        "string": "70 centimetre",
+        "uri": "https://www.wikidata.org/wiki/Q217494"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "When did the tomato plant win 'Vegetable of the year' award?",
+    "answer": [
+      {
+        "string": "2001",
+        "uri": "https://www.wikidata.org/wiki/Q23501"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "What is the proper name of a blob fish?",
+    "answer": [
+      {
+        "string": "Psychrolutes marcidus",
+        "uri": "https://www.wikidata.org/wiki/Q82288"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4031970",
+    "string": "What is a common name for cannabis?",
+    "answer": [
+      {
+        "string": "hemp",
+        "uri": "https://www.wikidata.org/wiki/Q79817"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "Where was the first Lipizzaner bred?",
+    "answer": [
+      {
+        "string": "Slovenia",
+        "uri": "https://www.wikidata.org/wiki/Q217671"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "What is the lowest frequency a dog can hear?",
+    "answer": [
+      {
+        "string": "67 hertz",
+        "uri": "https://www.wikidata.org/wiki/Q144"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "Where is a kangaroo endemic to?",
+    "answer": [
+      {
+        "string": "Australia",
+        "uri": "https://www.wikidata.org/wiki/Q5070208"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "What is the IUCN conservation status of a venus flytrap?",
+    "answer": [
+      {
+        "string": "vulnereable",
+        "uri": "https://www.wikidata.org/wiki/Q155825"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "What is the eye color of a siamese cat?",
+    "answer": [
+      {
+        "string": "blue",
+        "uri": "https://www.wikidata.org/wiki/Q42604"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "How long does a goat lactate for?",
+    "answer": [
+      {
+        "string": "305 day",
+        "uri": "https://www.wikidata.org/wiki/Q2934"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "What is the fruit type of tulip?",
+    "answer": [
+      {
+        "string": "capsule",
+        "uri": "https://www.wikidata.org/wiki/Q93201"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "When did bats first appear?",
+    "answer": [
+      {
+        "string": "52 million years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q28425"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "What are the uses of bamboo?",
+    "answer": [
+      {
+        "string": "Bamboo charcoal",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      },
+      {
+        "string": "clothing",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      },
+      {
+        "string": "horticulture",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      },
+      {
+        "string": "industrial crop",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      },
+      {
+        "string": "building material",
+        "uri": "https://www.wikidata.org/wiki/Q670887"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4383591",
+    "string": "Where is shiba inu from?",
+    "answer": [
+      {
+        "string": "Japan",
+        "uri": "https://www.wikidata.org/wiki/Q39315"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "How long is the life expectancy of a cat?",
+    "answer": [
+      {
+        "string": "15 years",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "By what study area are spiders studied?",
+    "answer": [
+      {
+        "string": "araneology",
+        "uri": "https://www.wikidata.org/wiki/Q1357"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "What sound do lions produce?",
+    "answer": [
+      {
+        "string": "roar",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "What is the use of flowers?",
+    "answer": [
+      {
+        "string": "plant reproduction",
+        "uri": "https://www.wikidata.org/wiki/Q506"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "Where are kangaroos endemic to?",
+    "answer": [
+      {
+        "string": "Australia",
+        "uri": "https://www.wikidata.org/wiki/Q5070208"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "What is the IUCN conservation status of the blue whale?",
+    "answer": [
+      {
+        "string": "Endangered",
+        "uri": "https://www.wikidata.org/wiki/Q42196"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "What color is a sunflower?",
+    "answer": [
+      {
+        "string": "yellow",
+        "uri": "https://www.wikidata.org/wiki/Q171497"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "How long did the hamster with the highest observed lifespan live?",
+    "answer": [
+      {
+        "string": "3.9 years",
+        "uri": "https://www.wikidata.org/wiki/Q204175"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "What is the use of leaves?",
+    "answer": [
+      {
+        "string": "fodder",
+        "uri": "https://www.wikidata.org/wiki/Q33971"
+      },
+      {
+        "string": "mulch",
+        "uri": "https://www.wikidata.org/wiki/Q33971"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4124820",
+    "string": "Where is the cocoa plant endemic to?",
+    "answer": [
+      {
+        "string": "Brazil",
+        "uri": "https://www.wikidata.org/wiki/Q42385"
+      },
+      {
+        "string": "Colombia",
+        "uri": "https://www.wikidata.org/wiki/Q42385"
+      },
+      {
+        "string": "Ecuador",
+        "uri": "https://www.wikidata.org/wiki/Q42385"
+      },
+      {
+        "string": "Peru",
+        "uri": "https://www.wikidata.org/wiki/Q42385"
+      },
+      {
+        "string": "Venzuela",
+        "uri": "https://www.wikidata.org/wiki/Q42385"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "How old can a European hedgehog get?",
+    "answer": [
+      {
+        "string": "11.7 years",
+        "uri": "https://www.wikidata.org/wiki/Q6145"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "What is butterfly in dutch?",
+    "answer": [
+      {
+        "string": "Vlinder",
+        "uri": "https://www.wikidata.org/wiki/Q11946202"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "What is the top speed of a cheetah?",
+    "answer": [
+      {
+        "string": "120 kilometre per hour",
+        "uri": "https://www.wikidata.org/wiki/Q23907"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "What color is an elephant?",
+    "answer": [
+      {
+        "string": "Grey",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "How many horses were there in 2013?",
+    "answer": [
+      {
+        "string": "58,315,816",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "What conversation status does the king cobra have?",
+    "answer": [
+      {
+        "string": "Vulnerable",
+        "uri": "https://www.wikidata.org/wiki/Q48186"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "Where do koalas come from?",
+    "answer": [
+      {
+        "string": "Australia",
+        "uri": "https://www.wikidata.org/wiki/Q36101"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "How much do giant pandas weigh at birth?",
+    "answer": [
+      {
+        "string": "104 gram",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "What is the heart rate of a giraffe?",
+    "answer": [
+      {
+        "string": "150 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s3005674",
+    "string": "What is the wingspan of a raven?",
+    "answer": [
+      {
+        "string": "1.21 metre",
+        "uri": "https://www.wikidata.org/wiki/Q25357"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "What is the average height of a giraffe?",
+    "answer": [
+      {
+        "string": "5.5\u00b10.5 metre",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "How much does a newborn lion weigh?",
+    "answer": [
+      {
+        "string": "1.65 kilogram",
+        "uri": "https://www.wikidata.org/wiki/Q140"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "What is the german name for chicken?",
+    "answer": [
+      {
+        "string": "H\u00e4hnchen",
+        "uri": "https://www.wikidata.org/wiki/Q780"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "What is the conservation status of the Atlantic salmon?",
+    "answer": [
+      {
+        "string": "Least Concern",
+        "uri": "https://www.wikidata.org/wiki/Q188879"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "In what year did the Asian elephant originate?",
+    "answer": [
+      {
+        "string": "2500000 years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q133006"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "In what year was the Venus flytrap first classified?",
+    "answer": [
+      {
+        "string": "1768",
+        "uri": "https://www.wikidata.org/wiki/Q155825"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "What type of fruit does a plant of the genus Malus produce?",
+    "answer": [
+      {
+        "string": "pome",
+        "uri": "https://www.wikidata.org/wiki/Q104819"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "Of which plant classes is birch a subclass?",
+    "answer": [
+      {
+        "string": "tree",
+        "uri": "https://www.wikidata.org/wiki/Q25243"
+      },
+      {
+        "string": "shrub",
+        "uri": "https://www.wikidata.org/wiki/Q25243"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "How many species of rose are there?",
+    "answer": [
+      {
+        "string": "200",
+        "uri": "https://www.wikidata.org/wiki/Q34687"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s2972670",
+    "string": "Who first classified the potato plant?",
+    "answer": [
+      {
+        "string": "Carl Linnaeus",
+        "uri": "https://www.wikidata.org/wiki/Q10998"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "What does a giant panda mostly eat?",
+    "answer": [
+      {
+        "string": "Bambuseae",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "How much does a gianta panda weigh?",
+    "answer": [
+      {
+        "string": "104 gram birth weight",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      },
+      {
+        "string": "117.5\u00b142.5 kilogram adult weight",
+        "uri": "https://www.wikidata.org/wiki/Q33602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "What types of cannabis are there?",
+    "answer": [
+      {
+        "string": "Cannabis Sativa",
+        "uri": "https://www.wikidata.org/wiki/Q2845"
+      },
+      {
+        "string": "Cannabis Indica",
+        "uri": "https://www.wikidata.org/wiki/Q2845"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "What is another word for pigeon?",
+    "answer": [
+      {
+        "string": "Dove",
+        "uri": "https://www.wikidata.org/wiki/Q2984138"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "What is the highest observed lifespan of a mongoose?",
+    "answer": [
+      {
+        "string": "17.4 years",
+        "uri": "https://www.wikidata.org/wiki/Q23121"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "What is the latin name for a daisy?",
+    "answer": [
+      {
+        "string": "Bellis Perennis",
+        "uri": "https://www.wikidata.org/wiki/Q26158"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "What is the latin name for a chimpanzee?",
+    "answer": [
+      {
+        "string": "Pan Troglodytes",
+        "uri": "https://www.wikidata.org/wiki/Q4126704"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "How tall is an elephant?",
+    "answer": [
+      {
+        "string": "4 metres",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "How do you call the study of ants?",
+    "answer": [
+      {
+        "string": "Myrmecology",
+        "uri": "https://www.wikidata.org/wiki/Q499578"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4113950",
+    "string": "What is the latin name for ants?",
+    "answer": [
+      {
+        "string": "Formicidae",
+        "uri": "https://www.wikidata.org/wiki/Q7386"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "What is the habitat of an ivy?",
+    "answer": [
+      {
+        "string": "tree",
+        "uri": "https://www.wikidata.org/wiki/Q26354"
+      },
+      {
+        "string": "cliff",
+        "uri": "https://www.wikidata.org/wiki/Q26354"
+      },
+      {
+        "string": "lowland",
+        "uri": "https://www.wikidata.org/wiki/Q26354"
+      },
+      {
+        "string": "wall",
+        "uri": "https://www.wikidata.org/wiki/Q26354"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "What is the heart rate of a horse?",
+    "answer": [
+      {
+        "string": "38\u00b16 beats per minute",
+        "uri": "https://www.wikidata.org/wiki/Q726"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "How tall is a giraffe?",
+    "answer": [
+      {
+        "string": "5.5\u00b10.5 metre",
+        "uri": "https://www.wikidata.org/wiki/Q15083"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "How long is the gestation period of a cow?",
+    "answer": [
+      {
+        "string": "285 day",
+        "uri": "https://www.wikidata.org/wiki/Q830"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "How does a horse chestnut disperse its seeds?",
+    "answer": [
+      {
+        "string": "zoochory",
+        "uri": "https://www.wikidata.org/wiki/Q220137"
+      },
+      {
+        "string": "barochory",
+        "uri": "https://www.wikidata.org/wiki/Q808542"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "What is the fruit type of a coconut tree?",
+    "answer": [
+      {
+        "string": "drupe",
+        "uri": "https://www.wikidata.org/wiki/Q14712"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "Where was the tree of the knowledge of good and evil?",
+    "answer": [
+      {
+        "string": "Garden of Eden",
+        "uri": "https://www.wikidata.org/wiki/Q19014"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "When was sunflower oil invented?",
+    "answer": [
+      {
+        "string": "1829",
+        "uri": "https://www.wikidata.org/wiki/Q94787"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "How fast can a cheetah run?",
+    "answer": [
+      {
+        "string": "120 kilometre per hour",
+        "uri": "https://www.wikidata.org/wiki/Q23907"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4065832",
+    "string": "What does a sheep eat?",
+    "answer": [
+      {
+        "string": "grass",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "dietary fiber",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "hay",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "legume",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "forb",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "Bromus tectorum",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "Euphorbia virgata",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "Pueraria thomsonii",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "Centaurea maculosa",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      },
+      {
+        "string": "Sagebrush",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "What is the conservation status of the axolotl?",
+    "answer": [
+      {
+        "string": "Critically Endangered",
+        "uri": "https://www.wikidata.org/wiki/Q22718"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s1234567",
+    "string": "What products originate from rubber trees?",
+    "answer": [
+      {
+        "string": "natural rubber",
+        "uri": "https://www.wikidata.org/wiki/Q156538"
+      },
+      {
+        "string": "rubberwood",
+        "uri": "https://www.wikidata.org/wiki/Q156538"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "Which type of fruit do rubber trees produce?",
+    "answer": [
+      {
+        "string": "capsule",
+        "uri": "https://www.wikidata.org/wiki/Q156538"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "What is the native country of the yellow-bellied slider?",
+    "answer": [
+      {
+        "string": "United States of America",
+        "uri": "https://www.wikidata.org/wiki/Q386512"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "What eye color do siamese cats have?",
+    "answer": [
+      {
+        "string": "blue",
+        "uri": "https://www.wikidata.org/wiki/Q42604"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "Since when have isopoda been around?",
+    "answer": [
+      {
+        "string": "300 million years BCE",
+        "uri": "https://www.wikidata.org/wiki/Q206338"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "After whom was the sansevieria plant named?",
+    "answer": [
+      {
+        "string": "Raimondo di Sangro",
+        "uri": "https://www.wikidata.org/wiki/Q312160"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "What is the maximum age for mountain goats?",
+    "answer": [
+      {
+        "string": "20.8 year",
+        "uri": "https://www.wikidata.org/wiki/Q242602"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "What is the study of algea called?",
+    "answer": [
+      {
+        "string": "phycology",
+        "uri": "https://www.wikidata.org/wiki/Q37868"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4131762",
+    "string": "In what year was the 52-hertz whale discovered?",
+    "answer": [
+      {
+        "string": "1989",
+        "uri": "https://www.wikidata.org/wiki/Q452"
+      }
+    ]
+  }
+]
