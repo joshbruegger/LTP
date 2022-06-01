@@ -1,0 +1,106 @@
+[
+  {
+    "studentnumber": "s4361687",
+    "string": "What is the scientific name for cat?",
+    "answer": [
+      {
+        "string": "Felis silvestris catus",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      },
+      {
+        "string": "Felis catus",
+        "uri": "https://www.wikidata.org/wiki/Q146"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "What is the oldest cat?",
+    "answer": [
+      {
+        "string": "Cream Puff",
+        "uri": "https://www.wikidata.org/wiki/Q2597104"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "When did Unsinkable Sam die?",
+    "answer": [
+      {
+        "string": "1955",
+        "uri": "https://www.wikidata.org/wiki/Q893453"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "How many dog breeds are there?",
+    "answer": [
+      {
+        "string": "813",
+        "uri": "https://www.wikidata.org/wiki/Q39367"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "Are bananas berries?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q503"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "What is the hottest chili pepper?",
+    "answer": [
+      {
+        "string": "Carolina Reaper",
+        "uri": "https://www.wikidata.org/wiki/Q15427475"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "How heigh is an elephant?",
+    "answer": [
+      {
+        "string": "4 metres",
+        "uri": "https://www.wikidata.org/wiki/Q7378"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "Are sheeps herbivores?",
+    "answer": [
+      {
+        "string": "Yes",
+        "uri": "https://www.wikidata.org/wiki/Q7368"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "What is the sound of an eagle called?",
+    "answer": [
+      {
+        "string": "Eagle cry",
+        "uri": "https://www.wikidata.org/wiki/Q2092297"
+      }
+    ]
+  },
+  {
+    "studentnumber": "s4361687",
+    "string": "When did we start cultivating cucumbers?",
+    "answer": [
+      {
+        "string": "Circa 3000 BCE",
+        "uri": "https://www.wikidata.org/wiki/Q2735883"
+      }
+    ]
+  }
+]
