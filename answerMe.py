@@ -3,6 +3,7 @@ from cmath import exp
 
 import requests
 import spacy
+import traceback
 
 # Cooool code starts here
 
@@ -15,7 +16,7 @@ def log(msg):
 
 
 def main():
-    answer("is zeynep cute?")
+    answer("What is a climber?")
 
 
 def answer(question):
@@ -47,6 +48,8 @@ def answer(question):
 
 def whatQuestion(doc):
     nouns = list(doc.noun_chunks)
+    processProperty(nouns)
+
     def removeArticle(str): return re.sub('^(?:the|a|an) ', '', str)
     log('Noun chunks: ' + str(nouns))
 
@@ -65,15 +68,26 @@ def whatQuestion(doc):
                 return entity + ' is a ' + desc
 
     else:
-        entity = removeArticle(nouns[len(nouns)-1].text)
+        entity = removeArticle(nouns[-1].text)
 
         if (len(nouns) == 3):
             property = removeArticle(nouns[1].text)
+        
+        # Checks if the question has "another word for/other names of" or else, and queries using "skos:altLabel"
+        if (str(nouns[1]) in diffName):
+            print("Property:" + property + "Entity:" + entity )
+            possibleObjects = getWikidataIDs(entity)
+            answer = queryWikidata(buildLabelQuery(
+                    possibleObjects[0]['id']))
+            if answer is not None:
+                return answer
+
         else:
-            pattern = '(' + nouns[1].text + '.*?' + \
-                nouns[len(nouns)-2].text + ')'
+            pattern = '(' + nouns[1].text + ')' # (('.*?' + nouns[len(nouns)-2].text + )) it was searching for the same regex twice, removed it
             m = re.search(pattern, doc.text)
+            print(pattern)
             property = removeArticle(m.group(1))
+            
 
         property = processProperty(property)
         possibleObjects = getWikidataIDs(entity)
@@ -116,6 +130,7 @@ def yesNoQuestion(doc):
             if answer is not None:
                 return answer
 
+diffName = ["also known as", "other names", "other word", "another name"]
 
 def processProperty(word):
     match word:
@@ -127,8 +142,6 @@ def processProperty(word):
             return "highest observed lifespan"
         case 'sound ':
             return "produced sound"
-        case 'also known as ' | "other names" | "other word" | "another name":
-            return "altLabel"
         case 'definition ':
             return "Description"
         case _:
@@ -159,9 +172,10 @@ def formatAnswer(data):
     finalAnswer = ''
 
     finalAnswer += formattedAnswers[0]
-    for ans in formattedAnswers[1:-1]:
-        finalAnswer += ', ' + ans
-    finalAnswer += ', and ' + formattedAnswers[-1]
+    if(len(formattedAnswers) > 1): # It was printing the same value twice if the list has only one item, added if statement
+        for ans in formattedAnswers[1:-1]:
+            finalAnswer += ', ' + ans
+        finalAnswer += ', and ' + formattedAnswers[-1]
 
     return finalAnswer
 
@@ -178,8 +192,9 @@ def queryWikidata(query):
             else:
                 return 'No'
         else:
-            data = data['results']['binding']
+            data = data['results']['bindings']
     except:
+        traceback.print_exc()
         return 'Error: Query failed: Too many requests?'
 
     if len(data) == 0:
@@ -199,8 +214,7 @@ def buildQuery(object, property):
 
 def buildLabelQuery(obj):
     q = 'SELECT ?answerLabel WHERE { wd:'
-    q += obj + \
-        ' skos:altLabel ?answerLabel. FILTER ( lang(?answerLabel) = "en" ) }'
+    q += obj + ' skos:altLabel ?answerLabel. FILTER ( lang(?answerLabel) = "en" ) }'
     return q
 
 
