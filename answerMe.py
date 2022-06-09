@@ -16,7 +16,7 @@ def log(msg):
 
 
 def main():
-    answer("What is a climber?")
+    answer("Where was the mammoth discovered?")
 
 
 def answer(question):
@@ -102,6 +102,47 @@ def whatQuestion(doc):
                 if answer is not None:
                     return answer
 
+
+def whereQuestion(doc):
+    nouns = list(doc.noun_chunks)
+    processProperty(nouns)
+
+
+    def removeArticle(str):
+        return re.sub('^(?:the|a|an) ', '', str)
+
+    log('Noun chunks: ' + str(nouns))
+
+
+    entity = removeArticle(nouns[-1].text)
+    if doc[-2].text == 'discovered':
+        property1 = "location of discovery"
+    else:
+        property1 = "endemic to"
+    property2 = "country of origin"
+    property1 = processProperty(property1)
+    property2 = processProperty(property2)
+    possibleObjects = getWikidataIDs(entity)
+    possibleProperties1 = getWikidataIDs(property1, True)
+    possibleProperties2 = getWikidataIDs(property2, True)
+
+    for object in possibleObjects:
+        for property in possibleProperties1:
+            log('trying: ' + property['display']['label']['value'] +
+                ' of ' + object['display']['label']['value'])
+            answer = queryWikidata(buildQuery(
+                 object['id'], property['id']))
+
+            if answer is not None:
+                return answer
+            else:
+                for property2 in possibleProperties2:
+                     log('trying: ' + property['display']['label']['value'] +
+                     ' of ' + object['display']['label']['value'])
+                     answer = queryWikidata(buildQuery(
+                         object['id'], property2['id']))
+                     if answer is not None:
+                        return answer
 
 def yesNoQuestion(doc):
     nouns = list(doc.noun_chunks)
