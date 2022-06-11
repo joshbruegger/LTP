@@ -1,9 +1,16 @@
 import re
 from cmath import exp
 
+import nltk
+from nltk.corpus import wordnet
+from nltk.stem import WordNetLemmatizer
 import requests
 import spacy
+from spacy import displacy
 import traceback
+
+wnl = WordNetLemmatizer()
+
 
 # Cooool code starts here
 
@@ -16,38 +23,56 @@ def log(msg):
 
 
 def main():
-    answer("Where was the mammoth discovered?")
+    answer("What is the average heart rate of a chicken?")
 
 
 def answer(question):
-    nlp = spacy.load('en_core_web_trf')
+    dependencyPars = spacy.load('en_core_web_trf')
 
     print("=============================================================================================================================")
 
     # 1. get question type
     # What, where, yes/no, count, how
 
-    doc = nlp(question)  # parse the input
+    doc = dependencyPars(question)  # parse the input
     firstWord = doc[0].text.lower()
-    match firstWord:
-        case 'what':
-            ans = whatQuestion(doc)
-        case "is" | "does" | "are" | "do" | "can":
-            ans = yesNoQuestion(doc)
-        case "where":
-            ans = whereQuestion(doc)
-        case "which":
-            ans = whichQuestion(doc)
-        case "how many":
-            ans = countQuestion(doc)
-        case _:
-            print("IDK")
+
+    yesNoList = ["is", "are", "can", "do", "does"]
+
+    if "what" in doc.text.lower():
+        ans = whatQuestion(doc)
+    elif firstWord in yesNoList:
+        ans = yesNoQuestion(doc)
+    elif "where" in doc.text.lower():
+        ans = whereQuestion(doc)
+    elif "which" in doc.text.lower():
+        ans = whichQuestion(doc)
+    elif "how many" in doc.text.lower():
+        ans = countQuestion(doc)
+    elif "when" in doc.text.lower():
+        print("when huh")
+        ans = whenQuestion(doc)
 
     print(ans)
 
 
 def whatQuestion(doc):
-    nouns = list(doc.noun_chunks)
+    nouns = []
+    for chunk in doc.noun_chunks:
+        nouns.append(str(chunk))
+    for noun in nouns:
+        new = noun
+        if "average" in noun:
+            new = str(noun).replace("average ", "")
+        if "common" in noun:
+            new = str(noun).replace("common ", "")
+        if "mean" in noun:
+            new = str(noun).replace("mean ", "")
+        index = nouns.index(noun)
+        nouns[index] = new
+        
+
+    print(nouns)
     processProperty(nouns)
 
     def removeArticle(str): return re.sub('^(?:the|a|an) ', '', str)
@@ -55,27 +80,36 @@ def whatQuestion(doc):
 
     if len(nouns) < 3:
         # If there are less than 3 noun chunks, it's probably a question like "What is a lion?"
-        entity = removeArticle(nouns[1].text)
-        possibleObjects = getWikidataIDs(entity)
-        for obj in possibleObjects:
-            desc = obj['display']['description']['value']
-            if desc is not None:
-                # check if entity starts with vowel
-                if entity[0].lower() in 'aeiou':
-                    entity = "An " + entity
-                else:
-                    entity = "A " + entity
-                return entity + ' is a ' + desc
+        if ("also" in doc.text):
+            entity = removeArticle(nouns[1])
+            possibleObjects = getWikidataIDs(entity)
+            answer = queryWikidata(buildLabelQuery(
+                    possibleObjects[0]['id']))
+            if answer is not None:
+                return answer
+        else:
+            entity = removeArticle(nouns[1])
+            possibleObjects = getWikidataIDs(entity)
+            for obj in possibleObjects:
+                desc = obj['display']['description']['value']
+                if desc is not None:
+                    # check if entity starts with vowel
+                    if entity[0].lower() in 'aeiou':
+                        entity = "An " + entity
+                    else:
+                        entity = "A " + entity
+                    return entity + ' is a ' + desc
 
     else:
-        entity = removeArticle(nouns[-1].text)
+        entity = removeArticle(nouns[-1])
 
         if (len(nouns) == 3):
-            property = removeArticle(nouns[1].text)
+            property = removeArticle(nouns[1])
         
         # Checks if the question has "another word for/other names of" or else, and queries using "skos:altLabel"
+
         if (str(nouns[1]) in diffName):
-            print("Property:" + property + "Entity:" + entity )
+            print("Property: " + property + "Entity: " + entity )
             possibleObjects = getWikidataIDs(entity)
             answer = queryWikidata(buildLabelQuery(
                     possibleObjects[0]['id']))
@@ -83,10 +117,11 @@ def whatQuestion(doc):
                 return answer
 
         else:
-            pattern = '(' + nouns[1].text + ')' # (('.*?' + nouns[len(nouns)-2].text + )) it was searching for the same regex twice, removed it
-            m = re.search(pattern, doc.text)
-            print(pattern)
-            property = removeArticle(m.group(1))
+            # pattern = '(' + nouns[1] + ')' # (('.*?' + nouns[len(nouns)-2].text + )) it was searching for the same regex twice, removed it
+            # m = re.search(pattern, doc.text)
+            # print(type(m))
+            # print(pattern)
+            property = removeArticle(nouns[1])
             
 
         property = processProperty(property)
@@ -106,15 +141,15 @@ def whatQuestion(doc):
 def whereQuestion(doc):
     nouns = list(doc.noun_chunks)
     processProperty(nouns)
-
-
+    
     def removeArticle(str):
         return re.sub('^(?:the|a|an) ', '', str)
 
     log('Noun chunks: ' + str(nouns))
 
 
-    entity = removeArticle(nouns[-1].text)
+    entity = wnl.lemmatize(removeArticle(nouns[-1].text))
+
     if doc[-2].text == 'discovered':
         property1 = "location of discovery"
     else:
@@ -123,6 +158,7 @@ def whereQuestion(doc):
     property1 = processProperty(property1)
     property2 = processProperty(property2)
     possibleObjects = getWikidataIDs(entity)
+    print(entity)
     possibleProperties1 = getWikidataIDs(property1, True)
     possibleProperties2 = getWikidataIDs(property2, True)
 
@@ -154,7 +190,7 @@ def yesNoQuestion(doc):
     if (len(nouns) <= 3):
         noun2 = removeArticle(nouns[0].text)
     else:
-        pattern = '(' + nouns[1].text + '.*?' + \
+        pattern = '(' + nouns[1] + '.*?' + \
             nouns[len(nouns)-2].text + ')'
         m = re.search(pattern, doc.text)
         noun1 = removeArticle(m.group(1))
@@ -171,7 +207,26 @@ def yesNoQuestion(doc):
             if answer is not None:
                 return answer
 
+def countQuestion(doc):
+    if ("old" in doc.text):
+        property = ""
+
+    return doc
+
+def whenQuestion(doc):
+
+    return doc
+
+
 diffName = ["also known as", "other names", "other word", "another name"]
+
+def getSynonyms(word):
+    synonyms = []
+    for syn in wordnet.synsets(str(word)):
+        for l in syn.lemmas():
+            synonyms.append(l.name())
+    print(synonyms)
+    
 
 def processProperty(word):
     match word:
@@ -185,6 +240,10 @@ def processProperty(word):
             return "produced sound"
         case 'definition ':
             return "Description"
+        case "pregnant" | "pregnancy":
+            return "gestation period"
+        case "average":
+            return ""
         case _:
             return word
 
