@@ -34,7 +34,7 @@ def clear_console(): return os.system(
     'cls' if os.name in ('nt', 'dos') else 'clear')
 
 
-def try_all_questions(file):
+def try_all_questions(file, question_id):
     global PRINT_DEBUG
     PRINT_DEBUG = False
     f = open(file)
@@ -43,7 +43,7 @@ def try_all_questions(file):
 
     for question in questions:
         print("=============================================================================================================================")
-        q = question.get('string')
+        q = question.get(question_id)
         print(q)
         answer(q)
 
@@ -65,9 +65,11 @@ def main():
             question = input("Enter your question: ")
             answer(question)
         elif choice == '2':
-            try_all_questions('all_questions.json')
+            try_all_questions('all_questions.json', 'string')
         elif choice == '3':
-            try_all_questions(input("Enter file name: "))
+            file = input("Enter the file name: ")
+            q_id = input("Enter the question ID: ")
+            try_all_questions(file, q_id)
         elif choice == '4':
             global PRINT_DEBUG
             PRINT_DEBUG = not PRINT_DEBUG
@@ -143,15 +145,15 @@ def what_question(doc):
         # If there are less than 3 noun chunks, it's probably a question like "What is a lion?"
         if ("also" in doc.text):
             entity = remove_article(nouns[1])
-            possibleObjects = get_wikidata_ids(entity)
+            possible_objects = get_wikidata_ids(entity)
             answer = query_wikidata(build_label_query(
-                possibleObjects[0]['id']))
+                possible_objects[0]['id']))
             if answer is not None:
                 return answer
         else:
             entity = remove_article(nouns[1])
-            possibleObjects = get_wikidata_ids(entity)
-            for obj in possibleObjects:
+            possible_objects = get_wikidata_ids(entity)
+            for obj in possible_objects:
                 desc = obj['display']['description']['value']
                 if desc is not None:
                     # check if entity starts with vowel
@@ -171,28 +173,23 @@ def what_question(doc):
 
         if (str(nouns[1]) in diffName):
             log("Property: " + prop + "Entity: " + entity)
-            possibleObjects = get_wikidata_ids(entity)
+            possible_objects = get_wikidata_ids(entity)
             answer = query_wikidata(build_label_query(
-                possibleObjects[0]['id']))
+                possible_objects[0]['id']))
             if answer is not None:
                 return answer
 
         else:
-            # pattern = '(' + nouns[1] + ')' # (('.*?' + nouns[len(nouns)-2].text + )) it was searching for the same regex twice, removed it
-            # m = re.search(pattern, doc.text)
-            # print(type(m))
-            # print(pattern)
             prop = remove_article(nouns[1])
 
-        # prop = process_property(prop)
-        possibleObjects = get_wikidata_ids(entity)
-        possibleProperties = get_wikidata_ids(prop, True)
+        possible_objects = get_wikidata_ids(entity)
+        possible_properties = get_wikidata_ids(prop, True)
         extra = get_synonyms(prop)
         for i in extra:
-            possibleProperties.extend(get_wikidata_ids(i, True))
+            possible_properties.extend(get_wikidata_ids(i, True))
 
-        for object in possibleObjects:
-            for prop in possibleProperties:
+        for object in possible_objects:
+            for prop in possible_properties:
                 log('trying: ' + prop['display']['label']['value'] +
                     ' of ' + object['display']['label']['value'])
                 answer = query_wikidata(build_query(
@@ -250,10 +247,6 @@ def yes_no_q(doc):
         noun2 = remove_article(nouns[0].text)
     else:
         return "I don't know"
-        # pattern = '(' + nouns[1].text + '.*?' + \
-        #     nouns[len(nouns)-2].text + ')'
-        # m = re.search(pattern, doc.text)
-        # noun1 = remove_article(m.group(1))
 
     noun1_possibilities = get_wikidata_ids(noun1)
     noun2_possibilities = get_wikidata_ids(noun2)
