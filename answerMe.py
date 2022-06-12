@@ -1,16 +1,23 @@
+import json
+import os
 import re
 import traceback
-from cmath import exp
 
+import nltk
 import requests
 import spacy
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 
 wnl = WordNetLemmatizer()
+# download only if not already downloaded
+if not nltk.data.find('corpora/wordnet') or not nltk.data.find('corpora/omw-1.4'):
+    nltk.download('wordnet')
+    nltk.download('omw-1.4')
+    print("=============================================================================================================================")
 
 
-PRINT_DEBUG = True
+PRINT_DEBUG = False
 SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql'
 API_ENDPOINT = 'https://www.wikidata.org/w/api.php'
 HEADERS = {'User-Agent': 'QASys/0.0 (https://rug.nl/LTP/; dont@mail.me)'}
@@ -21,14 +28,34 @@ def log(msg):
         print(msg)
 
 
+def clear_console(): return os.system(
+    'cls' if os.name in ('nt', 'dos') else 'clear')
+
+
+def try_all_questions():
+    global PRINT_DEBUG
+    PRINT_DEBUG = False
+    f = open('all_questions.json')
+    questions = json.load(f)
+    f.close()
+
+    for question in questions:
+        print("=============================================================================================================================")
+        q = question.get('string')
+        print(q)
+        answer(q)
+
+
 def main():
-    answer("Where does the bonsai tree come from?")
+    clear_console()
+    print("SlayQA 0.0")
+
+    try_all_questions()
+    # answer("Can you tell me the colour of narcissi?")
 
 
 def answer(question):
     dependency_pars = spacy.load('en_core_web_trf')
-
-    print("=============================================================================================================================")
 
     # 1. get question type
     # What, where, yes/no, count, how
@@ -45,11 +72,13 @@ def answer(question):
     elif "where" in doc.text.lower():
         ans = where_question(doc)
     elif "which" in doc.text.lower():
-        ans = whichQuestion(doc)
+        ans = which_question(doc)
     elif "how many" in doc.text.lower():
         ans = count_q(doc)
     elif "when" in doc.text.lower():
         ans = when_q(doc)
+    else:
+        ans = " I don't know"
 
     print(ans)
 
@@ -57,12 +86,18 @@ def answer(question):
 def remove_article(str):
     return re.sub('^(?:the|a|an) ', '', str)
 
+
 def get_synonyms(word):
     synonyms = []
     for syn in wordnet.synsets(str(word), pos="n"):
         for l in syn.lemmas():
             synonyms.append(str(l.name()))
     return synonyms
+
+
+def which_question(doc):
+    return "Which question not implemented yet!"
+
 
 def what_question(doc):
     nouns = []
@@ -79,8 +114,8 @@ def what_question(doc):
         index = nouns.index(noun)
         nouns[index] = new
 
-    print(nouns)
-    process_property(nouns)
+    log(nouns)
+    process_noun(nouns)
 
     log('Noun chunks: ' + str(nouns))
 
@@ -115,7 +150,7 @@ def what_question(doc):
         # Checks if the question has "another word for/other names of" or else, and queries using "skos:altLabel"
 
         if (str(nouns[1]) in diffName):
-            print("Property: " + prop + "Entity: " + entity)
+            log("Property: " + prop + "Entity: " + entity)
             possibleObjects = get_wikidata_ids(entity)
             answer = query_wikidata(build_label_query(
                 possibleObjects[0]['id']))
@@ -128,9 +163,8 @@ def what_question(doc):
             # print(type(m))
             # print(pattern)
             prop = remove_article(nouns[1])
-            
 
-        #prop = process_property(prop)
+        # prop = process_property(prop)
         possibleObjects = get_wikidata_ids(entity)
         possibleProperties = get_wikidata_ids(prop, True)
         extra = get_synonyms(prop)
@@ -149,7 +183,7 @@ def what_question(doc):
 
 def where_question(doc):
     nouns = list(doc.noun_chunks)
-    process_property(nouns)
+    process_noun(nouns)
 
     log('Noun chunks: ' + str(nouns))
 
@@ -160,10 +194,10 @@ def where_question(doc):
     else:
         property1 = "endemic to"
     property2 = "country of origin"
-    property1 = process_property(property1)
-    property2 = process_property(property2)
+    property1 = process_noun(property1)
+    property2 = process_noun(property2)
     possible_objects = get_wikidata_ids(entity)
-    print(entity)
+    log(entity)
     possible_properties1 = get_wikidata_ids(property1, True)
     possible_properties2 = get_wikidata_ids(property2, True)
 
@@ -195,10 +229,11 @@ def yes_no_q(doc):
     if (len(nouns) <= 3):
         noun2 = remove_article(nouns[0].text)
     else:
-        pattern = '(' + nouns[1] + '.*?' + \
-            nouns[len(nouns)-2].text + ')'
-        m = re.search(pattern, doc.text)
-        noun1 = remove_article(m.group(1))
+        return "I don't know"
+        # pattern = '(' + nouns[1].text + '.*?' + \
+        #     nouns[len(nouns)-2].text + ')'
+        # m = re.search(pattern, doc.text)
+        # noun1 = remove_article(m.group(1))
 
     noun1_possibilities = get_wikidata_ids(noun1)
     noun2_possibilities = get_wikidata_ids(noun2)
@@ -219,6 +254,7 @@ def count_q(doc):
 
     return doc
 
+
 def how_q(doc):
     return
 
@@ -230,7 +266,7 @@ def when_q(doc):
 diffName = ["also known as", "other names", "other word", "another name"]
 
 
-def process_property(word):
+def process_noun(word):
     match word:
         case 'heavy':
             return "mass"
@@ -320,20 +356,18 @@ def build_label_query(obj):
 def build_yes_no_query(object, property):
     q = 'ASK { wd:'
     q += object + ' wdt:P279 wd:' + property + '. }'
-    print(q)
     return q
 
 
 def get_wikidata_ids(query, isProperty=False):
     params = {'action': 'wbsearchentities',
-            'language': 'en',
-            'format': 'json',
-            'search': query}
+              'language': 'en',
+              'format': 'json',
+              'search': query}
     if isProperty:
         params['type'] = 'property'
-    
+
     return requests.get(API_ENDPOINT, params).json()['search']
-    
 
 
 main()
