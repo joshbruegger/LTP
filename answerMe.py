@@ -17,7 +17,7 @@ if not nltk.data.find('corpora/wordnet') or not nltk.data.find('corpora/omw-1.4'
     print("=============================================================================================================================")
 
 
-PRINT_DEBUG = False
+PRINT_DEBUG = True
 SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql'
 API_ENDPOINT = 'https://www.wikidata.org/w/api.php'
 HEADERS = {'User-Agent': 'QASys/0.0 (https://rug.nl/LTP/; dont@mail.me)'}
@@ -50,6 +50,10 @@ def try_all_questions(file, question_id):
 
 def main():
     clear_console()
+    answer(input("Question: "))
+
+    return
+
     print("SlayQA 1.0")
     while True:
         print('-----------')
@@ -121,7 +125,54 @@ def get_synonyms(word):
 
 
 def which_question(doc):
-    return "Which question not implemented yet!"
+    all = []
+    ans = None
+    words = ''
+
+    for word in doc.noun_chunks:
+        words = remove_article(word.text.lower())
+        #words = wnl.lemmatize(removeArticle(words))
+        words = process_noun(words)
+        all += [words]
+
+    all = list(filter(None, all))
+    if len(all) == 2:
+        ans = solver(all[1], all[0])
+    elif len(all) > 2:
+        ans = solver(all[-1], all[1])
+        if ans is None:
+            ans = solver(all[1], all[-1])
+
+    for word in doc:
+        if (ans is None and (word.text not in all and
+            word.pos_ == "NOUN" or word.pos_ == "ADJ" or
+                             word.pos_ == "ADV" or word.pos_ == "VERB")):
+            words = remove_article(word.text.lower())
+            words = process_noun(words)
+            ans = solver(all[-1], words)
+            if ans is None:
+                ans = solver(all[0], words)
+                if ans is None:
+                    ans = solver(words, all[0])
+
+    return ans
+
+
+def solver(entity, property):
+    log("entity,property:" + entity + ", " + property)
+
+    possible_objects = get_wikidata_ids(entity)
+    possible_properties = get_wikidata_ids(property, True)
+
+    for object in possible_objects:
+        for prop in possible_properties:
+            # log('trying: ' + prop['display']['label']['value'] +
+            #    ' of ' + object['display']['label']['value'])
+            ans = query_wikidata(build_query(
+                object['id'], prop['id']))
+            ans = format_answer(ans)
+            if ans is not None:
+                return ans
 
 
 def what_question(doc):
@@ -130,12 +181,10 @@ def what_question(doc):
         nouns.append(str(chunk))
     for noun in nouns:
         new = noun
-        if "average" in noun:
-            new = str(noun).replace("average ", "")
-        if "common" in noun:
-            new = str(noun).replace("common ", "")
-        if "mean" in noun:
-            new = str(noun).replace("mean ", "")
+        new = new.replace("average ", "")
+        new = new.replace("common ", "")
+        new = new.replace("mean ", "")
+        new = new.replace("typical ", "")
         index = nouns.index(noun)
         nouns[index] = new
 
@@ -148,6 +197,7 @@ def what_question(doc):
             possible_objects = get_wikidata_ids(entity)
             answer = query_wikidata(build_label_query(
                 possible_objects[0]['id']))
+            answer = format_answer(answer)
             if answer is not None:
                 return answer
         else:
@@ -176,6 +226,7 @@ def what_question(doc):
             possible_objects = get_wikidata_ids(entity)
             answer = query_wikidata(build_label_query(
                 possible_objects[0]['id']))
+            answer = format_answer(answer)
             if answer is not None:
                 return answer
 
@@ -194,6 +245,7 @@ def what_question(doc):
                     ' of ' + object['display']['label']['value'])
                 answer = query_wikidata(build_query(
                     object['id'], prop['id']))
+                answer = format_answer(answer)
                 if answer is not None:
                     return answer
 
@@ -224,6 +276,7 @@ def where_question(doc):
                 ' of ' + object['display']['label']['value'])
             answer = query_wikidata(build_query(
                 object['id'], property['id']))
+            answer = format_answer(answer)
 
             if answer is not None:
                 return answer
@@ -233,6 +286,7 @@ def where_question(doc):
                         ' of ' + object['display']['label']['value'])
                     answer = query_wikidata(build_query(
                         object['id'], property2['id']))
+                    answer = format_answer(answer)
                     if answer is not None:
                         return answer
 
@@ -241,24 +295,47 @@ def yes_no_q(doc):
     nouns = list(doc.noun_chunks)
     log('Noun chunks: ' + str(nouns))
 
-    noun1 = remove_article(nouns[len(nouns)-1].text)
+    if (len(nouns) == 1):
+        for word in doc:
+            if word.pos_ == 'ADJ':
+                adj = word.text
+        if adj is None:
+            return "I don't know"
+        else:
+            if adj == 'safe' and "to eat" in doc.text:
+                adj = 'edible'
+            log('Adjective: ' + adj)
 
-    if (len(nouns) <= 3):
-        noun2 = remove_article(nouns[0].text)
+            entity = wnl.lemmatize(remove_article(nouns[0].text))
+            log('Entity: ' + nouns[0].text)
+
+            possible_objects = get_wikidata_ids(entity)
+
+            for object in possible_objects:
+                log('trying:' + object['display']['label']['value'])
+                answer = adj in str(query_wikidata(
+                    query_all_properties(object['id'])))
+                if answer:
+                    return "Yes"
+            return "No"
+
     else:
-        return "I don't know"
 
-    noun1_possibilities = get_wikidata_ids(noun1)
-    noun2_possibilities = get_wikidata_ids(noun2)
+        noun1 = remove_article(nouns[-1].text)
+        noun2 = remove_article(nouns[0].text)
 
-    for noun1try in noun1_possibilities:
-        for noun2try in noun2_possibilities:
-            log('trying: is a ' + noun2try['display']['label']['value'] +
-                ' a ' + noun1try['display']['label']['value'])
-            answer = query_wikidata(build_yes_no_query(
-                noun2try['id'], noun1try['id']))
-            if answer is not None:
-                return answer
+        noun1_possibilities = get_wikidata_ids(noun1)
+        noun2_possibilities = get_wikidata_ids(noun2)
+
+        for noun1try in noun1_possibilities:
+            for noun2try in noun2_possibilities:
+                log('trying: is a ' + noun2try['display']['label']['value'] +
+                    ' a ' + noun1try['display']['label']['value'])
+                answer = query_wikidata(build_yes_no_query(
+                    noun2try['id'], noun1try['id']))
+                answer = format_answer(answer)
+                if answer is not None:
+                    return answer
 
 
 def count_q(doc):
@@ -347,7 +424,7 @@ def query_wikidata(query):
     if len(data) == 0:
         return None
 
-    return format_answer(data)
+    return data
 
 
 def build_query(object, property):
@@ -370,6 +447,21 @@ def build_yes_no_query(object, property):
     q = 'ASK { wd:'
     q += object + ' wdt:P279 wd:' + property + '. }'
     return q
+
+
+def query_all_properties(entity):
+    return '''SELECT ?wdLabel ?ps_Label ?wdpqLabel ?pq_Label {
+    VALUES (?entity) {(wd:$entity$)}
+    ?entity ?p ?statement .
+    ?statement ?ps ?ps_ .
+    ?wd wikibase:claim ?p.
+    ?wd wikibase:statementProperty ?ps.
+    OPTIONAL {
+    ?statement ?pq ?pq_ .
+    ?wdpq wikibase:qualifier ?pq .
+    }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+    } ORDER BY ?wd ?statement ?ps_'''.replace('$entity$', entity)
 
 
 def get_wikidata_ids(query, isProperty=False):
