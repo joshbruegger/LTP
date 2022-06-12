@@ -1,24 +1,23 @@
 import re
+import traceback
 from cmath import exp
 
-import nltk
-from nltk.corpus import wordnet
-from nltk.stem import WordNetLemmatizer
 import requests
 import spacy
-from spacy import displacy
-import traceback
+from nltk.corpus import wordnet
+from nltk.stem import WordNetLemmatizer
 
 wnl = WordNetLemmatizer()
 
 
-# Cooool code starts here
-
-printDebug = True
+PRINT_DEBUG = True
+SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql'
+API_ENDPOINT = 'https://www.wikidata.org/w/api.php'
+HEADERS = {'User-Agent': 'QASys/0.0 (https://rug.nl/LTP/; dont@mail.me)'}
 
 
 def log(msg):
-    if printDebug:
+    if PRINT_DEBUG:
         print(msg)
 
 
@@ -27,36 +26,40 @@ def main():
 
 
 def answer(question):
-    dependencyPars = spacy.load('en_core_web_trf')
+    dependency_pars = spacy.load('en_core_web_trf')
 
     print("=============================================================================================================================")
 
     # 1. get question type
     # What, where, yes/no, count, how
 
-    doc = dependencyPars(question)  # parse the input
-    firstWord = doc[0].text.lower()
+    doc = dependency_pars(question)  # parse the input
+    first_word = doc[0].text.lower()
 
-    yesNoList = ["is", "are", "can", "do", "does"]
+    yes_no_list = ["is", "are", "can", "do", "does"]
 
     if "what" in doc.text.lower():
-        ans = whatQuestion(doc)
-    elif firstWord in yesNoList:
-        ans = yesNoQuestion(doc)
+        ans = what_question(doc)
+    elif first_word in yes_no_list:
+        ans = yes_no_q(doc)
     elif "where" in doc.text.lower():
-        ans = whereQuestion(doc)
+        ans = where_question(doc)
     elif "which" in doc.text.lower():
         ans = whichQuestion(doc)
     elif "how many" in doc.text.lower():
-        ans = countQuestion(doc)
+        ans = count_q(doc)
     elif "when" in doc.text.lower():
         print("when huh")
-        ans = whenQuestion(doc)
+        ans = when_q(doc)
 
     print(ans)
 
 
-def whatQuestion(doc):
+def remove_article(str):
+    return re.sub('^(?:the|a|an) ', '', str)
+
+
+def what_question(doc):
     nouns = []
     for chunk in doc.noun_chunks:
         nouns.append(str(chunk))
@@ -70,26 +73,24 @@ def whatQuestion(doc):
             new = str(noun).replace("mean ", "")
         index = nouns.index(noun)
         nouns[index] = new
-        
 
     print(nouns)
-    processProperty(nouns)
+    process_property(nouns)
 
-    def removeArticle(str): return re.sub('^(?:the|a|an) ', '', str)
     log('Noun chunks: ' + str(nouns))
 
     if len(nouns) < 3:
         # If there are less than 3 noun chunks, it's probably a question like "What is a lion?"
         if ("also" in doc.text):
-            entity = removeArticle(nouns[1])
-            possibleObjects = getWikidataIDs(entity)
-            answer = queryWikidata(buildLabelQuery(
-                    possibleObjects[0]['id']))
+            entity = remove_article(nouns[1])
+            possibleObjects = get_wikidata_ids(entity)
+            answer = query_wikidata(build_label_query(
+                possibleObjects[0]['id']))
             if answer is not None:
                 return answer
         else:
-            entity = removeArticle(nouns[1])
-            possibleObjects = getWikidataIDs(entity)
+            entity = remove_article(nouns[1])
+            possibleObjects = get_wikidata_ids(entity)
             for obj in possibleObjects:
                 desc = obj['display']['description']['value']
                 if desc is not None:
@@ -101,18 +102,18 @@ def whatQuestion(doc):
                     return entity + ' is a ' + desc
 
     else:
-        entity = removeArticle(nouns[-1])
+        entity = remove_article(nouns[-1])
 
         if (len(nouns) == 3):
-            property = removeArticle(nouns[1])
-        
+            prop = remove_article(nouns[1])
+
         # Checks if the question has "another word for/other names of" or else, and queries using "skos:altLabel"
 
         if (str(nouns[1]) in diffName):
-            print("Property: " + property + "Entity: " + entity )
-            possibleObjects = getWikidataIDs(entity)
-            answer = queryWikidata(buildLabelQuery(
-                    possibleObjects[0]['id']))
+            print("Property: " + prop + "Entity: " + entity)
+            possibleObjects = get_wikidata_ids(entity)
+            answer = query_wikidata(build_label_query(
+                possibleObjects[0]['id']))
             if answer is not None:
                 return answer
 
@@ -121,114 +122,111 @@ def whatQuestion(doc):
             # m = re.search(pattern, doc.text)
             # print(type(m))
             # print(pattern)
-            property = removeArticle(nouns[1])
-            
+            prop = remove_article(nouns[1])
 
-        property = processProperty(property)
-        possibleObjects = getWikidataIDs(entity)
-        possibleProperties = getWikidataIDs(property, True)
+        prop = process_property(prop)
+        possibleObjects = get_wikidata_ids(entity)
+        possibleProperties = get_wikidata_ids(prop, True)
 
         for object in possibleObjects:
-            for property in possibleProperties:
-                log('trying: ' + property['display']['label']['value'] +
+            for prop in possibleProperties:
+                log('trying: ' + prop['display']['label']['value'] +
                     ' of ' + object['display']['label']['value'])
-                answer = queryWikidata(buildQuery(
-                    object['id'], property['id']))
+                answer = query_wikidata(build_query(
+                    object['id'], prop['id']))
                 if answer is not None:
                     return answer
 
 
-def whereQuestion(doc):
+def where_question(doc):
     nouns = list(doc.noun_chunks)
-    processProperty(nouns)
-    
-    def removeArticle(str):
-        return re.sub('^(?:the|a|an) ', '', str)
+    process_property(nouns)
 
     log('Noun chunks: ' + str(nouns))
 
-
-    entity = wnl.lemmatize(removeArticle(nouns[-1].text))
+    entity = wnl.lemmatize(remove_article(nouns[-1].text))
 
     if doc[-2].text == 'discovered':
         property1 = "location of discovery"
     else:
         property1 = "endemic to"
     property2 = "country of origin"
-    property1 = processProperty(property1)
-    property2 = processProperty(property2)
-    possibleObjects = getWikidataIDs(entity)
+    property1 = process_property(property1)
+    property2 = process_property(property2)
+    possible_objects = get_wikidata_ids(entity)
     print(entity)
-    possibleProperties1 = getWikidataIDs(property1, True)
-    possibleProperties2 = getWikidataIDs(property2, True)
+    possible_properties1 = get_wikidata_ids(property1, True)
+    possible_properties2 = get_wikidata_ids(property2, True)
 
-    for object in possibleObjects:
-        for property in possibleProperties1:
+    for object in possible_objects:
+        for property in possible_properties1:
             log('trying: ' + property['display']['label']['value'] +
                 ' of ' + object['display']['label']['value'])
-            answer = queryWikidata(buildQuery(
-                 object['id'], property['id']))
+            answer = query_wikidata(build_query(
+                object['id'], property['id']))
 
             if answer is not None:
                 return answer
             else:
-                for property2 in possibleProperties2:
-                     log('trying: ' + property['display']['label']['value'] +
-                     ' of ' + object['display']['label']['value'])
-                     answer = queryWikidata(buildQuery(
-                         object['id'], property2['id']))
-                     if answer is not None:
+                for property2 in possible_properties2:
+                    log('trying: ' + property['display']['label']['value'] +
+                        ' of ' + object['display']['label']['value'])
+                    answer = query_wikidata(build_query(
+                        object['id'], property2['id']))
+                    if answer is not None:
                         return answer
 
-def yesNoQuestion(doc):
+
+def yes_no_q(doc):
     nouns = list(doc.noun_chunks)
-    def removeArticle(str): return re.sub('^(?:the|a|an) ', '', str)
     log('Noun chunks: ' + str(nouns))
 
-    noun1 = removeArticle(nouns[len(nouns)-1].text)
+    noun1 = remove_article(nouns[len(nouns)-1].text)
 
     if (len(nouns) <= 3):
-        noun2 = removeArticle(nouns[0].text)
+        noun2 = remove_article(nouns[0].text)
     else:
         pattern = '(' + nouns[1] + '.*?' + \
             nouns[len(nouns)-2].text + ')'
         m = re.search(pattern, doc.text)
-        noun1 = removeArticle(m.group(1))
+        noun1 = remove_article(m.group(1))
 
-    noun1Possibilities = getWikidataIDs(noun1)
-    noun2Possibilities = getWikidataIDs(noun2)
+    noun1_possibilities = get_wikidata_ids(noun1)
+    noun2_possibilities = get_wikidata_ids(noun2)
 
-    for noun1try in noun1Possibilities:
-        for noun2try in noun2Possibilities:
+    for noun1try in noun1_possibilities:
+        for noun2try in noun2_possibilities:
             log('trying: is a ' + noun2try['display']['label']['value'] +
                 ' a ' + noun1try['display']['label']['value'])
-            answer = queryWikidata(buildYesNoQuery(
+            answer = query_wikidata(build_yes_no_query(
                 noun2try['id'], noun1try['id']))
             if answer is not None:
                 return answer
 
-def countQuestion(doc):
+
+def count_q(doc):
     if ("old" in doc.text):
-        property = ""
+        prop = ""
 
     return doc
 
-def whenQuestion(doc):
 
+def when_q(doc):
     return doc
 
 
 diffName = ["also known as", "other names", "other word", "another name"]
 
-def getSynonyms(word):
+
+def get_synonyms(word):
     synonyms = []
     for syn in wordnet.synsets(str(word)):
         for l in syn.lemmas():
             synonyms.append(l.name())
     print(synonyms)
-    
 
-def processProperty(word):
+
+def process_property(word):
     match word:
         case 'heavy':
             return "mass"
@@ -251,40 +249,38 @@ def processProperty(word):
 # skos:altLabel -> for "also known as"
 # schema:description -> "definition"
 
-def formatAnswer(data):
-    numOfAnswers = len(data)
+def format_answer(data):
+    formatted_answers = []
 
-    formattedAnswers = []
-
-    for currentAns in data:
-        ans = str(currentAns['answerLabel']['value']).capitalize()
+    for current_ans in data:
+        ans = str(current_ans['answerLabel']['value']).capitalize()
 
         unit = ''
-        if 'unitLabel' in currentAns and currentAns['unitLabel']['value'] != "1":
-            unit = ' ' + currentAns['unitLabel']['value']
+        if 'unitLabel' in current_ans and current_ans['unitLabel']['value'] != "1":
+            unit = ' ' + current_ans['unitLabel']['value']
 
         # If the answer is a (number > 1) + unit combination, make unit plural
         if ans.replace('.', '', 1).isdigit() and float(ans) > 1.0 and unit != '':
             unit += 's'
 
-        formattedAnswers.append(ans + unit)
+        formatted_answers.append(ans + unit)
 
-    finalAnswer = ''
+    final_answer = ''
 
-    finalAnswer += formattedAnswers[0]
-    if(len(formattedAnswers) > 1): # It was printing the same value twice if the list has only one item, added if statement
-        for ans in formattedAnswers[1:-1]:
-            finalAnswer += ', ' + ans
-        finalAnswer += ', and ' + formattedAnswers[-1]
+    final_answer += formatted_answers[0]
+    # It was printing the same value twice if the list has only one item, added if statement
+    if(len(formatted_answers) > 1):
+        for ans in formatted_answers[1:-1]:
+            final_answer += ', ' + ans
+        final_answer += ', and ' + formatted_answers[-1]
 
-    return finalAnswer
+    return final_answer
 
 
-def queryWikidata(query):
+def query_wikidata(query):
     try:
-        data = requests.get('https://query.wikidata.org/sparql',
-                            headers={
-                                'User-Agent': 'QASys/0.0 (https://rug.nl/LTP/; josh@bruegger.it)'},
+        data = requests.get(SPARQL_ENDPOINT,
+                            headers=HEADERS,
                             params={'query': query, 'format': 'json'}).json()
         if 'ASK' in query:
             if data['boolean']:
@@ -293,17 +289,17 @@ def queryWikidata(query):
                 return 'No'
         else:
             data = data['results']['bindings']
-    except:
+    except Exception:
         traceback.print_exc()
         return 'Error: Query failed: Too many requests?'
 
     if len(data) == 0:
         return None
 
-    return formatAnswer(data)
+    return format_answer(data)
 
 
-def buildQuery(object, property):
+def build_query(object, property):
     q = 'SELECT ?answerLabel ?unitLabel WHERE{wd:'
     q += object + ' p:' + property + '?s.?s ps:'
     q += property + '?answer. OPTIONAL{?s psv:'
@@ -312,21 +308,21 @@ def buildQuery(object, property):
     return q
 
 
-def buildLabelQuery(obj):
+def build_label_query(obj):
     q = 'SELECT ?answerLabel WHERE { wd:'
-    q += obj + ' skos:altLabel ?answerLabel. FILTER ( lang(?answerLabel) = "en" ) }'
+    q += obj + \
+        ' skos:altLabel ?answerLabel. FILTER ( lang(?answerLabel) = "en" ) }'
     return q
 
 
-def buildYesNoQuery(object, property):
+def build_yes_no_query(object, property):
     q = 'ASK { wd:'
     q += object + ' wdt:P279 wd:' + property + '. }'
     print(q)
     return q
 
 
-def getWikidataIDs(query, isProperty=False):
-    url = 'https://www.wikidata.org/w/api.php'
+def get_wikidata_ids(query, isProperty=False):
     params = {'action': 'wbsearchentities',
               'language': 'en',
               'format': 'json',
@@ -334,35 +330,7 @@ def getWikidataIDs(query, isProperty=False):
     if isProperty:
         params['type'] = 'property'
 
-    return requests.get(url, params).json()['search']
-
-
-# Has to match (?:Who|What) (?:was|is|were) ?(?:the|a|an)? (?:.+) of ?(?:the|a|an)? (?:.+)\?
-def getAnswer(question):
-    propertyText, objectText = extractPropertyAndObject(question)
-
-    # print('Looking for: ' + propertyText + ' of ' + objectText + '...')
-
-    possibleObjects = getWikidataIDs(objectText)
-    possibleProperties = getWikidataIDs(propertyText, True)
-
-    for object in possibleObjects:
-        for property in possibleProperties:
-            # print('trying: ' + property['id'] + ' of ' + object['id'])
-            answer = queryWikidata(buildQuery(object['id'], property['id']))
-            if answer is not None:
-                return answer
-
-    return None
-
-
-def answerQuestion(q):
-    ans = getAnswer(q)
-    if (ans != None):
-        print('Question: ' + q)
-        print('Answer: ' + ans)
-    else:
-        print("Sorry, I don't know!")
+    return requests.get(API_ENDPOINT, params).json()['search']
 
 
 main()
