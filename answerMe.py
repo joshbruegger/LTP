@@ -32,10 +32,10 @@ def clear_console(): return os.system(
     'cls' if os.name in ('nt', 'dos') else 'clear')
 
 
-def try_all_questions():
+def try_all_questions(file):
     global PRINT_DEBUG
     PRINT_DEBUG = False
-    f = open('all_questions.json')
+    f = open(file)
     questions = json.load(f)
     f.close()
 
@@ -48,9 +48,28 @@ def try_all_questions():
 
 def main():
     clear_console()
-    print("SlayQA 0.0")
+    print("SlayQA 1.0")
+    while True:
+        print('-----------')
+        print('''
+        1. Ask a question
+        2. Try all questions
+        3. try all questions in file
+        q. Quit
+        ''')
+        choice = input("Enter your choice: ")
+        if choice == '1':
+            question = input("Enter your question: ")
+            answer(question)
+        elif choice == '2':
+            try_all_questions('all_questions.json')
+        elif choice == '3':
+            try_all_questions(input("Enter file name: "))
+        elif choice == 'q':
+            exit()
+        else:
+            print("Invalid choice")
 
-    try_all_questions()
     # answer("Can you tell me the colour of narcissi?")
 
 
@@ -80,7 +99,7 @@ def answer(question):
     else:
         ans = " I don't know"
 
-    print(ans)
+    print('Answer: ' + ans)
 
 
 def remove_article(str):
