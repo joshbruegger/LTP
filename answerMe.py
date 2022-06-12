@@ -22,7 +22,7 @@ def log(msg):
 
 
 def main():
-    answer("What is the average heart rate of a chicken?")
+    answer("Where does the bonsai tree come from?")
 
 
 def answer(question):
@@ -49,7 +49,6 @@ def answer(question):
     elif "how many" in doc.text.lower():
         ans = count_q(doc)
     elif "when" in doc.text.lower():
-        print("when huh")
         ans = when_q(doc)
 
     print(ans)
@@ -58,6 +57,12 @@ def answer(question):
 def remove_article(str):
     return re.sub('^(?:the|a|an) ', '', str)
 
+def get_synonyms(word):
+    synonyms = []
+    for syn in wordnet.synsets(str(word), pos="n"):
+        for l in syn.lemmas():
+            synonyms.append(str(l.name()))
+    return synonyms
 
 def what_question(doc):
     nouns = []
@@ -123,10 +128,14 @@ def what_question(doc):
             # print(type(m))
             # print(pattern)
             prop = remove_article(nouns[1])
+            
 
-        prop = process_property(prop)
+        #prop = process_property(prop)
         possibleObjects = get_wikidata_ids(entity)
         possibleProperties = get_wikidata_ids(prop, True)
+        extra = get_synonyms(prop)
+        for i in extra:
+            possibleProperties.extend(get_wikidata_ids(i, True))
 
         for object in possibleObjects:
             for prop in possibleProperties:
@@ -210,20 +219,15 @@ def count_q(doc):
 
     return doc
 
+def how_q(doc):
+    return
+
 
 def when_q(doc):
     return doc
 
 
 diffName = ["also known as", "other names", "other word", "another name"]
-
-
-def get_synonyms(word):
-    synonyms = []
-    for syn in wordnet.synsets(str(word)):
-        for l in syn.lemmas():
-            synonyms.append(l.name())
-    print(synonyms)
 
 
 def process_property(word):
@@ -238,10 +242,8 @@ def process_property(word):
             return "produced sound"
         case 'definition ':
             return "Description"
-        case "pregnant" | "pregnancy":
-            return "gestation period"
-        case "average":
-            return ""
+        # case "pregnant" | "pregnancy":
+        #     return "gestation period"
         case _:
             return word
 
@@ -324,13 +326,14 @@ def build_yes_no_query(object, property):
 
 def get_wikidata_ids(query, isProperty=False):
     params = {'action': 'wbsearchentities',
-              'language': 'en',
-              'format': 'json',
-              'search': query}
+            'language': 'en',
+            'format': 'json',
+            'search': query}
     if isProperty:
         params['type'] = 'property'
-
+    
     return requests.get(API_ENDPOINT, params).json()['search']
+    
 
 
 main()
