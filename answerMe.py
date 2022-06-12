@@ -70,8 +70,6 @@ def main():
         else:
             print("Invalid choice")
 
-    # answer("Can you tell me the colour of narcissi?")
-
 
 def answer(question):
     dependency_pars = spacy.load('en_core_web_trf')
