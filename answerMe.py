@@ -296,6 +296,7 @@ def yes_no_q(doc):
     log('Noun chunks: ' + str(nouns))
 
     if (len(nouns) == 1):
+        adj = None
         for word in doc:
             if word.pos_ == 'ADJ':
                 adj = word.text
