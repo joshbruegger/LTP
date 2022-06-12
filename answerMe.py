@@ -49,33 +49,33 @@ def try_all_questions(file):
 
 
 def main():
-    clear_console()
-    print("SlayQA 1.0")
-    while True:
-        print('-----------')
-        print('''
-        1. Ask a question
-        2. Try all questions
-        3. try all questions in file
-        4. Turn debug on or off
-        q. Quit
-        ''')
-        choice = input("Enter your choice: ")
-        if choice == '1':
-            question = input("Enter your question: ")
-            answer(question)
-        elif choice == '2':
-            try_all_questions('all_questions.json')
-        elif choice == '3':
-            try_all_questions(input("Enter file name: "))
-        elif choice == '4':
-            global PRINT_DEBUG
-            PRINT_DEBUG = not PRINT_DEBUG
-            print("Debug is now " + str(PRINT_DEBUG))
-        elif choice == 'q':
-            exit()
-        else:
-            print("Invalid choice")
+    # clear_console()
+    # print("SlayQA 1.0")
+    # while True:
+    #     print('-----------')
+    #     print('''
+    #     1. Ask a question
+    #     2. Try all questions
+    #     3. try all questions in file
+    #     4. Turn debug on or off
+    #     q. Quit
+    #     ''')
+    #     choice = input("Enter your choice: ")
+    #     if choice == '1':
+    question = input("Enter your question: ")
+    answer(question)
+    #     elif choice == '2':
+    #         try_all_questions('all_questions.json')
+    #     elif choice == '3':
+    #         try_all_questions(input("Enter file name: "))
+    #     elif choice == '4':
+    #         global PRINT_DEBUG
+    #         PRINT_DEBUG = not PRINT_DEBUG
+    #         print("Debug is now " + str(PRINT_DEBUG))
+    #     elif choice == 'q':
+    #         exit()
+    #     else:
+    #         print("Invalid choice")
 
 
 def answer(question):
@@ -93,8 +93,9 @@ def answer(question):
         ans = where_question(doc)
     elif "which" in doc.text.lower():
         ans = which_question(doc)
-    elif "how many" in doc.text.lower():
-        ans = count_q(doc)
+    elif "how" in doc.text.lower():
+        print("ran")
+        ans = how_q(doc)
     elif "when" in doc.text.lower():
         ans = when_q(doc)
     else:
@@ -130,10 +131,12 @@ def what_question(doc):
         new = noun
         if "average" in noun:
             new = str(noun).replace("average ", "")
-        if "common" in noun:
+        elif "common" in noun:
             new = str(noun).replace("common ", "")
-        if "mean" in noun:
+        elif "mean" in noun:
             new = str(noun).replace("mean ", "")
+        elif "typical" in noun:
+            new = str(noun).replace("typical ", "")
         index = nouns.index(noun)
         nouns[index] = new
 
@@ -141,16 +144,13 @@ def what_question(doc):
 
     if len(nouns) < 3:
         # If there are less than 3 noun chunks, it's probably a question like "What is a lion?"
+        entity = wnl.lemmatize(remove_article(nouns[1]))
+        possibleObjects = get_wikidata_ids(entity)
         if ("also" in doc.text):
-            entity = remove_article(nouns[1])
-            possibleObjects = get_wikidata_ids(entity)
-            answer = query_wikidata(build_label_query(
-                possibleObjects[0]['id']))
+            answer = query_wikidata(build_label_query(possibleObjects[0]['id']))
             if answer is not None:
                 return answer
         else:
-            entity = remove_article(nouns[1])
-            possibleObjects = get_wikidata_ids(entity)
             for obj in possibleObjects:
                 desc = obj['display']['description']['value']
                 if desc is not None:
@@ -162,7 +162,7 @@ def what_question(doc):
                     return entity + ' is a ' + desc
 
     else:
-        entity = remove_article(nouns[-1])
+        entity = wnl.lemmatize(remove_article(nouns[-1]))
 
         if (len(nouns) == 3):
             prop = remove_article(nouns[1])
@@ -178,10 +178,6 @@ def what_question(doc):
                 return answer
 
         else:
-            # pattern = '(' + nouns[1] + ')' # (('.*?' + nouns[len(nouns)-2].text + )) it was searching for the same regex twice, removed it
-            # m = re.search(pattern, doc.text)
-            # print(type(m))
-            # print(pattern)
             prop = remove_article(nouns[1])
 
         # prop = process_property(prop)
@@ -213,6 +209,7 @@ def where_question(doc):
         property1 = "location of discovery"
     else:
         property1 = "endemic to"
+    
     property2 = "country of origin"
     property1 = process_noun(property1)
     property2 = process_noun(property2)
@@ -269,18 +266,60 @@ def yes_no_q(doc):
 
 
 def count_q(doc):
-    if ("old" in doc.text):
-        prop = ""
+    nouns = list(doc.noun_chunks)
+    entity = wnl.lemmatize(remove_article(nouns[-1].text))
+    property
 
     return doc
 
-
 def how_q(doc):
-    return
+    nouns = list(doc.noun_chunks)
+
+    if doc[-2].pos_ == "NOUN":
+        entity = wnl.lemmatize(remove_article(nouns[-1].text))
+        prop = remove_article(nouns[-2].text)
+    else:
+        print("sorry, not implemented yet!")
+        return nouns
+
+    possibleObjects = get_wikidata_ids(entity)
+    possibleProperties = get_wikidata_ids(prop, True)
+    extra = get_synonyms(prop)
+    for i in extra:
+        possibleProperties.extend(get_wikidata_ids(i, True))
+
+    for object in possibleObjects:
+        for prop in possibleProperties:
+            log('trying: ' + prop['display']['label']['value'] +
+                ' of ' + object['display']['label']['value'])
+            answer = query_wikidata(build_query(
+                object['id'], prop['id']))
+            if answer is not None:
+                return answer
 
 
 def when_q(doc):
-    return doc
+    nouns = list(doc.noun_chunks)
+    if "extinct" in doc.text:
+        prop = "end time"
+    if "first" in doc.text: # this could also be done with synonyms
+        prop = "start time"
+    
+    entity = wnl.lemmatize(remove_article(nouns[-1].text))
+    possibleObjects = get_wikidata_ids(entity)
+    possibleProperties = get_wikidata_ids(prop, True)
+    extra = get_synonyms(prop)
+    for i in extra:
+        possibleProperties.extend(get_wikidata_ids(i, True))
+
+    for object in possibleObjects:
+        for prop in possibleProperties:
+            log('trying: ' + prop['display']['label']['value'] +
+                ' of ' + object['display']['label']['value'])
+            answer = query_wikidata(build_query(
+                object['id'], prop['id']))
+            if answer is not None:
+                return answer
 
 
 diffName = ["also known as", "other names", "other word", "another name"]
