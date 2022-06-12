@@ -22,6 +22,8 @@ SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql'
 API_ENDPOINT = 'https://www.wikidata.org/w/api.php'
 HEADERS = {'User-Agent': 'QASys/0.0 (https://rug.nl/LTP/; dont@mail.me)'}
 
+YES_NO_LIST = ["is", "are", "can", "do", "does"]
+
 
 def log(msg):
     if PRINT_DEBUG:
@@ -55,6 +57,7 @@ def main():
         1. Ask a question
         2. Try all questions
         3. try all questions in file
+        4. Turn debug on or off
         q. Quit
         ''')
         choice = input("Enter your choice: ")
@@ -65,6 +68,10 @@ def main():
             try_all_questions('all_questions.json')
         elif choice == '3':
             try_all_questions(input("Enter file name: "))
+        elif choice == '4':
+            global PRINT_DEBUG
+            PRINT_DEBUG = not PRINT_DEBUG
+            print("Debug is now " + str(PRINT_DEBUG))
         elif choice == 'q':
             exit()
         else:
@@ -74,17 +81,13 @@ def main():
 def answer(question):
     dependency_pars = spacy.load('en_core_web_trf')
 
-    # 1. get question type
-    # What, where, yes/no, count, how
-
     doc = dependency_pars(question)  # parse the input
-    first_word = doc[0].text.lower()
 
-    yes_no_list = ["is", "are", "can", "do", "does"]
+    first_word = doc[0].text.lower()  # get the first word
 
     if "what" in doc.text.lower():
         ans = what_question(doc)
-    elif first_word in yes_no_list:
+    elif first_word in YES_NO_LIST:
         ans = yes_no_q(doc)
     elif "where" in doc.text.lower():
         ans = where_question(doc)
@@ -95,9 +98,12 @@ def answer(question):
     elif "when" in doc.text.lower():
         ans = when_q(doc)
     else:
-        ans = " I don't know"
+        ans = None
 
-    print('Answer: ' + ans)
+    if ans is not None:
+        print('Answer: ' + ans)
+    else:
+        print('Answer: I don\'t know')
 
 
 def remove_article(str):
@@ -130,9 +136,6 @@ def what_question(doc):
             new = str(noun).replace("mean ", "")
         index = nouns.index(noun)
         nouns[index] = new
-
-    log(nouns)
-    process_noun(nouns)
 
     log('Noun chunks: ' + str(nouns))
 
