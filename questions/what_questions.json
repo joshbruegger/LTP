@@ -1,0 +1,1210 @@
+[
+    {
+        "question": "What is the life expectancy of a cat?",
+        "expected": "15 years, "
+    },
+    {
+        "question": "What is the heartrate of a giraffe in bpm?",
+        "expected": "150, "
+    },
+    {
+        "question": "What is fern used for?",
+        "expected": "Food, namely fiddlehead fern, "
+    },
+    {
+        "question": "What does a plant consist of?",
+        "expected": "germ layer, plant stem, root, true leaf, "
+    },
+    {
+        "question": "What is a climber?",
+        "expected": "plant with a growth habit of trailing or scandent (that is, climbing) stems or runners, "
+    },
+    {
+        "question": "What is the highest observed life span of a tiger?",
+        "expected": "26.3 year, "
+    },
+    {
+        "question": "What was the height of a mammoth?",
+        "expected": "3.4 metre, "
+    },
+    {
+        "question": "What is the parent taxon of Teuthida (squids)?",
+        "expected": "Decapodiformes, "
+    },
+    {
+        "question": "What is the height of an elephant?",
+        "expected": "4 metre, "
+    },
+    {
+        "question": "What is the gestation period of a LLama?",
+        "expected": "358±10 day, "
+    },
+    {
+        "question": "What is the flower color of Helianthus annuus?",
+        "expected": "yellow, "
+    },
+    {
+        "question": "What parts does a Tulip plant have?",
+        "expected": "flower, bulb, stolon, "
+    },
+    {
+        "question": "What is the taxon name of the black mamba?",
+        "expected": "Dendroaspis polylepis, "
+    },
+    {
+        "question": "What is the means of locomotion of Stomatopoda (mantis shrimp)?",
+        "expected": "rolling, "
+    },
+    {
+        "question": "What is the French word for penguin?",
+        "expected": "Manchot, "
+    },
+    {
+        "question": "What fruit grows from oak trees?",
+        "expected": "Acorn, "
+    },
+    {
+        "question": "What is the maximum wingspan of a bat?",
+        "expected": "6 foot, "
+    },
+    {
+        "question": "What are three side effects of cannabis?",
+        "expected": "paranoia, amotivational syndrome, Cannabinoid hyperemesis syndrome, "
+    },
+    {
+        "question": "What is the opposite of a perennial plant?",
+        "expected": "An annual plant, "
+    },
+    {
+        "question": "What is the typical heart rate of a chicken?",
+        "expected": "275 plus or minus 25 beats per minute, "
+    },
+    {
+        "question": "What do birds eat?",
+        "expected": "varieties of seeds, nuts, and/or dried fruits, "
+    },
+    {
+        "question": "What is the smartes invertebrate?",
+        "expected": "octopus, "
+    },
+    {
+        "question": "What is the deadliest animal to humans?",
+        "expected": "Mosquitoes, "
+    },
+    {
+        "question": "What is the most popular dog breed?",
+        "expected": "Labrador Retriever, "
+    },
+    {
+        "question": "What color do elephants have?",
+        "expected": "Grey, "
+    },
+    {
+        "question": "What is the unicode character for unicorn?",
+        "expected": "🦄, "
+    },
+    {
+        "question": "What is the GBIF taxon id for dandelions?",
+        "expected": "5394163, "
+    },
+    {
+        "question": "What is the life expectancy of a house cat?",
+        "expected": "15 year, "
+    },
+    {
+        "question": "What is the average heart rate of a giraffe?",
+        "expected": "150 beats per minute, "
+    },
+    {
+        "question": "What is the average litter size of a jaguar?",
+        "expected": "2, "
+    },
+    {
+        "question": "What is the diel cycle of a polar bear?",
+        "expected": "diurnal, "
+    },
+    {
+        "question": "What shape does a carrot have?",
+        "expected": "cone, "
+    },
+    {
+        "question": "What is the mass of an adult male lion?",
+        "expected": "188 kg, "
+    },
+    {
+        "question": "What is the life expectancy of a polar bear?",
+        "expected": "50 year, "
+    },
+    {
+        "question": "What is the main food source of an eagle?",
+        "expected": "Lamb, "
+    },
+    {
+        "question": "What is the gestation period of a grey seal?",
+        "expected": "11.5 months, "
+    },
+    {
+        "question": "What is sourced from agave?",
+        "expected": "istle, maguey, "
+    },
+    {
+        "question": "What is the bite force quotient of a dingo?",
+        "expected": "125, "
+    },
+    {
+        "question": "What sound do bees produce?",
+        "expected": "Humming, "
+    },
+    {
+        "question": "What are the components of a tree?",
+        "expected": "Trunk, Branch, Leaf, Crown, Root, Bark, "
+    },
+    {
+        "question": "What does 'apex predator' mean?",
+        "expected": "Predator residing at the top of a food chain, with no predators of its own, "
+    },
+    {
+        "question": "What is the largest land animal?",
+        "expected": "African bush elephant, "
+    },
+    {
+        "question": "What is a snowy owl's japanese name?",
+        "expected": "シロフクロウ, "
+    },
+    {
+        "question": "What is the range of a dog's hearing?",
+        "expected": "44933 Hertz, "
+    },
+    {
+        "question": "What is the orca also known as?",
+        "expected": "Orcinus orca, Orca gladiator, orca whale, killer whale, Dwarf killer whale, "
+    },
+    {
+        "question": "What is produced by 🐦?",
+        "expected": "egg, feather, meat, "
+    },
+    {
+        "question": "What is a mouse called in german?",
+        "expected": "Maus, "
+    },
+    {
+        "question": "What uses does a dog have?",
+        "expected": "pet, hunting, guard, service animal, "
+    },
+    {
+        "question": "What is a tree made of?",
+        "expected": "trunk, branch, leaf, crown, root, bark, "
+    },
+    {
+        "question": "What pollinates a snowdrop?",
+        "expected": "Anthophila, "
+    },
+    {
+        "question": "What does a tit eat?",
+        "expected": "seed, insect, "
+    },
+    {
+        "question": "What color is a daffodil?",
+        "expected": "yellow, "
+    },
+    {
+        "question": "What colors does a Eurasian Blue Tit have?",
+        "expected": "blue, yellow, black, white, "
+    },
+    {
+        "question": "What award did thyme receive?",
+        "expected": "Medicinal plant of the year, "
+    },
+    {
+        "question": "What is the incubation period of an egg of a European Turtle Dove?",
+        "expected": "15 day, "
+    },
+    {
+        "question": "What type of fruit does a tomato plant have?",
+        "expected": "berry, "
+    },
+    {
+        "question": "What is the color of a banana?",
+        "expected": "yellow, green, brown, red, purple, "
+    },
+    {
+        "question": "What is the color of a lychee?",
+        "expected": "red, white, "
+    },
+    {
+        "question": "What kinds of food does a goat provide?",
+        "expected": "goat milk, goat meat, "
+    },
+    {
+        "question": "What is the existance of the goat species?",
+        "expected": "15±1.5 year, "
+    },
+    {
+        "question": "What is the Dutch word for sunflower?",
+        "expected": "Zonnebloem (Dutch), "
+    },
+    {
+        "question": "What are the names of the sound a dog makes?",
+        "expected": "bark, growling, panting, "
+    },
+    {
+        "question": "What is the heart rate of a horse?",
+        "expected": "34±6 beats per minute, 38±6 beats per minute, 46.5±23.5 beats per minute, "
+    },
+    {
+        "question": "What is the life expectancy of a cat?",
+        "expected": "15 year, "
+    },
+    {
+        "question": "What is the name for fear for spiders?",
+        "expected": "arachnophobia , "
+    },
+    {
+        "question": "What part of a fish allows it to breathe underwater?",
+        "expected": "gill, "
+    },
+    {
+        "question": "What kind of animal is a Komodo dragon?",
+        "expected": "species of reptile, "
+    },
+    {
+        "question": "What is the study of horses called?",
+        "expected": "hippology, "
+    },
+    {
+        "question": "What are male parts of a flower called?",
+        "expected": "stamen, "
+    },
+    {
+        "question": "What fruit type does Sensitive Plant have?",
+        "expected": "silique, "
+    },
+    {
+        "question": "What is the country of origin of a Shetland pony?",
+        "expected": "Scotland, "
+    },
+    {
+        "question": "What type of ground do tulips need to grow?",
+        "expected": "dry soil, "
+    },
+    {
+        "question": "What was the medicinal plant of the year five years ago?",
+        "expected": "Daisys, "
+    },
+    {
+        "question": "What are dogs used for?",
+        "expected": "pet, hunting, guard, service animal, "
+    },
+    {
+        "question": "What color does a sunflower have?",
+        "expected": "yellow, "
+    },
+    {
+        "question": "What is the gestation period of an Asian elephant?",
+        "expected": "22 months, "
+    },
+    {
+        "question": "What is the use of cilantro (coriandrum sativum)?",
+        "expected": "spice, "
+    },
+    {
+        "question": "What is the life expectancy of a cat?",
+        "expected": "15 year, "
+    },
+    {
+        "question": "What is the mass of a giraffe?",
+        "expected": "54.5 kilogram, "
+    },
+    {
+        "question": "What is the life expectancy of a cat?",
+        "expected": "20 year, "
+    },
+    {
+        "question": "What is the scientific name of a daisy?",
+        "expected": "Bellis perennis, "
+    },
+    {
+        "question": "What are other names for the grey wolf in English?",
+        "expected": "timber wolf, tundra wolf, Canis Lupus, gray wolf, "
+    },
+    {
+        "question": "What is the study of trees called?",
+        "expected": "forestry science, dendrology, "
+    },
+    {
+        "question": "What is the highest observed lifespan of a tiger?",
+        "expected": "26.3 years, "
+    },
+    {
+        "question": "What is the life expectancy of a sloth?",
+        "expected": "30 years, 50 years, "
+    },
+    {
+        "question": "What is the panda Unicode character?",
+        "expected": "U+1F43C, "
+    },
+    {
+        "question": "What sound does a bee produce?",
+        "expected": "Humming, "
+    },
+    {
+        "question": "What is the wingspan of a Canadian goose?",
+        "expected": "1.69 metre, "
+    },
+    {
+        "question": "What is the color of a banana?",
+        "expected": "yellow, green, purple, red, brown, "
+    },
+    {
+        "question": "What is the oldest observed lifespan of a common baobab?",
+        "expected": "1,275±50 years, "
+    },
+    {
+        "question": "What do koalas mainly eat?",
+        "expected": "Leaf of Eucalypt tree, "
+    },
+    {
+        "question": "What is the average heart rate of a dog at rest?",
+        "expected": "95±25 beats per minute, 115±15 beats per minute, 80 beats per minute, "
+    },
+    {
+        "question": "What is the weight of an adult giraffe heart?",
+        "expected": "11 kilogram, "
+    },
+    {
+        "question": "What the parent taxon of a lion?",
+        "expected": "Panthera, "
+    },
+    {
+        "question": "What is the average lifespan of a North American Beaver?",
+        "expected": "15±1 year, "
+    },
+    {
+        "question": "What is the gestation period of the giant panda?",
+        "expected": " 130±33 days, "
+    },
+    {
+        "question": "What is a dromedary used for?",
+        "expected": "transport, "
+    },
+    {
+        "question": "What significant event happened with Emu's?",
+        "expected": "Emu War, "
+    },
+    {
+        "question": "What is the study of fish called?",
+        "expected": "ichthyology, "
+    },
+    {
+        "question": "What fruit type does the rose have?",
+        "expected": "nucule, "
+    },
+    {
+        "question": "What sound does the lion produce?",
+        "expected": "roar, "
+    },
+    {
+        "question": "What is the Dutch name for ladybug?",
+        "expected": "Lieveheersbeestjes, "
+    },
+    {
+        "question": "What does a koala eat?",
+        "expected": "leaf of eucalypt tree, "
+    },
+    {
+        "question": "What age was the oldest Hippo ever observed?",
+        "expected": "61.2 year, "
+    },
+    {
+        "question": "What species of peacock are there?",
+        "expected": "Indian Peafowl, Green Peafowl, Congo Peafowl, "
+    },
+    {
+        "question": "What parts does a plant consist of?",
+        "expected": "root, True leaf, plant stem, germ layer, "
+    },
+    {
+        "question": "What is the original name of the sunflower?",
+        "expected": "Helianthus annuus, "
+    },
+    {
+        "question": "What do tigers eat?",
+        "expected": "ungulate, monkey, Phasianidae, Leporidae, fish, dog, nut, herbaceous plant, fruit, "
+    },
+    {
+        "question": "What is a Red-throat Diver?",
+        "expected": "A migratory aquatic bird found in the northern hemisphere, "
+    },
+    {
+        "question": "What is the taxon rank of panda?",
+        "expected": "species, "
+    },
+    {
+        "question": "What award has the lily of the valley won?",
+        "expected": "poisonous plant of the year, "
+    },
+    {
+        "question": "What is the IUCN conservation status of a jaguar?",
+        "expected": "near threatened, "
+    },
+    {
+        "question": "What is the study of dogs called?",
+        "expected": "cynology, "
+    },
+    {
+        "question": "What usages do dogs have?",
+        "expected": "pet, hunting, guard, service animal, "
+    },
+    {
+        "question": "What sounds do dogs make?",
+        "expected": "bark, growling, panting, "
+    },
+    {
+        "question": "What is the bite force quotient of a cat?",
+        "expected": "58, "
+    },
+    {
+        "question": "What fruit type do oaks have?",
+        "expected": "glans, "
+    },
+    {
+        "question": "What is the taxon rank of birch?",
+        "expected": "genus, "
+    },
+    {
+        "question": "What is the carbon footprint of the avocado fruit?",
+        "expected": "0.6 kilogram of carbon dioxide per kilogram, "
+    },
+    {
+        "question": "What is the plant “Sansevieria trifasciata” also known as?",
+        "expected": "Mother-in-law's tongue, "
+    },
+    {
+        "question": "What is the name of Talkeetnas honorary mayor who was also a cat?",
+        "expected": "Stubbs, "
+    },
+    {
+        "question": "What is the life expectancy of a polar bear?",
+        "expected": "50 years, "
+    },
+    {
+        "question": "What are the parts of a tree?",
+        "expected": "trunk, branch, leaf, crown, root, bark, "
+    },
+    {
+        "question": "What colours can a German Shepherd dog's fur have?",
+        "expected": "black, bordeaux, "
+    },
+    {
+        "question": "What kinds of elephant are there?",
+        "expected": "Elephantidae, African bush elephant, Indian elephant, "
+    },
+    {
+        "question": "What are other names for rose oil?",
+        "expected": "rose essential oil, otto of roses, attar of roses, "
+    },
+    {
+        "question": "Whats the dutch name for ant?",
+        "expected": "Mier, "
+    },
+    {
+        "question": "What is grass?",
+        "expected": "type of herbaceous plant, "
+    },
+    {
+        "question": "What is photosynthesis?",
+        "expected": "metabolic process in plants, algae, cyanobacteria, some protists, converting light energy into chemical energy that is used by a cell to produce food, "
+    },
+    {
+        "question": "What is the parent taxon of the macaque family?",
+        "expected": "Cercopithecinae, "
+    },
+    {
+        "question": "What term describes plant and animal life of a region?",
+        "expected": "Biota, "
+    },
+    {
+        "question": "What plants do cows eat?",
+        "expected": "Poaceae, "
+    },
+    {
+        "question": "What do we get from cows?",
+        "expected": "beef, cow's milk, cowhide, knuckle, beef byproducts, "
+    },
+    {
+        "question": "What do humans feed birds?",
+        "expected": "artificial food (often varieties of seeds, nuts, or dried fruits) fed to birds, "
+    },
+    {
+        "question": "What do plants need for photosynthesis?",
+        "expected": "Sunlight, "
+    },
+    {
+        "question": "Under what category does seaweed fall?",
+        "expected": "Algea, "
+    },
+    {
+        "question": "What is the type of locomotion of penguins?",
+        "expected": "bipedalism, "
+    },
+    {
+        "question": "What is the hearing freqeuncy range of a dog?",
+        "expected": "67 - 45,000 hertz, "
+    },
+    {
+        "question": "What plant produces vegetable that is used to make pickles?",
+        "expected": "Cucumis sativus, "
+    },
+    {
+        "question": "What is the name of food panda eats in slovak?",
+        "expected": "Bambus, "
+    },
+    {
+        "question": "What do we get from chickens?",
+        "expected": "chicken breast, chicken meat, chicken egg, "
+    },
+    {
+        "question": "What sound does a cat make?",
+        "expected": "meow, purr, "
+    },
+    {
+        "question": "What color can fox fur have?",
+        "expected": "black, orange, yellow, brown, "
+    },
+    {
+        "question": "What is the parent taxon of the Rosa Genus?",
+        "expected": "Rosoideae, "
+    },
+    {
+        "question": "What type of mammal is a house cat?",
+        "expected": "Domesicated mammal, "
+    },
+    {
+        "question": "What country does the Bonsai tree originate from?",
+        "expected": "China, Japan, "
+    },
+    {
+        "question": "What is the taxon name of the Great White Shark?",
+        "expected": "Carcharodon carcharias, "
+    },
+    {
+        "question": "What is the taxon name of the Red Panda?",
+        "expected": "Ailurus fulgens, "
+    },
+    {
+        "question": "What is another name for the Syringa vulgaris?",
+        "expected": "Common Lilac, "
+    },
+    {
+        "question": "What fruit type does the olive tree have?",
+        "expected": "Drupe, "
+    },
+    {
+        "question": "What is the highest observed lifespan of the Giant Panda?",
+        "expected": "36.8 years, "
+    },
+    {
+        "question": "What cuisine is the Oregano part of?",
+        "expected": "Turkish cuisine, "
+    },
+    {
+        "question": "What do koala's eat?",
+        "expected": "leaf, eucalypt tree, "
+    },
+    {
+        "question": "What is the litter size of a Newfoundland dog?",
+        "expected": "6.5, "
+    },
+    {
+        "question": "What is the life expectancy of a Guinea Pig?",
+        "expected": "5 year, "
+    },
+    {
+        "question": "What is the gestation period of an African Bush elephant?",
+        "expected": "22 month, "
+    },
+    {
+        "question": "What is the oppisite of a perennial plant?",
+        "expected": "annual plant, "
+    },
+    {
+        "question": "What is the taxon name of a dandelion?",
+        "expected": "Taraxacum officinale, "
+    },
+    {
+        "question": "What is the conservation status of a leopard?",
+        "expected": "Vulnerable, "
+    },
+    {
+        "question": "What is the name of the field that studies plants?",
+        "expected": "Botany, "
+    },
+    {
+        "question": "What are the minimum and maximum frequencies of sounds that cats can hear?",
+        "expected": "45 hertz, 64,000 hertz, "
+    },
+    {
+        "question": "What is the formal name of the red panda taxon?",
+        "expected": "Ailurus fulgens, "
+    },
+    {
+        "question": "What parts is a tree made up of?",
+        "expected": "Trunk, Branch, Leaf, Crown, Root, Bark, "
+    },
+    {
+        "question": "What is the highest observed lifespan of alpacas?",
+        "expected": "28.5, "
+    },
+    {
+        "question": "What is hedgehogs IUCN conservation status?",
+        "expected": "Least Concern, "
+    },
+    {
+        "question": "What is tigers taxon name?",
+        "expected": "Panthera tigris, "
+    },
+    {
+        "question": "What is the produced sound by donkeys?",
+        "expected": "Bray, "
+    },
+    {
+        "question": "What is the taxon common name of the flower ranunculus?",
+        "expected": "buttercup, "
+    },
+    {
+        "question": "What is the synonym of camellia?",
+        "expected": "Thea, "
+    },
+    {
+        "question": "What is the name of a shark in taxonomy?",
+        "expected": "Selachimorpha, "
+    },
+    {
+        "question": "What products do we get from sharks?",
+        "expected": "shark liver oil, shark skin, "
+    },
+    {
+        "question": "From what is the rose a subclass off?",
+        "expected": "spreading climber, "
+    },
+    {
+        "question": "What fruit type does a tulip have?",
+        "expected": "capsule, "
+    },
+    {
+        "question": "What do they call a sunflower in german?",
+        "expected": "Sonnenblumen, "
+    },
+    {
+        "question": "What is the maximum frequency of sound a cat can hear?",
+        "expected": "64,000 hertz, "
+    },
+    {
+        "question": "What is the full name of a cactus?",
+        "expected": "Cactaceae, "
+    },
+    {
+        "question": "What pets do the Obama's own?",
+        "expected": "Bo & Sunny, "
+    },
+    {
+        "question": "What do ladybugs eat?",
+        "expected": "aphid, "
+    },
+    {
+        "question": "What is the size of an elephant?",
+        "expected": "4 metre, "
+    },
+    {
+        "question": "What is the name of the study that studies horses?",
+        "expected": "hippology, "
+    },
+    {
+        "question": "What is the average life expectancy of a cat?",
+        "expected": "15 years, "
+    },
+    {
+        "question": "What is the maximum frequency of audible sound a cat can hear?",
+        "expected": "64000 hertz, "
+    },
+    {
+        "question": "What is the total horse population?",
+        "expected": "58315816, "
+    },
+    {
+        "question": "What's the name of the field that studies horses?",
+        "expected": "hippology, "
+    },
+    {
+        "question": "What is the German name for hippopotamus?",
+        "expected": "Flusspferd, "
+    },
+    {
+        "question": "What is the highest observed lifespan of a hippopotamus?",
+        "expected": "61.2 year, "
+    },
+    {
+        "question": "What is the status of ostriches when it comes to IUCM conservation status?",
+        "expected": "Least Concern, "
+    },
+    {
+        "question": "What is the mass of an female adult ostrich?",
+        "expected": "100 kilogram, "
+    },
+    {
+        "question": "What is the common category of fruit?",
+        "expected": "Fruits, "
+    },
+    {
+        "question": "What is the taxonomic type of Berberis?",
+        "expected": "Berberis vulgaris, "
+    },
+    {
+        "question": "What type of fruits belongs to the Berberis genus?",
+        "expected": "Berry, "
+    },
+    {
+        "question": "What is the produced type of sound by lions?",
+        "expected": "roar, "
+    },
+    {
+        "question": "What would be the height of a mammoth?",
+        "expected": "3.4 metre, "
+    },
+    {
+        "question": "What sort of habitat is required for a Tulip?",
+        "expected": "dry soil, "
+    },
+    {
+        "question": "What was the main use of dromedary by humans?",
+        "expected": "transport, "
+    },
+    {
+        "question": "What is the life expectancy of cats?",
+        "expected": "20 year, "
+    },
+    {
+        "question": "What is the highest observed lifespan in alpaca?",
+        "expected": "25.8 year, "
+    },
+    {
+        "question": "What is the heartrate of a cat?",
+        "expected": "125±15 beats per minute, 130±10 beats per minute, "
+    },
+    {
+        "question": "What is the French name for a deer?",
+        "expected": "cerf, "
+    },
+    {
+        "question": "What is the carbon footprint of broccoli?",
+        "expected": "0.6 kilogram of carbon dioxide equivalent per kilogram, 0.3 kilogram of carbon dioxide equivalent per kilogram, "
+    },
+    {
+        "question": "What colors can a narcissus be?",
+        "expected": "yellow, "
+    },
+    {
+        "question": "What is the Dutch name for the great white shark?",
+        "expected": "witte haai, "
+    },
+    {
+        "question": "What is the taxon name of the tiger?",
+        "expected": "Panthera tigris, "
+    },
+    {
+        "question": "What is the life expectancy of a cat?",
+        "expected": "15 year, "
+    },
+    {
+        "question": "What sounds does a cat make?",
+        "expected": "meow, purr, "
+    },
+    {
+        "question": "What is a male cat called?",
+        "expected": "tomcat, "
+    },
+    {
+        "question": "What kind of fruit does an oak tree bear?",
+        "expected": "glans, "
+    },
+    {
+        "question": "What field studies trees?",
+        "expected": "forestry science, dendrology, "
+    },
+    {
+        "question": "What is frequency range of audible sound made by bats?",
+        "expected": "Between 2,000 and 110,000 hertz, "
+    },
+    {
+        "question": "What are dogs used for?",
+        "expected": "pet, hunting, guard, service animal, "
+    },
+    {
+        "question": "What is the life expectancy of a goat?",
+        "expected": "15±1.5 year, "
+    },
+    {
+        "question": "What do goats produce?",
+        "expected": "goat milk, goat meat, "
+    },
+    {
+        "question": "What is the Dutch name of a Dandelion?",
+        "expected": "Gewone Paardenbloem, paardebloem, paardenbloem, pisbloem, Pissebloem, "
+    },
+    {
+        "question": "What subclass does a rose belong too?",
+        "expected": "spreading climber, "
+    },
+    {
+        "question": "What parts does a tree have?",
+        "expected": "trunk, branch, leaf, crown, root, bark, "
+    },
+    {
+        "question": "What sound makes a dog?",
+        "expected": "bark, "
+    },
+    {
+        "question": "What color has a penguin?",
+        "expected": "black, white, orange, "
+    },
+    {
+        "question": "What do plants live on?",
+        "expected": "soil, photosynthesis, carbon dioxide in Earth's atmosphere, fertilizer, "
+    },
+    {
+        "question": "What is the heart rate of a giraffe?",
+        "expected": "150 beats per minute, "
+    },
+    {
+        "question": "What is the dutch name for a bull?",
+        "expected": "stier, "
+    },
+    {
+        "question": "What do cows eat?",
+        "expected": "Poaceae, "
+    },
+    {
+        "question": "What is the average heartrate of a chicken?",
+        "expected": "275±25 beats per minute, "
+    },
+    {
+        "question": "What tree has the greatest lifespan?",
+        "expected": "Pinus longaeva, "
+    },
+    {
+        "question": "What is the more common english name of the Pinus longaeva?",
+        "expected": "Great Basin Bristlecone Pine, "
+    },
+    {
+        "question": "What products a made from a sheep?",
+        "expected": "sheep wool, sheepskin, sheep milk, "
+    },
+    {
+        "question": "What is the definition of a plant?",
+        "expected": "multicellular eukaryote of the kingdom Plantae, "
+    },
+    {
+        "question": "What is the definition of an animal?",
+        "expected": "kingdom of multicellular eukaryotic organisms, "
+    },
+    {
+        "question": "What is the taxon name of the species tiger?",
+        "expected": "Panthera tigris, "
+    },
+    {
+        "question": "What is the gestation period of a tiger?",
+        "expected": "107±5 day, "
+    },
+    {
+        "question": "What sound does a tiger make?",
+        "expected": "roar, "
+    },
+    {
+        "question": "What study studies fish?",
+        "expected": "ichthyology, "
+    },
+    {
+        "question": "What is the taxon name of a sunflower?",
+        "expected": "Helianthus annuus, "
+    },
+    {
+        "question": "What is the gestation period of a polar bear?",
+        "expected": "5 month, "
+    },
+    {
+        "question": "What is the average life span of a polar bear?",
+        "expected": "50 year, "
+    },
+    {
+        "question": "What bird has the largest wingspan?",
+        "expected": "Wandering Albatross, "
+    },
+    {
+        "question": "What are the types of plankton?",
+        "expected": "phytoplankton, zooplankton, "
+    },
+    {
+        "question": "What plant can be used to make woad?",
+        "expected": "Isatis tinctoria, "
+    },
+    {
+        "question": "What are five animals native to Australia?",
+        "expected": "kangaroo, koala, platypus, echidna, wombat, "
+    },
+    {
+        "question": "What plant is used to make green tea?",
+        "expected": "Camellia sinensis, "
+    },
+    {
+        "question": "What products can you derive from sheep?",
+        "expected": "sheep wool, sheepskin, sheep milk, "
+    },
+    {
+        "question": "What is the scientific name for cat?",
+        "expected": "Felis silvestris catus, Felis catus, "
+    },
+    {
+        "question": "What is the oldest cat?",
+        "expected": "Cream Puff, "
+    },
+    {
+        "question": "What is the hottest chili pepper?",
+        "expected": "Carolina Reaper, "
+    },
+    {
+        "question": "What is the sound of an eagle called?",
+        "expected": "Eagle cry, "
+    },
+    {
+        "question": "What is the dutch word for anteaters?",
+        "expected": "miereneters, "
+    },
+    {
+        "question": "What products do sheep produce?",
+        "expected": "sheep wool, sheepskin, sheep milk, "
+    },
+    {
+        "question": "What sounds do leopards produce?",
+        "expected": "roar, "
+    },
+    {
+        "question": "What uses has bamboo?",
+        "expected": "Building material, Industrial crop, Horticulture, Clothing, Bamboo charcoal, "
+    },
+    {
+        "question": "What fruit type has an oak tree?",
+        "expected": "Glans, "
+    },
+    {
+        "question": "What are the top 3 fastest animals?",
+        "expected": "Peregrine falcon, Golden eagle, White-throated needletail swift, "
+    },
+    {
+        "question": "What is the height in meters of the tallest tree in the world?",
+        "expected": "115.92, "
+    },
+    {
+        "question": "What is another word for tree-ring dating?",
+        "expected": "Dendrochronology, "
+    },
+    {
+        "question": "What elephant species are still alive?",
+        "expected": "African bush elephant, African forest elephant, Asian elephant, "
+    },
+    {
+        "question": "What is the species name of the kodiak bear?",
+        "expected": "Ursus arctos middendorffi, "
+    },
+    {
+        "question": "What is the study of dogs called?",
+        "expected": "cynology, "
+    },
+    {
+        "question": "What can be harvested from sunflowers?",
+        "expected": "sunflower seed, sunflower lecithin, sunflower oil, "
+    },
+    {
+        "question": "What is the minimum weight of a Siamese cat?",
+        "expected": "4 kilogram, "
+    },
+    {
+        "question": "What breed is Scooby-Doo?",
+        "expected": "Great Dane, "
+    },
+    {
+        "question": "What is the wingspan of a Macaroni Penguin?",
+        "expected": "70 centimetre, "
+    },
+    {
+        "question": "What is the proper name of a blob fish?",
+        "expected": "Psychrolutes marcidus, "
+    },
+    {
+        "question": "What is a common name for cannabis?",
+        "expected": "hemp, "
+    },
+    {
+        "question": "What is the lowest frequency a dog can hear?",
+        "expected": "67 hertz, "
+    },
+    {
+        "question": "What is the IUCN conservation status of a venus flytrap?",
+        "expected": "vulnereable, "
+    },
+    {
+        "question": "What is the eye color of a siamese cat?",
+        "expected": "blue, "
+    },
+    {
+        "question": "What is the fruit type of tulip?",
+        "expected": "capsule, "
+    },
+    {
+        "question": "What are the uses of bamboo?",
+        "expected": "Bamboo charcoal, clothing, horticulture, industrial crop, building material, "
+    },
+    {
+        "question": "By what study area are spiders studied?",
+        "expected": "araneology, "
+    },
+    {
+        "question": "What sound do lions produce?",
+        "expected": "roar, "
+    },
+    {
+        "question": "What is the use of flowers?",
+        "expected": "plant reproduction, "
+    },
+    {
+        "question": "What is the IUCN conservation status of the blue whale?",
+        "expected": "Endangered, "
+    },
+    {
+        "question": "What color is a sunflower?",
+        "expected": "yellow, "
+    },
+    {
+        "question": "What is the use of leaves?",
+        "expected": "fodder, mulch, "
+    },
+    {
+        "question": "What is butterfly in dutch?",
+        "expected": "Vlinder, "
+    },
+    {
+        "question": "What is the top speed of a cheetah?",
+        "expected": "120 kilometre per hour, "
+    },
+    {
+        "question": "What color is an elephant?",
+        "expected": "Grey, "
+    },
+    {
+        "question": "What conversation status does the king cobra have?",
+        "expected": "Vulnerable, "
+    },
+    {
+        "question": "What is the heart rate of a giraffe?",
+        "expected": "150 beats per minute, "
+    },
+    {
+        "question": "What is the wingspan of a raven?",
+        "expected": "1.21 metre, "
+    },
+    {
+        "question": "What is the average height of a giraffe?",
+        "expected": "5.5±0.5 metre, "
+    },
+    {
+        "question": "What is the german name for chicken?",
+        "expected": "Hähnchen, "
+    },
+    {
+        "question": "What is the conservation status of the Atlantic salmon?",
+        "expected": "Least Concern, "
+    },
+    {
+        "question": "In what year did the Asian elephant originate?",
+        "expected": "2500000 years BCE, "
+    },
+    {
+        "question": "In what year was the Venus flytrap first classified?",
+        "expected": "1768, "
+    },
+    {
+        "question": "What type of fruit does a plant of the genus Malus produce?",
+        "expected": "pome, "
+    },
+    {
+        "question": "What does a giant panda mostly eat?",
+        "expected": "Bambuseae, "
+    },
+    {
+        "question": "What types of cannabis are there?",
+        "expected": "Cannabis Sativa, Cannabis Indica, "
+    },
+    {
+        "question": "What is another word for pigeon?",
+        "expected": "Dove, "
+    },
+    {
+        "question": "What is the highest observed lifespan of a mongoose?",
+        "expected": "17.4 years, "
+    },
+    {
+        "question": "What is the latin name for a daisy?",
+        "expected": "Bellis Perennis, "
+    },
+    {
+        "question": "What is the latin name for a chimpanzee?",
+        "expected": "Pan Troglodytes, "
+    },
+    {
+        "question": "What is the latin name for ants?",
+        "expected": "Formicidae, "
+    },
+    {
+        "question": "What is the habitat of an ivy?",
+        "expected": "tree, cliff, lowland, wall, "
+    },
+    {
+        "question": "What is the heart rate of a horse?",
+        "expected": "38±6 beats per minute, "
+    },
+    {
+        "question": "What is the fruit type of a coconut tree?",
+        "expected": "drupe, "
+    },
+    {
+        "question": "What does a sheep eat?",
+        "expected": "grass, dietary fiber, hay, legume, forb, Bromus tectorum, Euphorbia virgata, Pueraria thomsonii, Centaurea maculosa, Sagebrush, "
+    },
+    {
+        "question": "What is the conservation status of the axolotl?",
+        "expected": "Critically Endangered, "
+    },
+    {
+        "question": "What products originate from rubber trees?",
+        "expected": "natural rubber, rubberwood, "
+    },
+    {
+        "question": "What is the native country of the yellow-bellied slider?",
+        "expected": "United States of America, "
+    },
+    {
+        "question": "What eye color do siamese cats have?",
+        "expected": "blue, "
+    },
+    {
+        "question": "What is the maximum age for mountain goats?",
+        "expected": "20.8 year, "
+    },
+    {
+        "question": "What is the study of algea called?",
+        "expected": "phycology, "
+    },
+    {
+        "question": "In what year was the 52-hertz whale discovered?",
+        "expected": "1989, "
+    }
+]

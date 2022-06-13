@@ -1,0 +1,402 @@
+[
+    {
+        "question": "How long is the gestation period of the European rabbit?",
+        "expected": "29 days, "
+    },
+    {
+        "question": "How many Chinese common names are there for a great white shark?",
+        "expected": "4, "
+    },
+    {
+        "question": "How many dog breeds are there?",
+        "expected": "450, "
+    },
+    {
+        "question": "How old does a dog get?",
+        "expected": "7-16 years, "
+    },
+    {
+        "question": "how many horns does a unicorn have?",
+        "expected": "1, "
+    },
+    {
+        "question": "how are weevers called in dutch?",
+        "expected": "Pietermannen, "
+    },
+    {
+        "question": "How high is the highest observed lifespan of a lion?",
+        "expected": "27 year, "
+    },
+    {
+        "question": "How long is the gestation period of a wolf?",
+        "expected": "62±1 day, "
+    },
+    {
+        "question": "How old was the oldest observed platypus?",
+        "expected": "22.6 year, "
+    },
+    {
+        "question": "How do you call cats that have two colours?",
+        "expected": "Bicolour cats, Tortoiseshell cats, "
+    },
+    {
+        "question": "How many puppies do rottweilers have?",
+        "expected": "8, "
+    },
+    {
+        "question": "How many colours can banana tree's fruits be?",
+        "expected": "5, "
+    },
+    {
+        "question": "How long do cats live?",
+        "expected": "15 years, "
+    },
+    {
+        "question": "How long is an orca pregnant for?",
+        "expected": "16.5±0.5 months, "
+    },
+    {
+        "question": "How old do cats get?",
+        "expected": "20 year, "
+    },
+    {
+        "question": "How much does a giant panda weigh at birth?",
+        "expected": "104 gram, "
+    },
+    {
+        "question": "How do you call a baby duck?",
+        "expected": "duckling, "
+    },
+    {
+        "question": "How many horses are on earth?",
+        "expected": "58,315,816, "
+    },
+    {
+        "question": "How old can a cat get?",
+        "expected": "15 year, "
+    },
+    {
+        "question": "How old was the longest living cow?",
+        "expected": "48 year, "
+    },
+    {
+        "question": "How much energy does is stored in an apple?",
+        "expected": "300 kilojoule, "
+    },
+    {
+        "question": "How long do cats live?",
+        "expected": "15 years, "
+    },
+    {
+        "question": "How do I say lily in Dutch?",
+        "expected": "lelie, "
+    },
+    {
+        "question": "How heavy is an adult lion?",
+        "expected": "Male lions weigh 188 kilogram (on average), Lionesses weigh 126 kilogram (on average), "
+    },
+    {
+        "question": "How high of a sound can cows hear?",
+        "expected": "35,000 hertz, "
+    },
+    {
+        "question": "How long does a cheetah's preganancy last?",
+        "expected": "92 days, "
+    },
+    {
+        "question": "How long is the highest observed lifespan of a tiger?",
+        "expected": "26.3 year, "
+    },
+    {
+        "question": "How do you describe an apex predator?",
+        "expected": "predator residing at the top of a food chain, with no predators of its own, "
+    },
+    {
+        "question": "How much does an adult giant panda weight?",
+        "expected": "117.5±42.5 kilogram, "
+    },
+    {
+        "question": "How tall is a giraffe?",
+        "expected": "5.5±0.5 metre, "
+    },
+    {
+        "question": "How tall are elephants?",
+        "expected": "4 metre, "
+    },
+    {
+        "question": "How old do cats typically get?",
+        "expected": "15 year, "
+    },
+    {
+        "question": "How long are orcas pregnant for?",
+        "expected": "16.5±0.5 month, "
+    },
+    {
+        "question": "How long is a tiger pregnant?",
+        "expected": "107±5 day, "
+    },
+    {
+        "question": "How old can giraffes become?",
+        "expected": "39.5 year, "
+    },
+    {
+        "question": "How much does a Gibbon way?",
+        "expected": "8.5±4.5 kilogram, "
+    },
+    {
+        "question": "How long are the wings of a Red-throat Diver?",
+        "expected": "1.04 metre, "
+    },
+    {
+        "question": "How old was the oldest alpaca?",
+        "expected": "25.8 year, "
+    },
+    {
+        "question": "How much does a red panda weigh as an adult?",
+        "expected": "4.95 kg, "
+    },
+    {
+        "question": "How long does the gestation period of a cat last?",
+        "expected": "64 days, "
+    },
+    {
+        "question": "How tall is the Hyperion tree, known as the tallest living tree in the world?",
+        "expected": "115.85 metres, "
+    },
+    {
+        "question": "How many species exist in the genus Rosa?",
+        "expected": "circa 200, "
+    },
+    {
+        "question": "How long are gorillas pregnant?",
+        "expected": "270 days, "
+    },
+    {
+        "question": "How old can a hippo get?",
+        "expected": "61.2 year, "
+    },
+    {
+        "question": "How is dog written in German?",
+        "expected": "Hund, "
+    },
+    {
+        "question": "How many horses were there in 2013?",
+        "expected": "58,315,816, "
+    },
+    {
+        "question": "How many pups does a French Bulldog usually have in a litter?",
+        "expected": "4.7, "
+    },
+    {
+        "question": "How much does a giraffe weigh at birth?",
+        "expected": "54.4 kilogram, "
+    },
+    {
+        "question": "How does a Cocos nucifera desperse its seeds?",
+        "expected": "nautochory, "
+    },
+    {
+        "question": "How long have cockroaches remained unchanged for?",
+        "expected": "It is thought they have been unchanged for more than 300 million years, "
+    },
+    {
+        "question": "How many beats per minutes does a chicken have at rest?",
+        "expected": "275±25 beats per minute, "
+    },
+    {
+        "question": "How large is the wing span of a Great Black-backed Gull?",
+        "expected": "1.67 metre, "
+    },
+    {
+        "question": "For how long is a giraffe pregnant?",
+        "expected": "457 days, "
+    },
+    {
+        "question": "How fast does the average heart of a chicken beat?",
+        "expected": "275 beats per minute, "
+    },
+    {
+        "question": "How old can brown bears get?",
+        "expected": "40 years old, "
+    },
+    {
+        "question": "How much does a tiger weigh at birth?",
+        "expected": "1.19 kilogram, "
+    },
+    {
+        "question": "How old can a house mouse become?",
+        "expected": "4 year, "
+    },
+    {
+        "question": "How does a hedgehog move?",
+        "expected": "rolling & quadrupedalism, "
+    },
+    {
+        "question": "How long is a babygoat brestfed?",
+        "expected": "305 days, "
+    },
+    {
+        "question": "How do you call the sound a horse makes",
+        "expected": "a neigh, "
+    },
+    {
+        "question": "How long is a hippopotamus' gestation period?",
+        "expected": "8 month, "
+    },
+    {
+        "question": "How long do polar bears live?",
+        "expected": "No, "
+    },
+    {
+        "question": "How is the study of dogs called?",
+        "expected": "cynology, "
+    },
+    {
+        "question": "How long are cats pregnant?",
+        "expected": "64 day, "
+    },
+    {
+        "question": "How is the fruit of a Dandelion called?",
+        "expected": "achene, "
+    },
+    {
+        "question": "How many eggs do pidgeons lay?",
+        "expected": "2 bird egg, "
+    },
+    {
+        "question": "How long is a walrus pregnant?",
+        "expected": "12 month, "
+    },
+    {
+        "question": "How old can a panda get?",
+        "expected": "36.8 year, "
+    },
+    {
+        "question": "How big is an elephant?",
+        "expected": "4 metre, "
+    },
+    {
+        "question": "How old can pandas become?",
+        "expected": "36.8 year, "
+    },
+    {
+        "question": "How tall is the tallest Sherman tree?",
+        "expected": "83.8 metre, "
+    },
+    {
+        "question": "How old can the Great Basin Bristlecone Pine get?",
+        "expected": "4,854 year, "
+    },
+    {
+        "question": "How tall is the talles tree?",
+        "expected": "115.85m, "
+    },
+    {
+        "question": "How fast can a cheetah run?",
+        "expected": "120 kilometre per hour, "
+    },
+    {
+        "question": "How many dog breeds are there?",
+        "expected": "813, "
+    },
+    {
+        "question": "How heigh is an elephant?",
+        "expected": "4 metres, "
+    },
+    {
+        "question": "How is the highest observed lifespan of a raccoon?",
+        "expected": "21 years, "
+    },
+    {
+        "question": "How many species of roses exist?",
+        "expected": "200, "
+    },
+    {
+        "question": "How many plant species are there?",
+        "expected": "320000, "
+    },
+    {
+        "question": "How are animals also called?",
+        "expected": "Metazoa, "
+    },
+    {
+        "question": "How many dog breeds are there?",
+        "expected": "450, "
+    },
+    {
+        "question": "How do we call the process of plants absorbing sunlight?",
+        "expected": "Photosynthesis, "
+    },
+    {
+        "question": "How many nicknames does the gyrocarpus americanus have?",
+        "expected": "5, "
+    },
+    {
+        "question": "How do hedgehogs travel?",
+        "expected": "rolling, quadrupedalism, "
+    },
+    {
+        "question": "How old can raccoons get?",
+        "expected": "21 year, "
+    },
+    {
+        "question": "How long does a goat lactate for?",
+        "expected": "305 day, "
+    },
+    {
+        "question": "How long is the life expectancy of a cat?",
+        "expected": "15 years, "
+    },
+    {
+        "question": "How long did the hamster with the highest observed lifespan live?",
+        "expected": "3.9 years, "
+    },
+    {
+        "question": "How old can a European hedgehog get?",
+        "expected": "11.7 years, "
+    },
+    {
+        "question": "How many horses were there in 2013?",
+        "expected": "58,315,816, "
+    },
+    {
+        "question": "How much do giant pandas weigh at birth?",
+        "expected": "104 gram, "
+    },
+    {
+        "question": "How much does a newborn lion weigh?",
+        "expected": "1.65 kilogram, "
+    },
+    {
+        "question": "How many species of rose are there?",
+        "expected": "200, "
+    },
+    {
+        "question": "How much does a gianta panda weigh?",
+        "expected": "104 gram birth weight, 117.5±42.5 kilogram adult weight, "
+    },
+    {
+        "question": "How tall is an elephant?",
+        "expected": "4 metres, "
+    },
+    {
+        "question": "How do you call the study of ants?",
+        "expected": "Myrmecology, "
+    },
+    {
+        "question": "How tall is a giraffe?",
+        "expected": "5.5±0.5 metre, "
+    },
+    {
+        "question": "How long is the gestation period of a cow?",
+        "expected": "285 day, "
+    },
+    {
+        "question": "How does a horse chestnut disperse its seeds?",
+        "expected": "zoochory, barochory, "
+    },
+    {
+        "question": "How fast can a cheetah run?",
+        "expected": "120 kilometre per hour, "
+    }
+]
