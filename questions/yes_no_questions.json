@@ -1,0 +1,146 @@
+[
+    {
+        "question": "Are fungi plants?",
+        "expected": "No, they are different from plants, "
+    },
+    {
+        "question": "Are roses edible?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Is a tomato a fruit or a vegetable?",
+        "expected": "A fruit, specifically a berry, "
+    },
+    {
+        "question": "Is a lion a feline?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "do tigers eat fruit?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "is a Lion a species of big cat?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Do lions bark?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Do crocodiles stil live in the wild?",
+        "expected": "yes, "
+    },
+    {
+        "question": "are elephants mamals?",
+        "expected": "yes, "
+    },
+    {
+        "question": "Are crocodiles reptiles or amphibians?",
+        "expected": "Reptiles, "
+    },
+    {
+        "question": "Is the fly agaric safe to eat?",
+        "expected": "No, "
+    },
+    {
+        "question": "Can you tell me the colour of narcissi?",
+        "expected": "Yellow, "
+    },
+    {
+        "question": "Are roses edible?",
+        "expected": "edible plant, "
+    },
+    {
+        "question": "Can you eat ferns?",
+        "expected": "food, "
+    },
+    {
+        "question": "Is Aloe Vera a plant, tree or herb?",
+        "expected": "herb, "
+    },
+    {
+        "question": "Are trees organized into forests?",
+        "expected": "yes, "
+    },
+    {
+        "question": "Do dolphins have a sense of self-awareness?",
+        "expected": "yes, "
+    },
+    {
+        "question": "Are African bush elephants an endangered species?",
+        "expected": "Endangered, "
+    },
+    {
+        "question": "Is the plural of octopus octupuses or octopi?",
+        "expected": "octopuses, "
+    },
+    {
+        "question": "Do birds fly?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Are jaguars mammals?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Are paeonias different from pions?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Is cannabis different from marihuana?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Are bamboos edible plants?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Can foxes have black fur?",
+        "expected": "yes, "
+    },
+    {
+        "question": "Are a hare and a rabbit the same thing?",
+        "expected": "rabbit, "
+    },
+    {
+        "question": "Is the hippo an endangered species?",
+        "expected": "Vulnerable, "
+    },
+    {
+        "question": "Do sunflowers produce seeds?",
+        "expected": "sunflower seed, "
+    },
+    {
+        "question": "Can you eat blueberries?",
+        "expected": "Blueberries as food, "
+    },
+    {
+        "question": "Do birch trees produce food?",
+        "expected": "nucule, "
+    },
+    {
+        "question": "Are lions an endangered species?",
+        "expected": "Vulnerable, "
+    },
+    {
+        "question": "Is bamboo used inmaking clothing?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Are bananas berries?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Are sheeps herbivores?",
+        "expected": "Yes, "
+    },
+    {
+        "question": "Are parrots domesticated animals?",
+        "expected": "Subclass of domesticated animal, "
+    },
+    {
+        "question": "Are axolotls endagered animals?",
+        "expected": "Conservation status is critically endagered, "
+    }
+]

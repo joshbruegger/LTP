@@ -1,0 +1,138 @@
+[
+    {
+        "question": "Which animals are in the big 5?",
+        "expected": "lion, leopard, black rhinoceros, African bush elephant, African buffalo, "
+    },
+    {
+        "question": "Which animals do not have a spine?",
+        "expected": "Invertebrates, "
+    },
+    {
+        "question": "Which animals do not have a spine?",
+        "expected": "Invertebrates, "
+    },
+    {
+        "question": "Which color is an elephant?",
+        "expected": "grey, "
+    },
+    {
+        "question": "Which continent is the wombat endemic to?",
+        "expected": "Australia, "
+    },
+    {
+        "question": "In which habitat do tulips grow best?",
+        "expected": "dry soil, "
+    },
+    {
+        "question": "Which awards did rosemary receive?",
+        "expected": "Medicinal plant of the year 2000, Medicinal plant of the year 2011, "
+    },
+    {
+        "question": "Which colours can foxes be?",
+        "expected": "black, orange, yellow, brown, "
+    },
+    {
+        "question": "Which tree produces papayas?",
+        "expected": "Carica papaya, "
+    },
+    {
+        "question": "Taxus is the Latin name for which tree?",
+        "expected": "yew, "
+    },
+    {
+        "question": "Which tree was the winner of Austria's 2005 tree of the year award?",
+        "expected": "The maple tree, "
+    },
+    {
+        "question": "Which fruit type does a daisy (bellis perennis) have?",
+        "expected": "achene, "
+    },
+    {
+        "question": "Which plant was the medicinal plant of the year in 2013?",
+        "expected": "Rosa × damascena, "
+    },
+    {
+        "question": "Which plant was the tree of the year in 2008?",
+        "expected": "Juglans regia, "
+    },
+    {
+        "question": "Which cow lived the longest?",
+        "expected": "Big Bertha, "
+    },
+    {
+        "question": "Which colours can the fruit of the apple tree have?",
+        "expected": "red, yellow, green, pink, "
+    },
+    {
+        "question": "Which are the components of a flower?",
+        "expected": "gynoecium, androecium, perianth, "
+    },
+    {
+        "question": "Which parts constitute a flower?",
+        "expected": "gynoecium, androecium, perianth, "
+    },
+    {
+        "question": "In which habitats do giraffes live?",
+        "expected": "Savanna, woodland, "
+    },
+    {
+        "question": "To which genus does a rose belong?",
+        "expected": "Rosa cinnamomea, "
+    },
+    {
+        "question": "Which color is a fox?",
+        "expected": "black, orange, yellow, brown, "
+    },
+    {
+        "question": "Which color are sunflowers?",
+        "expected": "yellow, "
+    },
+    {
+        "question": "Which plant is saffron made of?",
+        "expected": "Crocus sativus, "
+    },
+    {
+        "question": "Which species of dolphins is self-aware?",
+        "expected": "Bottlenose dolphin, "
+    },
+    {
+        "question": "After which country is the fruit 'orange' named in Turkish language?",
+        "expected": "Portugal, "
+    },
+    {
+        "question": "In which country is the Old Tjikko tree located?",
+        "expected": "Sweden, "
+    },
+    {
+        "question": "Which species of mammal is considered the largest land animal?",
+        "expected": "African bush elephant, "
+    },
+    {
+        "question": "Which country is platypus endemic to?",
+        "expected": "Australia, "
+    },
+    {
+        "question": "Which bird has the largests wingspan?",
+        "expected": "Albatross, "
+    },
+    {
+        "question": "In which country the International Plant Names Index is based?",
+        "expected": "United Kingdom, "
+    },
+    {
+        "question": "To which subclass does the elephant belong?",
+        "expected": "mammal, "
+    },
+    {
+        "question": "To which family did mammoths belong?",
+        "expected": "Elephantidae, "
+    },
+    {
+        "question": "Of which plant classes is birch a subclass?",
+        "expected": "tree, shrub, "
+    },
+    {
+        "question": "Which type of fruit do rubber trees produce?",
+        "expected": "capsule, "
+    }
+]

@@ -44,7 +44,7 @@
     "string": "How many Chinese common names are there for a great white shark?",
     "answer": [
       {
-        "integer": 4,
+        "string": "4",
         "uri": "https://www.wikidata.org/wiki/Q129026"
       }
     ]
@@ -54,7 +54,7 @@
     "string": "What is the heartrate of a giraffe in bpm?",
     "answer": [
       {
-        "integer": 150,
+        "string": "150",
         "uri": "https://www.wikidata.org/wiki/Q15083"
       }
     ]

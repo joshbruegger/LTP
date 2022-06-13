@@ -1,0 +1,86 @@
+[
+    {
+        "question": "Where is the Varanus komodoensis (komodo dragon) endemic to?",
+        "expected": "Indonesia, "
+    },
+    {
+        "question": "Where are bonsai trees originally from?",
+        "expected": "China, "
+    },
+    {
+        "question": "Where was Dodo discovered?",
+        "expected": "Mauritius Island, "
+    },
+    {
+        "question": "Where do platypuses live?",
+        "expected": "Austalia, "
+    },
+    {
+        "question": "Where did the corgi originate from?",
+        "expected": "United Kingdom, Wales, "
+    },
+    {
+        "question": "Where does the Mesh run?",
+        "expected": "western Europe, "
+    },
+    {
+        "question": "Where do chihuahua's come from?",
+        "expected": "Mexico, "
+    },
+    {
+        "question": "Where were Mammoths discovered?",
+        "expected": "Alaska, Siberia, Canada, Europe, "
+    },
+    {
+        "question": "Where is the Arctic wolf native to?",
+        "expected": "Canada, "
+    },
+    {
+        "question": "Where does the Aure et Saint-Girons cattle breed originate from?",
+        "expected": "France, "
+    },
+    {
+        "question": "Where do lions live?",
+        "expected": "Africa, "
+    },
+    {
+        "question": "Where does the koala live?",
+        "expected": "Australia, "
+    },
+    {
+        "question": "Where does the bonsai tree come from?",
+        "expected": "China, Japan, "
+    },
+    {
+        "question": "From where do bonsai trees originate?",
+        "expected": "China, Japan, "
+    },
+    {
+        "question": "Where was the first Lipizzaner bred?",
+        "expected": "Slovenia, "
+    },
+    {
+        "question": "Where is a kangaroo endemic to?",
+        "expected": "Australia, "
+    },
+    {
+        "question": "Where is shiba inu from?",
+        "expected": "Japan, "
+    },
+    {
+        "question": "Where are kangaroos endemic to?",
+        "expected": "Australia, "
+    },
+    {
+        "question": "Where is the cocoa plant endemic to?",
+        "expected": "Brazil, Colombia, Ecuador, Peru, Venzuela, "
+    },
+    {
+        "question": "Where do koalas come from?",
+        "expected": "Australia, "
+    },
+    {
+        "question": "Where was the tree of the knowledge of good and evil?",
+        "expected": "Garden of Eden, "
+    }
+]

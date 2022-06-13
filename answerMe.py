@@ -10,6 +10,7 @@ from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 
 wnl = WordNetLemmatizer()
+
 # download only if not already downloaded
 if not nltk.data.find('corpora/wordnet') or not nltk.data.find('corpora/omw-1.4'):
     nltk.download('wordnet')
@@ -50,38 +51,35 @@ def try_all_questions(file, question_id):
 
 def main():
     clear_console()
-    answer(input("Question: "))
-
-    return
 
     print("SlayQA 1.0")
-    while True:
-        print('-----------')
-        print('''
-        1. Ask a question
-        2. Try all questions
-        3. try all questions in file
-        4. Turn debug on or off
-        q. Quit
-        ''')
-        choice = input("Enter your choice: ")
-        if choice == '1':
-            question = input("Enter your question: ")
-            answer(question)
-        elif choice == '2':
-            try_all_questions('all_questions.json', 'string')
-        elif choice == '3':
-            file = input("Enter the file name: ")
-            q_id = input("Enter the question ID: ")
-            try_all_questions(file, q_id)
-        elif choice == '4':
-            global PRINT_DEBUG
-            PRINT_DEBUG = not PRINT_DEBUG
-            print("Debug is now " + str(PRINT_DEBUG))
-        elif choice == 'q':
-            exit()
-        else:
-            print("Invalid choice")
+    # while True:
+    print('-----------')
+    print('''
+    1. Ask a question
+    2. Try all questions
+    3. try all questions in file
+    4. Turn debug on or off
+    q. Quit
+    ''')
+    choice = input("Enter your choice: ")
+    if choice == '1':
+        question = input("Enter your question: ")
+        answer(question)
+    elif choice == '2':
+        try_all_questions('questions/all_questions.json', 'string')
+    elif choice == '3':
+        file = input("Enter the file name: ")
+        q_id = input("Enter the question ID: ")
+        try_all_questions(file, q_id)
+    elif choice == '4':
+        global PRINT_DEBUG
+        PRINT_DEBUG = not PRINT_DEBUG
+        print("Debug is now " + str(PRINT_DEBUG))
+    elif choice == 'q':
+        exit()
+    else:
+        print("Invalid choice")
 
 
 def answer(question):
@@ -262,7 +260,7 @@ def where_question(doc):
         property1 = "location of discovery"
     else:
         property1 = "endemic to"
-    
+
     property2 = "country of origin"
     property1 = process_noun(property1)
     property2 = process_noun(property2)
@@ -333,7 +331,7 @@ def yes_no_q(doc):
                 answer = query_wikidata(build_yes_no_query(
                     noun2try['id'], noun1try['id']))
                 if answer is not None:
-                    return format_answer(answer)
+                    return answer
 
 
 def count_q(doc):
@@ -342,6 +340,7 @@ def count_q(doc):
     property
 
     return doc
+
 
 def how_q(doc):
     nouns = list(doc.noun_chunks)
@@ -389,9 +388,9 @@ def when_q(doc):
     nouns = list(doc.noun_chunks)
     if "extinct" in doc.text:
         prop = "end time"
-    if "first" in doc.text: # this could also be done with synonyms
+    if "first" in doc.text:  # this could also be done with synonyms
         prop = "start time"
-    
+
     entity = wnl.lemmatize(remove_article(nouns[-1].text))
     possibleObjects = get_wikidata_ids(entity)
     possibleProperties = get_wikidata_ids(prop, True)
@@ -502,6 +501,7 @@ def build_label_query(obj):
 def build_yes_no_query(object, property):
     q = 'ASK { wd:'
     q += object + ' wdt:P279 wd:' + property + '. }'
+    log(q)
     return q
 
 
