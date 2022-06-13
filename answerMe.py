@@ -85,6 +85,8 @@ def main():
 
 
 def answer(question):
+    question = question.replace("?", "")
+
     dependency_pars = spacy.load('en_core_web_trf')
 
     doc = dependency_pars(question)  # parse the input
@@ -343,15 +345,24 @@ def count_q(doc):
 
 def how_q(doc):
     nouns = list(doc.noun_chunks)
+    #print(doc[1].head.text +" + " +doc[-1].text)
+    entity = wnl.lemmatize(remove_article(nouns[-1].text))
 
-    if doc[-2].pos_ == "NOUN":
-        entity = wnl.lemmatize(remove_article(nouns[-1].text))
+
+    if doc[-1].pos_ == "NOUN":
         prop = remove_article(nouns[-2].text)
-    elif doc[-2].pos_ == "VERB":
-        entity = wnl.lemmatize(remove_article(nouns[-1].text))
-        prop = str(doc[1].head.text)
-        print(prop)
-
+    elif doc[-1].pos_ == "VERB":
+        if (doc[1].text == "old" or doc[1].text == "long") and doc[1].head == doc[-1]:
+            print("more correct")
+            prop = "life expectancy"
+        else:
+            prop = doc[1].text
+        #print(prop)
+    elif doc[-1].pos_ == "ADJ" or doc[-1].pos_ == "ADP":
+        print("correct path")
+        if doc[-1].head != doc[1]:
+            print("correcter path")
+            prop = process_noun(doc[-2].text)
     else:
         print("sorry, not implemented yet!")
         return nouns
@@ -359,6 +370,8 @@ def how_q(doc):
     possible_objects = get_wikidata_ids(entity)
     possible_properties = get_wikidata_ids(prop, True)
     extra = get_synonyms(prop)
+    print(entity + "\\" + prop)
+    print(extra)
     for i in extra:
         possible_properties.extend(get_wikidata_ids(i, True))
 
@@ -411,8 +424,8 @@ def process_noun(word):
             return "produced sound"
         case 'definition ':
             return "Description"
-        # case "pregnant" | "pregnancy":
-        #     return "gestation period"
+        case "pregnant" | "pregnancy":
+            return "gestation period"
         case _:
             return word
 
