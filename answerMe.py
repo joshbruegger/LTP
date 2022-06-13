@@ -100,7 +100,6 @@ def answer(question):
     elif "which" in doc.text.lower():
         ans = which_question(doc)
     elif "how" in doc.text.lower():
-        print("ran")
         ans = how_q(doc)
     elif "when" in doc.text.lower():
         ans = when_q(doc)
@@ -108,7 +107,7 @@ def answer(question):
         ans = None
 
     if ans is not None:
-        print('Answer: ' + ans)
+        print(ans)
     else:
         print('Answer: I don\'t know')
 
@@ -171,9 +170,8 @@ def solver(entity, property):
             #    ' of ' + object['display']['label']['value'])
             ans = query_wikidata(build_query(
                 object['id'], prop['id']))
-            ans = format_answer(ans)
             if ans is not None:
-                return ans
+                return format_answer(ans)
 
 
 def what_question(doc):
@@ -200,9 +198,8 @@ def what_question(doc):
             possible_objects = get_wikidata_ids(entity)
             answer = query_wikidata(build_label_query(
                 possible_objects[0]['id']))
-            answer = format_answer(answer)
             if answer is not None:
-                return answer
+                return format_answer(answer)
         else:
             entity = remove_article(nouns[1])
             possible_objects = get_wikidata_ids(entity)
@@ -229,9 +226,8 @@ def what_question(doc):
             possible_objects = get_wikidata_ids(entity)
             answer = query_wikidata(build_label_query(
                 possible_objects[0]['id']))
-            answer = format_answer(answer)
             if answer is not None:
-                return answer
+                return format_answer(answer)
 
         else:
             prop = remove_article(nouns[1])
@@ -248,9 +244,8 @@ def what_question(doc):
                     ' of ' + object['display']['label']['value'])
                 answer = query_wikidata(build_query(
                     object['id'], prop['id']))
-                answer = format_answer(answer)
                 if answer is not None:
-                    return answer
+                    return format_answer(answer)
 
 
 def where_question(doc):
@@ -280,19 +275,16 @@ def where_question(doc):
                 ' of ' + object['display']['label']['value'])
             answer = query_wikidata(build_query(
                 object['id'], property['id']))
-            answer = format_answer(answer)
-
             if answer is not None:
-                return answer
+                return format_answer(answer)
             else:
                 for property2 in possible_properties2:
                     log('trying: ' + property['display']['label']['value'] +
                         ' of ' + object['display']['label']['value'])
                     answer = query_wikidata(build_query(
                         object['id'], property2['id']))
-                    answer = format_answer(answer)
                     if answer is not None:
-                        return answer
+                        return format_answer(answer)
 
 
 def yes_no_q(doc):
@@ -338,9 +330,8 @@ def yes_no_q(doc):
                     ' a ' + noun1try['display']['label']['value'])
                 answer = query_wikidata(build_yes_no_query(
                     noun2try['id'], noun1try['id']))
-                answer = format_answer(answer)
                 if answer is not None:
-                    return answer
+                    return format_answer(answer)
 
 
 def count_q(doc):
@@ -356,24 +347,29 @@ def how_q(doc):
     if doc[-2].pos_ == "NOUN":
         entity = wnl.lemmatize(remove_article(nouns[-1].text))
         prop = remove_article(nouns[-2].text)
+    elif doc[-2].pos_ == "VERB":
+        entity = wnl.lemmatize(remove_article(nouns[-1].text))
+        prop = str(doc[1].head.text)
+        print(prop)
+
     else:
         print("sorry, not implemented yet!")
         return nouns
 
-    possibleObjects = get_wikidata_ids(entity)
-    possibleProperties = get_wikidata_ids(prop, True)
+    possible_objects = get_wikidata_ids(entity)
+    possible_properties = get_wikidata_ids(prop, True)
     extra = get_synonyms(prop)
     for i in extra:
-        possibleProperties.extend(get_wikidata_ids(i, True))
+        possible_properties.extend(get_wikidata_ids(i, True))
 
-    for object in possibleObjects:
-        for prop in possibleProperties:
+    for object in possible_objects:
+        for prop in possible_properties:
             log('trying: ' + prop['display']['label']['value'] +
                 ' of ' + object['display']['label']['value'])
             answer = query_wikidata(build_query(
                 object['id'], prop['id']))
             if answer is not None:
-                return answer
+                return format_answer(answer)
 
 
 def when_q(doc):
