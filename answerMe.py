@@ -86,7 +86,7 @@ def try_all_questions(file):
     for i in incorrect:
         print(i[0])
         print("Expected: " + i[1])
-        print("Actual: " + answer(i[2]))
+        print("Actual: " + i[2])
 
 
 def questions_from_selection():
@@ -97,6 +97,7 @@ def questions_from_selection():
     4. which questions
     5. yes/no questions
     6. what questions
+    7. final questions
     ''')
     choice = input("Enter your choice: ")
     if choice == '1':
@@ -111,6 +112,8 @@ def questions_from_selection():
         try_all_questions('yes_no_questions.json')
     elif choice == '6':
         try_all_questions('what_questions.json')
+    elif choice == '7':
+        try_all_questions('final_evaluation_questions.json')
     else:
         print("Invalid choice")
 
@@ -150,26 +153,31 @@ def answer(question):
 
     first_word = doc[0].text.lower()  # get the first word
 
-    if "what" in doc.text.lower():
-        ans = what_question(doc)
-    elif first_word in YES_NO_LIST:
-        ans = yes_no_q(doc)
-    elif ("where" in doc.text.lower()):
-        ans = where_question(doc)
-    elif "which" in doc.text.lower() or "who" in doc.text.lower():
-        ans = which_question(doc)
-    elif "when" in doc.text.lower():
-        ans = when_q(doc)
-    elif "how" in doc.text.lower():
-        ans = how_q(doc)
-    else:
-        ans = None
+    try:
+        if "what" in doc.text.lower():
+            ans = what_question(doc)
+        elif first_word in YES_NO_LIST:
+            ans = yes_no_q(doc)
+        elif ("where" in doc.text.lower()):
+            ans = where_question(doc)
+        elif "which" in doc.text.lower() or "who" in doc.text.lower():
+            ans = which_question(doc)
+        elif "when" in doc.text.lower():
+            ans = when_q(doc)
+        elif "how" in doc.text.lower():
+            ans = how_q(doc)
+        else:
+            ans = None
 
-    if ans is not None:
-        print(ans)
-        return ans
-    else:
-        print('Answer: I don\'t know')
+        if ans is not None:
+            print(ans)
+            return ans
+        else:
+            print('Answer: I don\'t know')
+            return None
+
+    except Exception:
+        print('Exception')
         return None
 
 

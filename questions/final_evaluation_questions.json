@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "What is the snowy owl's IUCN conservation status?",
+    "expected": "Vulnerable"
+  },
+  {
+    "id": 2,
+    "question": "What is the colour of a cherry?",
+    "expected": "red"
+  },
+  {
+    "id": 3,
+    "question": "What is the gestation period of a beluga whale?",
+    "expected": "1 year"
+  },
+  {
+    "id": 4,
+    "question": "What is the highest observed lifespan of a jaguar?",
+    "expected": "28 years"
+  },
+  {
+    "id": 5,
+    "question": "What is the main food source of dung beetles?",
+    "expected": "feces"
+  },
+  {
+    "id": 6,
+    "question": "What is the taxon name of the black mamba?",
+    "expected": "Dendroapsis polylepis"
+  },
+  {
+    "id": 7,
+    "question": "What is the use of flowers?",
+    "expected": "plant reproduction"
+  },
+  {
+    "id": 8,
+    "question": "What is the mass of a honey badger?",
+    "expected": "12 kilograms"
+  },
+  {
+    "id": 9,
+    "question": "What is the litter size of an American flamingo?",
+    "expected": "1"
+  },
+  {
+    "id": 10,
+    "question": "What was the main use of dromedary by humans?",
+    "expected": "transport"
+  },
+  {
+    "id": 11,
+    "question": "What would be the height of a mammoth?",
+    "expected": "3.4 metres"
+  },
+  {
+    "id": 12,
+    "question": "What are the locations of discovery of the velociraptor?",
+    "expected": "Djadochta Formation, Barun Goyot Formation, and Bayan Mandahu Formation"
+  },
+  {
+    "id": 13,
+    "question": "What is the parent taxon of Teuthida (squids)?",
+    "expected": "Decapodiformes"
+  },
+  {
+    "id": 14,
+    "question": "What fruit type does Sensitive Plant have?",
+    "expected": "silique"
+  },
+  {
+    "id": 15,
+    "question": "What sound do lions produce?",
+    "expected": "roar"
+  },
+  {
+    "id": 16,
+    "question": "Where do chihuahuas come from?",
+    "expected": "Mexico"
+  },
+  {
+    "id": 17,
+    "question": "What does a giant panda mostly eat?",
+    "expected": "Bambuseae"
+  },
+  {
+    "id": 18,
+    "question": "What is a mole different from?",
+    "expected": "Mole"
+  },
+  {
+    "id": 19,
+    "question": "Which plant produces coconuts?",
+    "expected": "Cocos nucifera"
+  },
+  {
+    "id": 20,
+    "question": "What effect does cannabis have?",
+    "expected": "euphoria"
+  },
+  {
+    "id": 21,
+    "question": "What is elephant ivory made from?",
+    "expected": "elephant tusk"
+  },
+  {
+    "id": 22,
+    "question": "What is the Angora rabbit named after?",
+    "expected": "Ankara"
+  },
+  {
+    "id": 23,
+    "question": "Are sheep herbivores?",
+    "expected": "Yes"
+  },
+  {
+    "id": 24,
+    "question": "Are bananas berries?",
+    "expected": "Yes"
+  },
+  {
+    "id": 25,
+    "question": "Have triceratops been discovered in the Netherlands?",
+    "expected": "---COMPLAIN ABOUT THIS ---"
+  },
+  {
+    "id": 26,
+    "question": "Are parrots domesticated animals?",
+    "expected": "Yes"
+  },
+  {
+    "id": 27,
+    "question": "Is the country of the Great Barrier Reef France?",
+    "expected": "No"
+  },
+  {
+    "id": 28,
+    "question": "Is the color of a polar bear black?",
+    "expected": "No"
+  },
+  {
+    "id": 29,
+    "question": "Is a cyclops a giant?",
+    "expected": "No"
+  },
+  {
+    "id": 30,
+    "question": "What does a honey bee produce?",
+    "expected": "honey, apitoxin"
+  },
+  {
+    "id": 31,
+    "question": "What awards has the peregrine falcon received?",
+    "expected": "Bird of the year, Bird of the year"
+  },
+  {
+    "id": 32,
+    "question": "What color can fox fur have?",
+    "expected": "Black, orange, yellow, brown"
+  },
+  {
+    "id": 33,
+    "question": "From where do bonsai trees originate?",
+    "expected": "Japan, China"
+  },
+  {
+    "id": 34,
+    "question": "What parts does a plant consist of?",
+    "expected": "root, true leaf, plant stem, germ layer"
+  },
+  {
+    "id": 35,
+    "question": "Which colours can the fruit of the apple tree have?",
+    "expected": "COMPLAIN --- NOT ON WIKIDATA APPLE TREE PAGE"
+  },
+  {
+    "id": 36,
+    "question": "How many colours can a banana have?",
+    "expected": "COMPLAIN -- COUNTING REQUIRED!"
+  },
+  {
+    "id": 37,
+    "question": "How many days is a European rabbit pregnant?",
+    "expected": "30 days, 29 days"
+  },
+  {
+    "id": 38,
+    "question": "How many leaves does a lucky clover have?",
+    "expected": "4"
+  },
+  {
+    "id": 39,
+    "question": "How many beats per minute does a cavia procellus have at rest?",
+    "expected": "COMPLAIN - BROKEN ENGLISH"
+  },
+  {
+    "id": 40,
+    "question": "How long is the life expectancy of a house cat?",
+    "expected": "15 years"
+  },
+  {
+    "id": 41,
+    "question": "How fast does the heart of a chicken beat on average?",
+    "expected": "275 +- 25 beats per minute"
+  },
+  {
+    "id": 42,
+    "question": "What is the minimum frequency a sheep can hear?",
+    "expected": "100 hertz"
+  },
+  {
+    "id": 43,
+    "question": "Who is the taxon author of the tiger?",
+    "expected": "Carl Linnaeus"
+  },
+  {
+    "id": 44,
+    "question": "What is the more common English name of the Pinus longaeva?",
+    "expected": "Bristlecone pine"
+  },
+  {
+    "id": 45,
+    "question": "How are animals also called?",
+    "expected": "Animalia, Metazoa, animals"
+  },
+  {
+    "id": 46,
+    "question": "What is the French name for the polar bear?",
+    "expected": "Ursus maritimus"
+  },
+  {
+    "id": 47,
+    "question": "What color does a coccinellidae's thorax have?",
+    "expected": "black"
+  },
+  {
+    "id": 48,
+    "question": "To which subclass does the elephant belong?",
+    "expected": "mammal"
+  },
+  {
+    "id": 49,
+    "question": "Under what category does seaweed fall?",
+    "expected": "Marine alagae"
+  },
+  {
+    "id": 50,
+    "question": "Where are kangaroos endemic to?",
+    "expected": "Australia"
+  }
+]
