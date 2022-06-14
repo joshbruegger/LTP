@@ -86,7 +86,10 @@ def try_all_questions(file):
     for i in incorrect:
         print(i[0])
         print("Expected: " + i[1])
-        print("Actual: " + i[2])
+        if i[2] is not None:
+            print("Actual: " + i[2])
+        else:
+            print("Actual: None")
 
 
 def questions_from_selection():
