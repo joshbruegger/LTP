@@ -8,10 +8,6 @@
         "expected": "4, "
     },
     {
-        "question": "How many dog breeds are there?",
-        "expected": "450, "
-    },
-    {
         "question": "How old does a dog get?",
         "expected": "7-16 years, "
     },
@@ -42,10 +38,6 @@
     {
         "question": "How many puppies do rottweilers have?",
         "expected": "8, "
-    },
-    {
-        "question": "How many colours can banana tree's fruits be?",
-        "expected": "5, "
     },
     {
         "question": "How long do cats live?",
@@ -184,7 +176,7 @@
         "expected": "58,315,816, "
     },
     {
-        "question": "How many pups does a French Bulldog usually have in a litter?",
+        "question": "How many puppies does a French Bulldog usually have in a litter?",
         "expected": "4.7, "
     },
     {
@@ -260,7 +252,7 @@
         "expected": "achene, "
     },
     {
-        "question": "How many eggs do pidgeons lay?",
+        "question": "How many eggs do pigeons lay?",
         "expected": "2 bird egg, "
     },
     {
@@ -372,7 +364,7 @@
         "expected": "200, "
     },
     {
-        "question": "How much does a gianta panda weigh?",
+        "question": "How much does a giant panda weigh?",
         "expected": "104 gram birth weight, 117.5±42.5 kilogram adult weight, "
     },
     {

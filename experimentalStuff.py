@@ -47,13 +47,14 @@ def main():
 
     # print(data)
 
-    # properties = []
-    # for item in data:
-    #     p = item['wdLabel']['value']
-    #     if 'ID' not in p:
-    #         properties.append(p)
+    properties = []
+    for item in data:
+        p = item['wdLabel']['value']
+        v = item['ps_Label']['value']
+        if 'ID' not in p:
+            properties.append(p + ': ' + v)
 
-    # print(properties)
+    print(properties)
 
 
 main()
